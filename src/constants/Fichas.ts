@@ -100,7 +100,7 @@ export const Fichas = [
   },
   {
     id: 3,
-    nombreProducto: 'Biokim diazinon 60 EC',
+    nombreProducto: 'Biokim Diazinon 60 EC',
     Categoría: 'Insecticida',
     fichaTecnica: {
       'Descripción del Producto': [
@@ -111,7 +111,7 @@ export const Fichas = [
         },
         {'Ingrediente Activo': 'Diazinon'},
         {Categoría: 'Insecticida'},
-        {'Grupo Qumico': 'Organofosforado'},
+        {'Grupo Químico': 'Organofosforado'},
       ],
       'Aplicación del Producto': [
         {
@@ -120,7 +120,7 @@ export const Fichas = [
         },
         {
           'Mecanismo de Acción':
-            'Inhibidor de la colinesterasa afectando el sistema nervioso centralm causando parálisis y provocando la muerte del insecto.',
+            'Inhibidor de la colinesterasa afectando el sistema nervioso central, causando parálisis y provocando la muerte del insecto.',
         },
         {
           Cultivos:
@@ -360,7 +360,7 @@ export const Fichas = [
             'Terminal 15 SL bloquea la acción de la enzima glutamina sintetasa y ocasiona una acumulación de amonio en la planta que lleva la intoxicación de la maleza.',
         },
         {
-          Cultivos: 'Banana, Plátano, Café, Caña de Azúcar y Palma Aceitera.',
+          Cultivos: 'Banano, Plátano, Café, Caña de Azúcar y Palma Aceitera.',
         },
         {
           Dosis:
@@ -368,7 +368,7 @@ export const Fichas = [
         },
         {
           Compatibilidad:
-            'Es compatible con la mayoría de los agroquimicos utilizados en la agricultura, sin embargo, se recomienda realizar pruebas previas al uso del producto.',
+            'Es compatible con la mayoría de los agroquímicos utilizados en la agricultura, sin embargo, se recomienda realizar pruebas previas al uso del producto.',
         },
         {
           Presentación: '25 kg',
