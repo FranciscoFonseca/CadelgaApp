@@ -5,8 +5,10 @@ import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs
 import ProductoScreen from './Tabs/ProductoScreen';
 import DetallesScreen from './Tabs/DetallesScreen';
 import {Fichas} from '../../constants/Fichas';
+import ProductosScreen from './ProductosScreen';
+import CultivosScreen from './CultivosScreen';
 
-const ProductoDetailsScreen = ({route, navigation}: any): JSX.Element => {
+const ProductosMenuScreen = ({route, navigation}: any): JSX.Element => {
   //   const { productos, loading, error } = useSelector(
   //     (state: any) => state.productos
   //   );
@@ -23,30 +25,28 @@ const ProductoDetailsScreen = ({route, navigation}: any): JSX.Element => {
     const fichaProducto = Fichas.find(
       ficha => ficha.id === route?.params?.itemId,
     );
+    // console.log(route?.params?.itemId);
     if (fichaProducto) {
       setProductos(fichaProducto);
     }
   };
   useEffect(() => {
-    navigation.setOptions({title: productos?.nombreProducto});
-  }, [productos]);
-  useEffect(() => {
     loadProductos();
   }, []);
   const Tab = createMaterialTopTabNavigator();
 
-  const HomeScreen = () => <ProductoScreen productos={productos} />;
+  const HomeScreen = () => <ProductosScreen />;
 
-  const SettingsScreen = () => <DetallesScreen productos={productos} />;
+  const SettingsScreen = () => <CultivosScreen />;
 
   return (
     <>
       <Tab.Navigator>
-        <Tab.Screen name="Producto" component={HomeScreen} />
-        <Tab.Screen name="Ficha Tecnica" component={SettingsScreen} />
+        <Tab.Screen name="Productos" component={HomeScreen} />
+        <Tab.Screen name="Cultivos" component={SettingsScreen} />
       </Tab.Navigator>
     </>
   );
 };
 
-export default ProductoDetailsScreen;
+export default ProductosMenuScreen;

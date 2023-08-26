@@ -6,20 +6,22 @@ import {API_URL} from '../../constants/config';
 import {SearchBar} from 'react-native-elements';
 import {Fichas} from '../../constants/Fichas';
 import {FlatList} from 'react-native-gesture-handler';
+import {useNavigation} from '@react-navigation/native';
 
-const ProductosScreen = ({navigation}: any): JSX.Element => {
+const ProductosScreen = (): JSX.Element => {
   const [search, setSearch] = useState('');
+  const navigation = useNavigation();
 
   const filteredData = Fichas.filter(
     item =>
       item.nombreProducto.toLowerCase().includes(search.toLowerCase()) ||
-      (item.Categoria &&
-        item.Categoria.toLowerCase().includes(search.toLowerCase())),
+      (item.Categoría &&
+        item.Categoría.toLowerCase().includes(search.toLowerCase())),
   );
 
   // Group the filtered data by category
   const groupedData = filteredData.reduce((result, item) => {
-    const category = item.Categoria || 'Otros';
+    const category = item.Categoría || 'Otros';
     const existingCategory = result.find(
       categoryObj => categoryObj.title === category,
     );
@@ -42,21 +44,35 @@ const ProductosScreen = ({navigation}: any): JSX.Element => {
   );
 
   const renderItem = ({item}: {item: any}) => (
-    <ArrowButton
-      style={{marginBottom: 10}}
-      key={item.nombreProducto}
-      title={item.nombreProducto || ''}
-      onPress={() => navigation.navigate('ProductoDetails', {itemId: item.id})}
-      leftColor={'#0068b3'}
-      iconColor={'#0068b3'}
-    />
+    <>
+      <ArrowButton
+        style={{marginBottom: 10}}
+        key={item.nombreProducto}
+        title={item.nombreProducto || ''}
+        onPress={() =>
+          navigation.navigate('ProductoDetails', {itemId: item.id})
+        }
+        leftColor={'#0068b3'}
+        iconColor={'#0068b3'}
+      />
+    </>
   );
+
+  useEffect(() => {
+    let bla = '';
+
+    Fichas.forEach(item => {
+      bla = `${bla}\n${item.nombreProducto}`;
+    });
+    console.log('Fichas', bla);
+  }, []);
 
   return (
     <ImageBackground
       source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={{width: '100%', height: '100%'}}>
+        {}
         <SearchBar
           placeholder="Buscar Productos y Categorias"
           onChangeText={text => setSearch(text)}

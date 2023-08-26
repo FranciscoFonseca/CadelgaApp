@@ -5,7 +5,6 @@ import RenderData from './RenderData'; // Import the component
 const FichaTecnicaScreen = ({route, navigation}: any) => {
   useEffect(() => {
     navigation.setOptions({title: route.params.productName});
-    console.log(route.params.productData);
   }, [route.params.productName]);
 
   return (
@@ -17,7 +16,7 @@ const FichaTecnicaScreen = ({route, navigation}: any) => {
           style={{
             margin: 10,
             padding: 10,
-            backgroundColor: 'rgba(255,255,255,0.9)',
+            backgroundColor: 'red',
             borderRadius: 10,
           }}>
           <RenderData data={route.params.productData[0]} />

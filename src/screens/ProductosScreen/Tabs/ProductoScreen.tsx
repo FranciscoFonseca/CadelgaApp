@@ -26,7 +26,7 @@ const ProductoScreen = ({productos}: Props) => {
       return <></>;
     }
     const {imagen} = productos;
-    console.log(imagen);
+    // console.log(imagen);
     // Check if nombreImagen is valid before rendering the Image component
     if (imagen) {
       try {

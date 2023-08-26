@@ -14,128 +14,126 @@ import {Contacto, Contactos} from '../../constants/contacto';
 const ContactoScreen = () => {
   const LineItem = (contacto: Contacto) => {
     return (
-      <>
+      <View
+        key={contacto.nombre}
+        style={{
+          width: '80%',
+        }}>
         <View
           style={{
-            width: '80%',
-
+            backgroundColor: 'white',
+            borderRadius: 5,
+            alignItems: 'center',
+            display: 'flex',
+            width: '100%',
+            borderWidth: 1,
+            borderColor: '#D3D3D3',
           }}>
-          <View
+          <TouchableOpacity
             style={{
-              backgroundColor: 'white',
-              borderRadius: 5,
-              alignItems: 'center',
-              display: 'flex',
               width: '100%',
-              borderWidth: 1,
-              borderColor: '#D3D3D3',
-            }}>
-            <TouchableOpacity
+              height: 150,
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+            onPress={() => Linking.openURL(contacto.location)}>
+            <Image
+              source={contacto.mapa}
               style={{
                 width: '100%',
                 height: 150,
-                alignItems: 'center',
-                justifyContent: 'center',
+                borderRadius: 5,
               }}
-              onPress={() => Linking.openURL(contacto.location)}>
-              <Image
-                source={require('../../../assets/mapas/map.png')}
-                style={{
-                  width: '100%',
-                  height: 150,
-                  borderRadius: 5,
-                }}
-                resizeMode="cover"
-              />
-            </TouchableOpacity>
+              resizeMode="cover"
+            />
+          </TouchableOpacity>
 
+          <View
+            style={{
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              width: '100%',
+              flexDirection: 'row',
+              marginTop: 5,
+            }}>
             <View
               style={{
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                width: '100%',
-                flexDirection: 'row',
-                marginTop: 5,
-              }}>
-              <View
-                style={{
-                  marginLeft: 10,
-                }}>
-                <Text
-                  style={{
-                    fontWeight: 'bold',
-                  }}>
-                  Telefono
-                </Text>
-              </View>
-              <View style={{marginRight: 10}}>
-                <TouchableOpacity
-                  style={{
-                    padding: 2,
-                    borderWidth: 1,
-                    borderColor: '#009643',
-                    borderRadius: 5,
-                  }}
-                  onPress={() => Linking.openURL(`tel:${contacto.telefono}`)}>
-                  <MaIcon name="phone" size={30} color="#009643" />
-                </TouchableOpacity>
-              </View>
-            </View>
-            <View
-              style={{
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                width: '100%',
-                flexDirection: 'row',
-                marginTop: 5,
-                marginBottom: 5,
-              }}>
-              <View
-                style={{
-                  marginLeft: 10,
-                }}>
-                <Text
-                  style={{
-                    fontWeight: 'bold',
-                  }}>
-                  Correo
-                </Text>
-              </View>
-              <View style={{marginRight: 10}}>
-                <TouchableOpacity
-                  style={{
-                    padding: 2,
-                    borderWidth: 1,
-                    borderColor: '#009643',
-                    borderRadius: 5,
-                  }}
-                  onPress={() => Linking.openURL(`mailto:${contacto.email}`)}>
-                  <MaIcon name="email" size={30} color="#009643" />
-                </TouchableOpacity>
-              </View>
-            </View>
-            <View
-              style={{
-                position: 'absolute',
-                left: 0,
-                top: 0,
-                backgroundColor: 'white',
-                paddingBottom: 5,
-                paddingRight: 5,
-                borderBottomRightRadius: 5,
+                marginLeft: 10,
               }}>
               <Text
                 style={{
                   fontWeight: 'bold',
-                  fontSize: 20,
-                  marginLeft: 10,
                 }}>
-                {contacto.nombre}
+                Telefono
               </Text>
             </View>
+            <View style={{marginRight: 10}}>
+              <TouchableOpacity
+                style={{
+                  padding: 2,
+                  borderWidth: 1,
+                  borderColor: '#009643',
+                  borderRadius: 5,
+                }}
+                onPress={() => Linking.openURL(`tel:${contacto.telefono}`)}>
+                <MaIcon name="phone" size={30} color="#009643" />
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View
+            style={{
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              width: '100%',
+              flexDirection: 'row',
+              marginTop: 5,
+              marginBottom: 5,
+            }}>
+            <View
+              style={{
+                marginLeft: 10,
+              }}>
+              <Text
+                style={{
+                  fontWeight: 'bold',
+                }}>
+                Correo
+              </Text>
+            </View>
+            <View style={{marginRight: 10}}>
+              <TouchableOpacity
+                style={{
+                  padding: 2,
+                  borderWidth: 1,
+                  borderColor: '#009643',
+                  borderRadius: 5,
+                }}
+                onPress={() => Linking.openURL(`mailto:${contacto.email}`)}>
+                <MaIcon name="email" size={30} color="#009643" />
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View
+            style={{
+              position: 'absolute',
+              left: 0,
+              top: 0,
+              backgroundColor: 'white',
+              paddingBottom: 5,
+              paddingRight: 5,
+              borderBottomRightRadius: 5,
+            }}>
+            <Text
+              style={{
+                fontWeight: 'bold',
+                fontSize: 20,
+                marginLeft: 10,
+              }}>
+              {contacto.nombre}
+            </Text>
           </View>
         </View>
-      </>
+      </View>
     );
   };
   return (

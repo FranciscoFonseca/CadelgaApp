@@ -82,7 +82,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
               title="Cotizador"
               onPress={() => navigation.navigate('CotizadorScreen')}
               style={{width: '45%'}}
-              image={require('../../../assets/mapas/map.png')}
+              image={require('../../../assets/cotizador.jpg')}
             />
             {/* <View style={{width: 5}} />
             <SquareImageButton

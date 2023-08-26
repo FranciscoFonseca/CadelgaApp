@@ -15,6 +15,8 @@ import FichaTecnicaScreen from './src/screens/FichaTecnicaScreen/FichaTecnicaScr
 import FichasTecnicasScreen from './src/screens/FichaTecnicaScreen/FichasTecnicasScreen';
 import ContactoScreen from './src/screens/ContactoScreen/ContactoScreen';
 import CotizadorScreen from './src/screens/CotizadorScreen/CotizadorScreen';
+import ProductosMenuScreen from './src/screens/ProductosScreen/ProductosMenuScreen';
+import CultivoScreen from './src/screens/ProductosScreen/Tabs/CultivoScreen';
 
 Appearance.setColorScheme('light');
 
@@ -93,15 +95,27 @@ function ProductosStackScreen() {
     <SettingsStack.Navigator>
       <SettingsStack.Screen
         name="ProductosList"
+        component={ProductosMenuScreen}
+        options={{
+          title: 'Productos',
+        }}
+      />
+      <SettingsStack.Screen
+        name="ProductosList2"
         component={ProductosScreen}
         options={{
           title: 'Productos',
         }}
       />
-      <HomeStack.Screen
+      <SettingsStack.Screen
         name="ProductoDetails"
         component={ProductoDetailsScreen}
         initialParams={{itemId: 0}}
+      />
+      <SettingsStack.Screen
+        name="Cultivo"
+        component={CultivoScreen}
+        // initialParams={{itemId: 0}}
       />
     </SettingsStack.Navigator>
   );

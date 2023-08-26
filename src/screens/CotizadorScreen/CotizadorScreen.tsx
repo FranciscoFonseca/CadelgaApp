@@ -78,8 +78,8 @@ const ProductList = ({
       {products.map(product => (
         <View key={product.id} style={{marginBottom: 10}}>
           <Text style={styles.productName}>{product.name}</Text>
-          <Text style={styles.productPrice}>${product.price}</Text>
-          <Button title="Add to Cart" onPress={() => addToCart(product.id)} />
+          <Text style={styles.productPrice}>L{product.price}</Text>
+          <Button title="Añadir" onPress={() => addToCart(product.id)} />
         </View>
       ))}
     </View>
@@ -99,10 +99,10 @@ const ShoppingCart = ({cartItems, removeFromCart, updateQuantity}) => (
           value={item.quantity.toString()}
           onChangeText={text => updateQuantity(item.id, parseInt(text, 10))}
         />
-        <Button title="Remove" onPress={() => removeFromCart(item.id)} />
+        <Button title="Remover" onPress={() => removeFromCart(item.id)} />
       </View>
     ))}
-    <Text style={styles.totalPrice}>Total: ${calculateTotal(cartItems)}</Text>
+    <Text style={styles.totalPrice}>Total: L{calculateTotal(cartItems)}</Text>
   </View>
 );
 
@@ -111,8 +111,8 @@ const CotizadorScreen = () => {
   const [selectedProduct, setSelectedProduct] = useState('');
   const [cartItems, setCartItems] = useState([]);
   const products = [
-    {id: 1, name: 'Product A', price: 10},
-    {id: 2, name: 'Product B', price: 20},
+    {id: 1, name: 'Fetrilizante A', price: 10},
+    {id: 2, name: 'Fetrilizante B', price: 20},
     // Add more products
   ];
 
