@@ -26,8 +26,8 @@ export interface Contacto {
 export const Contactos: Contacto[] = [
   {
     nombre: 'Casa Matríz',
-    email: 'sps@grupocadelga.com',
-    telefono: '97979797',
+    email: 'amejia@cadelga.hn',
+    telefono: '+504 2550-3901',
     mapa: require('../../assets/mapas/CasaMatriz.png'),
     location: Platform.select({
       ios: generateLocation(15.492437, -88.026062, 'CADELGA Casa Matríz'),
@@ -48,8 +48,8 @@ export const Contactos: Contacto[] = [
   },
   {
     nombre: 'Tegucigalpa',
-    email: 'teg@grupocadelga.com',
-    telefono: '98989898',
+    email: 'ventastegucigalpa@cadelga.hn',
+    telefono: '+504 2236-8195',
     mapa: require('../../assets/mapas/Tegucigalpa.png'),
     location: Platform.select({
       ios: generateLocation(14.103312, -87.178062, 'CADELGA TEG'),
@@ -75,8 +75,8 @@ export const Contactos: Contacto[] = [
   },
   {
     nombre: 'San Pedro Sula Bo. Lempira',
-    email: 'spsBL@grupocadelga.com',
-    telefono: '99999999',
+    email: 'ventasavlempira@cadelga.hn',
+    telefono: '+504 2557-8575',
     mapa: require('../../assets/mapas/BoLempira.png'),
     location: Platform.select({
       ios: generateLocation(15.492437, -88.026062, 'CADELGA SPS'),
@@ -342,7 +342,7 @@ export const Contactos: Contacto[] = [
     nombre: 'Santa Rosa de Copan',
     email: ' ventasantarosa@cadelga.hn',
     telefono: '+504 2661-3778',
-    mapa: require('../../assets/mapas/SantaRosa.png'),
+    mapa: require('../../assets/mapas/SantaRosadeCopan.png'),
     location: Platform.select({
       ios: generateLocation(14.416938, -88.816937, 'CADELGA Santa Rosa'),
       android: generateLocation(14.416938, -88.816937, 'CADELGA Santa Rosa'),
@@ -364,6 +364,54 @@ export const Contactos: Contacto[] = [
         puesto: 'Promotor',
       },
     ],
+  },
+  {
+    nombre: 'Zacapa',
+    email: ' aida.echeverria@grupocadelga.com',
+    telefono: '+504 7941-8734',
+    mapa: require('../../assets/mapas/Zacapa.png'),
+    location: Platform.select({
+      ios: generateLocation(14.416938, -88.816937, 'CADELGA Zacapa'),
+      android: generateLocation(14.416938, -88.816937, 'CADELGA Zacapa'),
+    }),
+  },
+  {
+    nombre: 'Ave. Nueva Orleans',
+    email: ' tiendaneworleans@cadelga.hn',
+    telefono: '+504 2556-5115',
+    mapa: require('../../assets/mapas/AveNuevaOrleans.png'),
+    location: Platform.select({
+      ios: generateLocation(
+        14.416938,
+        -88.816937,
+        'CADELGA Ave. Nueva Orleans',
+      ),
+      android: generateLocation(
+        14.416938,
+        -88.816937,
+        'CADELGA Ave. Nueva Orleans',
+      ),
+    }),
+  },
+  {
+    nombre: 'Izabal',
+    email: ' maite.carrera@grupocadelga.com',
+    telefono: '+504 7941-8734',
+    mapa: require('../../assets/mapas/Izabal.png'),
+    location: Platform.select({
+      ios: generateLocation(14.416938, -88.816937, 'CADELGA Izabal'),
+      android: generateLocation(14.416938, -88.816937, 'CADELGA Izabal'),
+    }),
+  },
+  {
+    nombre: 'El Salvador',
+    email: ' ingrid.amaya@grupocadelga.com',
+    telefono: '+504 2355-7930',
+    mapa: require('../../assets/mapas/ElSalvador.png'),
+    location: Platform.select({
+      ios: generateLocation(14.416938, -88.816937, 'CADELGA El Salvador'),
+      android: generateLocation(14.416938, -88.816937, 'CADELGA El Salvador'),
+    }),
   },
 ];
 
