@@ -92,6 +92,14 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
               image={require('../../../assets/legadomenu.jpg')}
             /> */}
           </View>
+          <View style={{display: 'flex', flexDirection: 'row'}}>
+            <SquareImageButton
+              title="ClimaMapScreen"
+              onPress={() => navigation.navigate('ClimaMapScreen')}
+              style={{width: '45%'}}
+              image={require('../../../assets/fichas.png')}
+            />
+          </View>
         </ScrollView>
 
         <View

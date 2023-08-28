@@ -85,8 +85,8 @@ export const Contactos: Contacto[] = [
   },
   {
     nombre: 'Comayagua',
-    email: 'comayagua@grupocadelga.com',
-    telefono: 'Teléfono',
+    email: ' ventascomayagua@cadelga.hn',
+    telefono: '+504 2772-1050',
     mapa: require('../../assets/mapas/Comayagua.png'),
     location: Platform.select({
       ios: generateLocation(14.456938, -87.653937, 'CADELGA SPS'),

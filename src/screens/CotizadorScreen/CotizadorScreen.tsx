@@ -1,6 +1,3 @@
-const calculateTotal = items => {
-  return items.reduce((total, item) => total + item.product.price, 0);
-};
 import React, {useState} from 'react';
 import {
   View,
@@ -9,7 +6,9 @@ import {
   StyleSheet,
   ScrollView,
   TextInput,
+  Image,
 } from 'react-native';
+import MapView, {Marker} from 'react-native-maps';
 
 const styles = StyleSheet.create({
   container: {
@@ -66,7 +65,9 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 });
-
+const calculateTotal = items => {
+  return items.reduce((total, item) => total + item.product.price, 0);
+};
 const ProductList = ({
   products,
   selectedProduct,
@@ -164,7 +165,7 @@ const CotizadorScreen = () => {
 
   return (
     <View style={styles.container}>
-      <ProductList
+      {/* <ProductList
         products={products}
         selectedProduct={selectedProduct}
         onProductChange={setSelectedProduct}
@@ -174,7 +175,50 @@ const CotizadorScreen = () => {
         cartItems={cartItems}
         removeFromCart={removeFromCart}
         updateQuantity={updateQuantity}
-      />
+      /> */}
+      <MapView
+        style={{flex: 1}}
+        initialRegion={{
+          latitude: 14.0827,
+          longitude: -87.20681,
+          latitudeDelta: 0.0922,
+          longitudeDelta: 0.0421,
+        }}
+        onRegionChange={region => {
+          console.log(region);
+        }}>
+        <Marker
+          coordinate={{
+            latitude: 14.0827,
+            longitude: -87.20681,
+          }}
+          //image={`http://openweathermap.org/img/w/${'10d'}.png`}
+          title="Mi ubicación"
+          description="Descripción de mi ubicación">
+          <View
+            style={{
+              backgroundColor: 'rgba(255,0,0,0.5)',
+              padding: 10,
+
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}>
+            <Text style={{color: 'white'}}>Mi ubicación</Text>
+            <Image
+              //source={(uri = `http://openweathermap.org/img/w/${'10d'}.png`)}
+              source={{
+                uri: `http://openweathermap.org/img/w/10d.png`,
+              }}
+              style={{
+                width: 50,
+                height: 50,
+                backgroundColor: 'rgba(0,0,0,0.5)',
+              }}
+              resizeMode="contain"
+            />
+          </View>
+        </Marker>
+      </MapView>
     </View>
   );
 };
