@@ -430,6 +430,18 @@ export const Fichas = [
     nombreProducto: 'Bioquim oxate 24 SL',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOQUIM OXATE 24 SL'}],
+      {"Formulación y Concentración:","Solución líquida al 24% p/v"},{"Ingrediente Activo:","Oxamil 24%"},{"Categoria:","Insecticida-Nematicida"},{"Grupo Químico: Carbamato"}
+      {"Aplicacion del Producto:"},{"Modo de Accion:"},{"Mecanismo de Accion:"},{"Oxate 24 SL es un insecticida-nematicida sistémico y de contacto. Puede aplicarse al suelo y al follaje para el control de insectos y nemátodos; para los insectos
+      al momento de la aplicación actúa por contacto; con efecto residual moderado, no volátil. Dentro de la planta se mueve por xilema y floema."},{"Mecanismo de acción:}",{"Inhibidor de la acetilcolinesterasa, afectando el sistema nervioso del insecto,
+      causando paralisis y muerte."}
+      {"PH de Aplicación:","Aplicar al pH ácido siempre ideal 4.0-5-5."},{"Compatibilidad:","Es compatible con la mayoría de insecticidas y fungicidas usados; sin embargo, se recomienda hacer pruebas de compatibilidad. No mezclar con productos
+      de reacción alcalina ni con compuestos a base de cobre y hierro."},{"Presentación:","Litros"},{"Clasificación Toxicológica:","Áltamente peligroso, Banda Roja"}
+      {"Enfermedades que controla/Dosis de Aplicación","No. 1","Cultivo","Algodon, Gossypium, Hirsutum","Plaga que controla:","Ácaros:Tetranychus urticae / Chinche: Dysdercus spp.","Gusano perdorador:","Bucculatrix thurberiella","Mosca Blanca: Bemicida tabaci / Pulgon: Aphis gossypii"
+      {"Dosis: Aplicación foliar de 3-6 litros/ha, ó 2-4.5 litros/manzana"}
+      {"2","Apio","Apium graveolens","Trips:","Thrisps spp","Minador de la hoja:","Liriomyza sp","Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana"}
+      {"3","Café","Coffea arábica","Nemátodos","Melaidoqyne spp, Pratylenchus spp","Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana"}
+      {"4","Piña","Ananas comosus","Nemátodos:","Melaidoqyne spp","Pratylenchus spp, Rorylenchulus reniformis","Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana","Tratamiento pre-plantacion: 8-12 litros","Aplicación total al suelo una semana antes del transpante."
+    "Aplicación foliar 2-6 litros/ha (1.5-4 litros /manzana)","Intérvalos de Aplicación 4 semanas."}
     },
   },
   {
@@ -437,14 +449,28 @@ export const Fichas = [
 
     nombreProducto: 'Dinamic 70 WG',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'Dinamic® 70 WG'}],
-    },
+      'Descripción del Producto': [{'Nombre Comercial': 'Dinamic® 70 WG'}],      
+        },
   },
   {
     id: 13,
     nombreProducto: 'BioGib 10 PS',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOGIB® 10 PS'}],
+      {"Formulacion y Concentración","Polvo, Ácido giberélico (GA), Diluyentes y acondicionadores"}
+      {"Nombre del producto:","BIOGIB® 10 PS","Formulación y Concentración:","Polvo, Ácido giberélico","Ingrediente Activo:","Ácido Gilberélico (GA₂), Diluyentes y Acondicionadores","Categoría","Bioestimulante","Grupo Bioquímico","Ácidos Orgánicos"},
+      {"Detalles del Producto","Presentación:","Frasco 160g: 10g","pH de la Formulación","6.0 a 8.5 (solución al 5%)","Color","Blanco","Solubilidad en Agua","Soluble"},
+      {"Aplicación del Producto:","Modo de Acción:","BIOGIB Es un estimulante de crecimiento vegetal hecho a base de ácido giberélico (GA₂) que favorece el crecimiento vegetativo mediante la división y/o elongación celular, en las regiones
+      meristemáticas, promoviendo el desarrollo y crecimiento de la planta. Induce el amarre y crecimiento de frutos."}
+      {"Compatibilidad"},{"BIOGIB* 10PS, es compatible con la mayoría de los agroquímicos, se sugiere hacer las aplicaciones durante el crecimiento de frutos."},{"Clasificación Toxicológica;","Ligeramente Tóxico"},
+      {"No","1","Uva Flame sin semilla","Indicaciones y Dosis","Dosis y Epocas de Aplicación","De 15 a 37.5 gramos de BIOGIB® 10 PS por ha durante la floración, aplique cuando la mayoría de las racimos estén al 80% de floración. De 100 a 240 gramos de BIOGIB® 10 PS por ha después del raleo del racimo o cuando las bayas midan un promedio de 6 a 8 mm y la segunda aplicación durante las próximos 5 a 10 dias."},
+      {"Efectos","Para disminuir el amarre reduciendo costos de raleo y acelerar la maduración. Aumenta el tamaño de los frutos."},
+      {"No","2","Uva Perlette","Indicaciones y Dosis","Dosis y Epocas de Aplicación","De 160 a 400 gramos de BIOGIB® 10 PS por ha cuando las bayas midan de 4 a 5 mm de diámetro. La primera aplicación después del raleo del racimo y la segunda dentro de las próximos 7 dias. (Si la segunda aplicación ocurre a más de 14 dias se reducirá el efecto potencial)"},
+      {"Efectos",""},{"Para aumentar el tamaño de bayas y racimos."},
+      {"No","3","Uva Superior","100 gramos de BIOGIB® 10 PS por ha en una aplicación de 800 a 1,000 l/ha dos semanas después del raleo natural con un diámetro de baya de 10 a 15 mm."},{"Efectos","Aumenta el tamaño de la baya y reduce el adelgazamiento de esta."},
+      {"No","4","Uva Thompson sin semilla","De 40 a 80 gramos de BIOGIB® 10 PS por ha antes de la floración cuando los racimos tengan un largo de 8 a 13 cm. De 160 a 400 gramos de BIOGIB® 10 PS por ha después del raleo del racimo cuando las bayas midan de 4 a 5 mm de diámetro o dos aplicaciones de igual cantidad, la primera dentro de 2 a 3 días después del raleo haciendo la segunda aplicación dentro de las dos próximas semanas."},
+      {"Efectos","Alargamiento de los racimos y reducción del costo de raleo. Aumento de tamaño en uvas y racimos"},
+    
     },
   },
   {
