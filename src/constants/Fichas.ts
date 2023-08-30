@@ -418,7 +418,10 @@ export const Fichas = [
         {
           'Grupo Químico':
             'No aplica: son extractos  plantas mas micronutrientes',
-        },
+            },'Detalles del Producto','Presentacion','10 Lts; Litros; 225 ml','pH de la Formulacion','4 a 5 (al 10%)','Color: Café','Solubilidad en Agua: Miscible',
+            'Composicion Porcentual': 'Ingredientes Activos','Extractos de origen vegetal y fitohormonas biológicamente activas','Giberelinas','Acido indolacético','Zeratina','Ingredientes Inherentes: Diluyente y acondicionadores',
+            'Ingredientes Inertes: Microelementos, Magnesio (MgO, Azufre (S), Boro (B), Fierro (Fe), Manganeso (Mn), Zinc (Zn)',
+            'Aplicación del Producto:','Modo de Accion',"Biozyme TF es un producto de origen natural clasificado como regulador del crecimiento vegetal. Su formulacion a base de extractos de plantas con actividad hormonal mas micronutrientes, le confiere propiedades únicas y novedosas que a nivel metabólico desencadenan reacciones que promueven la división celular en meristernos, asi como la elongación celular y el incremento del área foliar. Es también promotor de la diferenciación celular induciendo mas botones florales y mas vigorosos, mejora el amarre de flores y con ello mayor número de frutos. Cuando se aplica durante el crecimiento de frutillos induce la formación de más células epidernales con lo que se obtienen frutos de mayor tamaño y consistencia, obteniendo cosechas uniformes y de alta calidad."
       ],
     },
   },
