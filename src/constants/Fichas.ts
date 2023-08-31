@@ -449,7 +449,17 @@ export const Fichas = [
 
     nombreProducto: 'Dinamic 70 WG',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'Dinamic® 70 WG'}],      
+      'Descripción del Producto': [{'Nombre Comercial': 'Dinamic® 70 WG'}],
+      {"Formulación y Concentración","Gránulos dispersables, 70%, equivalente a 700 g i.a/Kg","Ingrediente Activo","Amicarbazone","Categoría","Grupo Químico","Triazolinas"},
+      {"Detalles del Producto","Presentación:","Bolsa de 1 Kilogramo","pH de la Formulación:","5.20 de la solución al 5%","Aspecto y Color:","Granulado fino de color beige","Solubilidad en Agua","4,600 mg/l"},
+      {"Aplicación del Producto:"},{"Modo de Acción:","DINAMIC® 70 WG, es un herbicida pre y post emergente con acción selectiva en el cultivo de caña de azúcar, recomendado para el control de malezas de hoja ancha y gramineas. En el cultivo de maiz no es selectivo por lo que debe aplicarse únicamente en pre emergencia. 
+      Se absorbe principalmente a través de las raíces y las hojas, se transloca hacia arriba (acropetalmente) por medio del xilema y se acumula en los meristemos apicales y las hojas. Inhibe la fotosintesis e interfiere en otros procesos enzimáticos."},
+      {"Modo de Aplicación:","Se recomienda su aplicación en forma terrestre o aérea, ya sea con equipo manual (bombas de mochila) o equipo impulsado por un tractor en un volumen de mezcla de 200 a 300 litros/ha o con equipo aéreo en un volumen de 27 a 54 litros de mezcla/ha. 
+      Para su correcta aplicación y cobertura se recomienda utilizar boquilla de abanico plano 8002/8003 o su equivalente."},
+      {"Clasificación Toxicológica","III: Banda Toxicológica Azul; Productos poco peligrosos."},{"Compatibilidad:","DINAMIC® 70 WG, es compatible con la mayoría de agroquimicos, se recomienda realizar previamente pruebas de compatibilidad en pequeña escala antes de realizar mezclas de agroquimicos."},
+      {"Fitotoxicidad","DINAMIC 70 WG, no es fitotóxico a las dosis recomendadas."},{"Frecuencia y Epoca de Aplicación:","Dadas sus caracteristicas físico-químicas y su novedoso mecanismo de acción, DINAMIC "70 WG puede ser aplicado en preemergencia con efecto sistémico y residual, y en past-emergencia con efecto de contacto. 
+      DINAMIC "70 WG expresa su máximo beneficio de eficacia sobre el complejo de malezas y manifiesta su máxima residualidad cuando se aplica en épocas secas o de verano. Se recomienda en el cultivo de la caña como herbicida selectivo post-emergente para el control de malezas de hoja ancha. 
+      Para Maiz, debe aplicarse únicamente en pre emergencia y ejerce control sobre malezas de hoja ancha y gramineas."},
         },
   },
   {
@@ -524,7 +534,14 @@ export const Fichas = [
       El amplio espectro de actividad biológica de Balear 72 SC, junto con su probado alto. El grado de seguridad de los cultivos garantiza una excelente protección de los cultivos en diversas condiciones de enfermedades en muchas áreas geográficas. El clorotalonil esta regustrado en la EPA . Es ampliamente utilizado 
       internacionalmente y ha cumplido con los requisitos de registro/recomendación para uso comercial. Las afirmaciones de uso de Chlorothalonil se están expandiendo, ya que los resultados de las pruebas indican un expectro en expansion de la actividad de control de enfermedades."},
       {"Modo de Acción: Balear 72 SC es un fungicida protectante de amplio espectro, que inhibe la respiración de las células del hongo.},
-       
+      {"Método de Aplicación:","Balear 72 SC es un concentrado en suspensión ("fluible") listo para ser mezclado en agua y adecuado para su aplicación mediante sistemas convencionales de aspersión desde el suelo y desde aeronaves como aspersiones diluidas o concentradas. Para aerosoles diluídos, la cantidad requerida de Balear 
+    72 SC debe agregarse lentamente al tanque de aspersión mientras se llena el tanque. Esto asegurará una mezcla completa y una solucion de rociado de consistencia uniforme. Con aerosoles concentrados, mezcle previamente la cantidad necesaria de Balear 72 SC con una cantidad adecuada de agua en un recipiente limpio. Agrega esta 
+  mezcla a el tanque de aspersión mientras se llena con agua. Los agitadores deben mantenerse en funcionamiento mientras se llena el tanque de aspersion en la preparación de soluciones de aspersión tanto diluídas como concentradas. Aplicar cuando aparezcan los primeros signos de enfermedad. Siga las dosis por hectárea indicadas 
+en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis recomendadas de acuerdo con la presión de la enfermedad y los datos históricos que indiquen períodos de enfermedades graves. No rocíe sobre áreas que han sido rociadas con aceite dentro de los 7 días o se pueden dañar las hojas.},
+     {"Compatibilidad:","Balear 72 SC es compatible con fungicidas, insecticidas, acaricidas y fertilizantes foliares más comúnmente utilizado en plátanos. Sin embargo, recomendamos realizar una prueba preliminar en caso de duda. Balear 72 SC no es compatible con los aceites utilizados en la agricultura y puede causar daño a las plantas. 
+     Se recomienda dejar un intérvalo de 7 a 10 dias entre un tratamiento de Balear 72 SC y aceites para evitar cualquier problema de fitotoxicidad."},
+     {"Presentación:","200 Lts; 20 Lts; Litros"},{"Fitotoxicidad","Balear 72 SC no provoca ningun efecto de fitotoxicidad en los cultivos recomendados cuando se usa siguiendo las instrucciones de uso"}
+           
     },
   },
   //fertica
@@ -533,6 +550,9 @@ export const Fichas = [
     nombreProducto: 'NPK FERTIL 20-20-0',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 20-20-0'}],
+      {"Clase de Producto","Fertilizante Solido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Numero de Registro Honduras:","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Gramulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
+      
     },
   },
   {
