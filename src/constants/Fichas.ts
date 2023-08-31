@@ -457,7 +457,7 @@ export const Fichas = [
     nombreProducto: 'BioGib 10 PS',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOGIB® 10 PS'}],
-      {"Formulacion y Concentración","Polvo, Ácido giberélico (GA), Diluyentes y acondicionadores"}
+      {"Formulación y Concentración","Polvo, Ácido giberélico (GA), Diluyentes y acondicionadores"}
       {"Nombre del producto:","BIOGIB® 10 PS","Formulación y Concentración:","Polvo, Ácido giberélico","Ingrediente Activo:","Ácido Gilberélico (GA₂), Diluyentes y Acondicionadores","Categoría","Bioestimulante","Grupo Bioquímico","Ácidos Orgánicos"},
       {"Detalles del Producto","Presentación:","Frasco 160g: 10g","pH de la Formulación","6.0 a 8.5 (solución al 5%)","Color","Blanco","Solubilidad en Agua","Soluble"},
       {"Aplicación del Producto:","Modo de Acción:","BIOGIB Es un estimulante de crecimiento vegetal hecho a base de ácido giberélico (GA₂) que favorece el crecimiento vegetativo mediante la división y/o elongación celular, en las regiones
@@ -478,6 +478,22 @@ export const Fichas = [
     nombreProducto: 'Biofase 1',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOFASE 1'}],
+      {"Formulación y Concentración","Solución acuosa. Agente acidificante y fosfato de alcohol tridecilico etoxilado"},
+      {"Ingrediente Activo","Agente Acidificante, Alcohol Tridecílico Etoxilado, Dietilenglicol"},
+      {"Categoría","Coadyuvante","Grupo Químico","Surfactantes etoxilados no iónicos, Fosfatos"},
+      {"Modo de Acción","Aplicación del Producto","Los agentes acidificantes de Biofase-1* reducen y amortiguan el pH del agua alcalina. La fórmula contiene un indicador que cambia de color de acuerdo al
+      pH de la solución, permitiendo ajustarlo al valor deseado dentro de un rango de 4 a 6.5; de esta forma se evita la descomposición que sufren las agroquimicas por hidrólisis alcalina. Biofase-1* ayuda a la compatibilidad de concentrados emulsionables con fertilizantes foliares alcalinos. 
+      Biofase-1 contiene un agente surfactante no iónico que rompe la tensión superficial del agua permitiendo mayor dispersión de la gota para un máximo cubrimiento, también se mejora la humectación y penetración de la solución de aplicación, asegurando una mayor eficiencia del producto aplicado.
+      Biofase-1 contiene además, un agente majante de tipo glicol que mantiene húmeda la película de aplicación una vez que el agua se ha evaporado evitando que las partículas de los plaguicidas sólidos caigan o sean retiradas por el viento."},
+      {"Compatibilidad","Este producto es compatible con todas las agroquimicas. Se recomienda hacer una pequeña prueba de compatibilidad antes de proceder a su mezcla con otros materiales."},
+      {"Presentación","Jarra 10 LT, Litros","pH de la Formulación","0.5 a 1.5 (dilución al 10%)"},
+      {"Indicaciones y Dosis","Mezcle el producto en el agua de aspersión antes de agregar otros agroquímicos y calcule la dosis requerida siguiendo este procedimiento:"},
+      {"1) Mida un litro de agua en un recipiente transparente"},{"2 Agregue poco a poco la cantidad de producto necesaria hasta lograr la coloración del PH deseado de acuerdo a la escala de colores; el rango
+       recomendable es 4.5 a 5.5, lo cual ocurre cuando el agua alcanza una coloración rosa (aproximadamente entre 70 y 100 mil por cada 100 litros de agua para aguas duras con un PH de 7.5 a 8)."},
+       {"3) Agregue la dosis de acuerdo al resultado obtenido en la prueba; por ejempla: si para lograr el PH deseado se llevó 1 ml de PHASE 1 por litro de agua, se requerirán 100 ml de PHASE 1 por cada 100 litros de agua de aspersión."},
+       {"4) Adicione al tanque o aspersora el resto de los agroquimicos."},
+       {"Características","Características y Beneficios","Es un acidificante buferizante liquido de muy alta solubilidad y concentración, diseñado para regular el pH y la dureza de las aguas utilizadas en las 
+       mezclas para las aspersiones foliares de agroquímicos en cultivos hortícolas, fruticolas, ornamentales, cereales y de granos."},
     },
   },
   {
@@ -485,13 +501,30 @@ export const Fichas = [
     nombreProducto: 'Abalone 1.8 EC',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'ABALONE 1.8 EC'}],
-    },
+      {"Formulaión y Concentración","Contiene 18 gramas de ingrediente activo por litro de producto comercial","Ingrediente Activo","1.8% ABAMECTIN","Categoría","INSECTICIDA, ACARICIDA AGRÍCOLA"},
+      {"Composición Química","Composición Química % P/V","Abamecticin (BSI, draf E-ISO ANSI); Abamecticin (f) draf F-ISO: 1,8 Ingredientes Inertes: 98,2 Total: 100","Grupo Químico:","AVERMECTINA"},
+      {"Aplicación del Producto:","Espectro Biológico:","La abamnectina es un insecticida y acaricida con acción de contacto y estomacal. Tiene actividad sistémica limitada de la planta, pero exhibe movimiento 
+      translaminar. Control de etapas móviles de ácaros, minadores de hojas, chupones, escarabajos colorados, en plantas ornamentales, algodón, citricos, frutaspomáceas, cultivos de nueces, vegetales, papas y otros cultivos."},
+      {"Modo de Acción:","ABALONE 1.8 EC Es un insecticida de origen natural, con poderosa actividad translaminar, producido por el microorganismo del suelo Streptomyces avermitilis. Actúa principalmente por ingestión y contacto directo sobre arañitas e insectos en frutales 
+      (Pomaceas, Carazos, Critricos, Nogales Kiwis y Vides), Tomate, pimiento, Berries, Cucurbitáceas, Apio, Flores y Ornamentales, El ácaro o insecto, se paraliza y no ovipone y dentro de un corto tiempo muere. ABALONE 1.8 EC posee una composición química y un modo de acción únicos, 
+      razon por la cual no presenta resistencia cruzada con otras productos. Su bajo impacto sobre insectos benéficas o enemigos naturales lo transforma en un producto ideal para el manejo integrado de plagas."},
+      {"Método de Aplicación:","Agregue la cantidad necesaria de ABALÓN 1.8 CE al tanque rociador medio lleno y agite mientras agrega el agua restante. Aplicar el producto inmediatamente después de mezclar."},
+      {"Compatibilidad:","Este producto no ha presentado problemas de incompatibilidad cuando se mezcla con agroquímicos autorizados para su uso en las cultivos aqui mencionados, sin embargo es recomendable realizar una premezcla para asegurarse de la compatibilidad fisica de los productos. No compatible con Captan."},
+      {"Presentacion:","Litros; 100 ML","Clasificación Toxicológica:","Tipo II","Fitocoxicidad:","Puede ser fitotóxico para las frutas de pepita cuando se mezcla con captan."},
+      {"Usos y Dosis de Aplicación","Cultivos y Plagas","1","Hortalizas de fruto","Ácaros: tetranychus","Minadores de Hojas: Liriomyza","Dosis","25 ml/100ml","50ml/100L","Número de Tratamiento 1","2 (a intérvalo de 7 días)","Antes de la Cosecha","3 días","3 días"},
+          },
   },
   {
     id: 16,
-    nombreProducto: 'Balear 73 SC',
+    nombreProducto: 'Balear 72 SC',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'Balear 73 SC'}],
+      {"Formulación y Concentración","Contiene 720 g/L SC de ingrediente activo por litro de producto comercial","Ingrediente Activo","Chlorothalonil 720 g/L SC","Categoría","Grupo Químico:","CLORONTRILO CHLOROTHALONIL"},
+      {"Aplicación del Producto","Espectro Biológico","Balear 72 SC es un fungicida no sistémico de amplio aspectro. Controla varias enfermedades foliares del banano. Es un fungicida multiuso, lo que le otorga un activo único en comparación con los fungicidas sistémicos, siendo estos muy a menudo monositio. 
+      El amplio espectro de actividad biológica de Balear 72 SC, junto con su probado alto. El grado de seguridad de los cultivos garantiza una excelente protección de los cultivos en diversas condiciones de enfermedades en muchas áreas geográficas. El clorotalonil esta regustrado en la EPA . Es ampliamente utilizado 
+      internacionalmente y ha cumplido con los requisitos de registro/recomendación para uso comercial. Las afirmaciones de uso de Chlorothalonil se están expandiendo, ya que los resultados de las pruebas indican un expectro en expansion de la actividad de control de enfermedades."},
+      {"Modo de Acción: Balear 72 SC es un fungicida protectante de amplio espectro, que inhibe la respiración de las células del hongo.},
+       
     },
   },
   //fertica
