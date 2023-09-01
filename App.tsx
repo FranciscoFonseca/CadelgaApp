@@ -90,7 +90,7 @@ function HomeStackScreen() {
         name="ClimaMapScreen"
         component={ClimaMapScreen}
         options={{
-          title: 'Cotizador',
+          title: 'Clima',
         }}
       />
     </HomeStack.Navigator>

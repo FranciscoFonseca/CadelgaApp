@@ -14,7 +14,7 @@ import {useState} from 'react';
 
 const ContactoScreen = () => {
   const LineItem = (contacto: Contacto) => {
-    const [accordionOpen, setAccordionOpen] = useState(true);
+    const [accordionOpen, setAccordionOpen] = useState(false);
 
     const toggleAccordion = () => {
       setAccordionOpen(!accordionOpen);
@@ -162,7 +162,7 @@ const ContactoScreen = () => {
                     {contacto.venderores.map(vendedor => {
                       return (
                         <View
-                          key={vendedor.id}
+                          key={`${vendedor.nombre} ${vendedor.celular}`}
                           style={{
                             justifyContent: 'space-between',
                             alignItems: 'center',

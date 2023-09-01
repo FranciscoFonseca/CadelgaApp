@@ -7,13 +7,19 @@ import {
   ScrollView,
   TextInput,
   Image,
+  ImageBackground,
+  SafeAreaView,
+  Linking,
 } from 'react-native';
 import MapView, {Marker} from 'react-native-maps';
+import SearchableDropdown from 'react-native-searchable-dropdown'; // Import the library component
+import {listaDePrecios} from '../../constants/Precios';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
+    width: '100%',
   },
   productContainer: {
     marginBottom: 20,
@@ -30,9 +36,7 @@ const styles = StyleSheet.create({
     color: '#888',
   },
   cartContainer: {
-    borderTopWidth: 1,
     paddingTop: 10,
-    marginTop: 20,
   },
   cartItem: {
     flexDirection: 'row',
@@ -68,42 +72,94 @@ const styles = StyleSheet.create({
 const calculateTotal = items => {
   return items.reduce((total, item) => total + item.product.price, 0);
 };
-const ProductList = ({
-  products,
-  selectedProduct,
-  onProductChange,
-  addToCart,
-}) => (
-  <ScrollView>
-    <View style={styles.productContainer}>
-      {products.map(product => (
-        <View key={product.id} style={{marginBottom: 10}}>
-          <Text style={styles.productName}>{product.name}</Text>
-          <Text style={styles.productPrice}>L{product.price}</Text>
-          <Button title="Añadir" onPress={() => addToCart(product.id)} />
-        </View>
-      ))}
+const ProductList = ({products, addToCart}) => {
+  const productData = products.map(product => ({
+    id: product.id,
+    name: product.name,
+    price: product.price.toString(), // Convert price to string
+  }));
+
+  return (
+    <View>
+      <View style={styles.productContainer}>
+        <SearchableDropdown
+          onItemSelect={item => addToCart(item.id)}
+          onTextChange={text => console.log(text)} // You can implement your own text change logic here
+          containerStyle={{padding: 5}}
+          textInputStyle={{
+            fontSize: 16,
+          }}
+          itemStyle={{
+            fontSize: 16,
+            borderWidth: 1,
+            padding: 5,
+            borderBottomWidth: 0,
+          }}
+          itemTextStyle={{fontSize: 16}}
+          // itemsContainerStyle={{maxHeight: '60%'}}
+          items={productData}
+          placeholder="Buscar productos..."
+          defaultIndex={null}
+          resetValue={false}
+          underlineColorAndroid="transparent"
+        />
+      </View>
     </View>
-  </ScrollView>
-);
+  );
+};
 
 const ShoppingCart = ({cartItems, removeFromCart, updateQuantity}) => (
-  <View style={styles.cartContainer}>
-    {cartItems.map(item => (
-      <View key={item.id} style={styles.cartItem}>
-        <View style={styles.cartItemDetails}>
-          <Text style={styles.cartItemName}>{item.product.name}</Text>
-          <Text style={styles.cartItemPrice}>${item.product.price}</Text>
+  <View
+    style={{
+      flex: 1,
+      justifyContent: 'flex-end',
+      alignContent: 'flex-end',
+      alignItems: 'flex-end',
+    }}>
+    <ScrollView
+      contentContainerStyle={[
+        styles.cartContainer,
+        {
+          justifyContent: 'flex-end',
+        },
+      ]}>
+      {cartItems.map(item => (
+        <View
+          key={item.id}
+          style={[
+            styles.cartItem,
+            {
+              width: '95%',
+              gap: 10,
+            },
+          ]}>
+          <View style={[styles.cartItemDetails, {width: '60%'}]}>
+            <Text style={styles.cartItemName}>{item.product.name}</Text>
+            <Text style={styles.cartItemPrice}>${item.product.price}</Text>
+          </View>
+          <View
+            style={{
+              width: '15%',
+            }}>
+            <TextInput
+              style={[styles.quantityInput]}
+              keyboardType="numeric"
+              value={item.quantity.toString()}
+              onChangeText={text => {
+                const parsedValue = text !== '' ? parseInt(text, 10) : 0;
+                updateQuantity(item.id, parsedValue);
+              }}
+            />
+          </View>
+          <View style={{width: '25%'}}>
+            <Button title="Remover" onPress={() => removeFromCart(item.id)} />
+          </View>
         </View>
-        <TextInput
-          style={styles.quantityInput}
-          value={item.quantity.toString()}
-          onChangeText={text => updateQuantity(item.id, parseInt(text, 10))}
-        />
-        <Button title="Remover" onPress={() => removeFromCart(item.id)} />
-      </View>
-    ))}
-    <Text style={styles.totalPrice}>Total: L{calculateTotal(cartItems)}</Text>
+      ))}
+    </ScrollView>
+    <Text style={styles.totalPrice}>
+      Total: ${calculateTotal(cartItems).toFixed(2)}
+    </Text>
   </View>
 );
 
@@ -111,14 +167,9 @@ const ShoppingCart = ({cartItems, removeFromCart, updateQuantity}) => (
 const CotizadorScreen = () => {
   const [selectedProduct, setSelectedProduct] = useState('');
   const [cartItems, setCartItems] = useState([]);
-  const products = [
-    {id: 1, name: 'Fetrilizante A', price: 10},
-    {id: 2, name: 'Fetrilizante B', price: 20},
-    // Add more products
-  ];
 
   const addToCart = productId => {
-    const selectedProductObj = products.find(
+    const selectedProductObj = listaDePrecios.find(
       product => product.id === productId,
     );
     const cartItem = cartItems.find(item => item.product.id === productId);
@@ -156,70 +207,54 @@ const CotizadorScreen = () => {
     setCartItems(updatedCartItems);
   };
 
-  const calculateTotal = items => {
-    return items.reduce(
-      (total, item) => total + item.product.price * item.quantity,
-      0,
-    );
+  const handleEmailPress = () => {
+    let url =
+      'mailto:support@example.com?subject=Cotización&body=Buenas tardes, me gustaría cotizar los siguientes productos:\n\n';
+    cartItems.forEach(item => {
+      url += `${item.quantity} ${item.product.name} $${item.product.price}\n`;
+    });
+    Linking.openURL(url);
   };
-
   return (
-    <View style={styles.container}>
-      {/* <ProductList
-        products={products}
-        selectedProduct={selectedProduct}
-        onProductChange={setSelectedProduct}
-        addToCart={addToCart}
-      />
-      <ShoppingCart
-        cartItems={cartItems}
-        removeFromCart={removeFromCart}
-        updateQuantity={updateQuantity}
-      /> */}
-      <MapView
-        style={{flex: 1}}
-        initialRegion={{
-          latitude: 14.0827,
-          longitude: -87.20681,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-        }}
-        onRegionChange={region => {
-          console.log(region);
+    <ImageBackground
+      source={require('../../../assets/background.png')}
+      style={{flex: 1, justifyContent: 'space-between'}}>
+      <SafeAreaView
+        style={{
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          height: '100%',
+          rowGap: 10,
+          backgroundColor: 'rgba(255,255,255,0.8)',
         }}>
-        <Marker
-          coordinate={{
-            latitude: 14.0827,
-            longitude: -87.20681,
-          }}
-          //image={`http://openweathermap.org/img/w/${'10d'}.png`}
-          title="Mi ubicación"
-          description="Descripción de mi ubicación">
-          <View
-            style={{
-              backgroundColor: 'rgba(255,0,0,0.5)',
-              padding: 10,
-
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}>
-            <Text style={{color: 'white'}}>Mi ubicación</Text>
-            <Image
-              //source={(uri = `http://openweathermap.org/img/w/${'10d'}.png`)}
-              source={{
-                uri: `http://openweathermap.org/img/w/10d.png`,
-              }}
-              style={{
-                width: 50,
-                height: 50,
-                backgroundColor: 'rgba(0,0,0,0.5)',
-              }}
-              resizeMode="contain"
+        <View style={[styles.container, {justifyContent: 'space-between'}]}>
+          <View>
+            <ProductList
+              products={listaDePrecios}
+              selectedProduct={selectedProduct}
+              onProductChange={setSelectedProduct}
+              addToCart={addToCart}
             />
           </View>
-        </Marker>
-      </MapView>
-    </View>
+          <View
+            style={{
+              flex: 1, // Take up all available space
+              justifyContent: 'flex-end', // Align items to the bottom
+              alignContent: 'flex-end', // Align items to the bottom
+            }}>
+            <ShoppingCart
+              cartItems={cartItems}
+              removeFromCart={removeFromCart}
+              updateQuantity={updateQuantity}
+            />
+          </View>
+          <Button
+            onPress={() => handleEmailPress()}
+            title="Enviar Cotización"
+          />
+        </View>
+      </SafeAreaView>
+    </ImageBackground>
   );
 };
 

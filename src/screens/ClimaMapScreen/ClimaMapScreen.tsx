@@ -67,10 +67,10 @@ const ClimaMapScreen = () => {
         key={weatherData.length}
         style={{flex: 1}}
         initialRegion={{
-          latitude: 13.3333,
-          longitude: -87.0833,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
+          latitude: 14.748565839046684,
+          longitude: -86.50627791881561,
+          latitudeDelta: 9.05024342388414,
+          longitudeDelta: 6.465283110737801,
         }}
         tracksViewChanges={false}
         extent={300}
@@ -85,7 +85,7 @@ const ClimaMapScreen = () => {
             tracksViewChanges={false}>
             <View
               style={{
-                backgroundColor: 'rgba(0,0,0,0.5)',
+                backgroundColor: 'rgba(0,0,0,0.2)',
                 padding: 10, // Adjust padding to reduce the size
                 borderRadius: 15,
                 justifyContent: 'center',
@@ -98,6 +98,7 @@ const ClimaMapScreen = () => {
                   textAlign: 'center',
                   fontSize: 12, // Adjust font size to fit the text
                   maxWidth: 80, // Set a maximum width for the text container
+                  textTransform: 'capitalize',
                 }}>
                 {data.name}
               </Text>
@@ -107,6 +108,7 @@ const ClimaMapScreen = () => {
                   textAlign: 'center',
                   fontSize: 12, // Adjust font size to fit the text
                   maxWidth: 80, // Set a maximum width for the text container
+                  textTransform: 'capitalize',
                 }}>
                 {data.weather[0].description}
               </Text>

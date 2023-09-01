@@ -7,6 +7,7 @@ import {
   ImageBackground,
   Linking,
   Alert,
+  SafeAreaView,
 } from 'react-native';
 import {sharedStyles} from '../../style';
 import Button from '../../components/buttons/Button/Button';
@@ -24,7 +25,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
     <ImageBackground
       source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'space-between'}}>
-      <View
+      <SafeAreaView
         style={{
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -94,7 +95,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
           </View>
           <View style={{display: 'flex', flexDirection: 'row'}}>
             <SquareImageButton
-              title="ClimaMapScreen"
+              title="Clima"
               onPress={() => navigation.navigate('ClimaMapScreen')}
               style={{width: '45%'}}
               image={require('../../../assets/fichas.png')}
@@ -198,7 +199,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
             />
           </View>
         </View>
-      </View>
+      </SafeAreaView>
     </ImageBackground>
   );
 };
