@@ -430,6 +430,18 @@ export const Fichas = [
     nombreProducto: 'Bioquim oxate 24 SL',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOQUIM OXATE 24 SL'}],
+      {"Formulación y Concentración:","Solución líquida al 24% p/v"},{"Ingrediente Activo:","Oxamil 24%"},{"Categoria:","Insecticida-Nematicida"},{"Grupo Químico: Carbamato"}
+      {"Aplicacion del Producto:"},{"Modo de Accion:"},{"Mecanismo de Accion:"},{"Oxate 24 SL es un insecticida-nematicida sistémico y de contacto. Puede aplicarse al suelo y al follaje para el control de insectos y nemátodos; para los insectos
+      al momento de la aplicación actúa por contacto; con efecto residual moderado, no volátil. Dentro de la planta se mueve por xilema y floema."},{"Mecanismo de acción:}",{"Inhibidor de la acetilcolinesterasa, afectando el sistema nervioso del insecto,
+      causando paralisis y muerte."}
+      {"PH de Aplicación:","Aplicar al pH ácido siempre ideal 4.0-5-5."},{"Compatibilidad:","Es compatible con la mayoría de insecticidas y fungicidas usados; sin embargo, se recomienda hacer pruebas de compatibilidad. No mezclar con productos
+      de reacción alcalina ni con compuestos a base de cobre y hierro."},{"Presentación:","Litros"},{"Clasificación Toxicológica:","Áltamente peligroso, Banda Roja"}
+      {"Enfermedades que controla/Dosis de Aplicación","No. 1","Cultivo","Algodon, Gossypium, Hirsutum","Plaga que controla:","Ácaros:Tetranychus urticae / Chinche: Dysdercus spp.","Gusano perdorador:","Bucculatrix thurberiella","Mosca Blanca: Bemicida tabaci / Pulgon: Aphis gossypii"
+      {"Dosis: Aplicación foliar de 3-6 litros/ha, ó 2-4.5 litros/manzana"}
+      {"2","Apio","Apium graveolens","Trips:","Thrisps spp","Minador de la hoja:","Liriomyza sp","Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana"}
+      {"3","Café","Coffea arábica","Nemátodos","Melaidoqyne spp, Pratylenchus spp","Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana"}
+      {"4","Piña","Ananas comosus","Nemátodos:","Melaidoqyne spp","Pratylenchus spp, Rorylenchulus reniformis","Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana","Tratamiento pre-plantacion: 8-12 litros","Aplicación total al suelo una semana antes del transpante."
+    "Aplicación foliar 2-6 litros/ha (1.5-4 litros /manzana)","Intérvalos de Aplicación 4 semanas."}
     },
   },
   {
@@ -438,13 +450,37 @@ export const Fichas = [
     nombreProducto: 'Dinamic 70 WG',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'Dinamic® 70 WG'}],
-    },
+      {"Formulación y Concentración","Gránulos dispersables, 70%, equivalente a 700 g i.a/Kg","Ingrediente Activo","Amicarbazone","Categoría","Grupo Químico","Triazolinas"},
+      {"Detalles del Producto","Presentación:","Bolsa de 1 Kilogramo","pH de la Formulación:","5.20 de la solución al 5%","Aspecto y Color:","Granulado fino de color beige","Solubilidad en Agua","4,600 mg/l"},
+      {"Aplicación del Producto:"},{"Modo de Acción:","DINAMIC® 70 WG, es un herbicida pre y post emergente con acción selectiva en el cultivo de caña de azúcar, recomendado para el control de malezas de hoja ancha y gramineas. En el cultivo de maiz no es selectivo por lo que debe aplicarse únicamente en pre emergencia. 
+      Se absorbe principalmente a través de las raíces y las hojas, se transloca hacia arriba (acropetalmente) por medio del xilema y se acumula en los meristemos apicales y las hojas. Inhibe la fotosintesis e interfiere en otros procesos enzimáticos."},
+      {"Modo de Aplicación:","Se recomienda su aplicación en forma terrestre o aérea, ya sea con equipo manual (bombas de mochila) o equipo impulsado por un tractor en un volumen de mezcla de 200 a 300 litros/ha o con equipo aéreo en un volumen de 27 a 54 litros de mezcla/ha. 
+      Para su correcta aplicación y cobertura se recomienda utilizar boquilla de abanico plano 8002/8003 o su equivalente."},
+      {"Clasificación Toxicológica","III: Banda Toxicológica Azul; Productos poco peligrosos."},{"Compatibilidad:","DINAMIC® 70 WG, es compatible con la mayoría de agroquimicos, se recomienda realizar previamente pruebas de compatibilidad en pequeña escala antes de realizar mezclas de agroquimicos."},
+      {"Fitotoxicidad","DINAMIC 70 WG, no es fitotóxico a las dosis recomendadas."},{"Frecuencia y Epoca de Aplicación:","Dadas sus caracteristicas físico-químicas y su novedoso mecanismo de acción, DINAMIC "70 WG puede ser aplicado en preemergencia con efecto sistémico y residual, y en past-emergencia con efecto de contacto. 
+      DINAMIC "70 WG expresa su máximo beneficio de eficacia sobre el complejo de malezas y manifiesta su máxima residualidad cuando se aplica en épocas secas o de verano. Se recomienda en el cultivo de la caña como herbicida selectivo post-emergente para el control de malezas de hoja ancha. 
+      Para Maiz, debe aplicarse únicamente en pre emergencia y ejerce control sobre malezas de hoja ancha y gramineas."},
+        },
   },
   {
     id: 13,
     nombreProducto: 'BioGib 10 PS',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOGIB® 10 PS'}],
+      {"Formulación y Concentración","Polvo, Ácido giberélico (GA), Diluyentes y acondicionadores"}
+      {"Nombre del producto:","BIOGIB® 10 PS","Formulación y Concentración:","Polvo, Ácido giberélico","Ingrediente Activo:","Ácido Gilberélico (GA₂), Diluyentes y Acondicionadores","Categoría","Bioestimulante","Grupo Bioquímico","Ácidos Orgánicos"},
+      {"Detalles del Producto","Presentación:","Frasco 160g: 10g","pH de la Formulación","6.0 a 8.5 (solución al 5%)","Color","Blanco","Solubilidad en Agua","Soluble"},
+      {"Aplicación del Producto:","Modo de Acción:","BIOGIB Es un estimulante de crecimiento vegetal hecho a base de ácido giberélico (GA₂) que favorece el crecimiento vegetativo mediante la división y/o elongación celular, en las regiones
+      meristemáticas, promoviendo el desarrollo y crecimiento de la planta. Induce el amarre y crecimiento de frutos."}
+      {"Compatibilidad"},{"BIOGIB* 10PS, es compatible con la mayoría de los agroquímicos, se sugiere hacer las aplicaciones durante el crecimiento de frutos."},{"Clasificación Toxicológica;","Ligeramente Tóxico"},
+      {"No","1","Uva Flame sin semilla","Indicaciones y Dosis","Dosis y Epocas de Aplicación","De 15 a 37.5 gramos de BIOGIB® 10 PS por ha durante la floración, aplique cuando la mayoría de las racimos estén al 80% de floración. De 100 a 240 gramos de BIOGIB® 10 PS por ha después del raleo del racimo o cuando las bayas midan un promedio de 6 a 8 mm y la segunda aplicación durante las próximos 5 a 10 dias."},
+      {"Efectos","Para disminuir el amarre reduciendo costos de raleo y acelerar la maduración. Aumenta el tamaño de los frutos."},
+      {"No","2","Uva Perlette","Indicaciones y Dosis","Dosis y Epocas de Aplicación","De 160 a 400 gramos de BIOGIB® 10 PS por ha cuando las bayas midan de 4 a 5 mm de diámetro. La primera aplicación después del raleo del racimo y la segunda dentro de las próximos 7 dias. (Si la segunda aplicación ocurre a más de 14 dias se reducirá el efecto potencial)"},
+      {"Efectos",""},{"Para aumentar el tamaño de bayas y racimos."},
+      {"No","3","Uva Superior","100 gramos de BIOGIB® 10 PS por ha en una aplicación de 800 a 1,000 l/ha dos semanas después del raleo natural con un diámetro de baya de 10 a 15 mm."},{"Efectos","Aumenta el tamaño de la baya y reduce el adelgazamiento de esta."},
+      {"No","4","Uva Thompson sin semilla","De 40 a 80 gramos de BIOGIB® 10 PS por ha antes de la floración cuando los racimos tengan un largo de 8 a 13 cm. De 160 a 400 gramos de BIOGIB® 10 PS por ha después del raleo del racimo cuando las bayas midan de 4 a 5 mm de diámetro o dos aplicaciones de igual cantidad, la primera dentro de 2 a 3 días después del raleo haciendo la segunda aplicación dentro de las dos próximas semanas."},
+      {"Efectos","Alargamiento de los racimos y reducción del costo de raleo. Aumento de tamaño en uvas y racimos"},
+    
     },
   },
   {
@@ -452,6 +488,22 @@ export const Fichas = [
     nombreProducto: 'Biofase 1',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'BIOFASE 1'}],
+      {"Formulación y Concentración","Solución acuosa. Agente acidificante y fosfato de alcohol tridecilico etoxilado"},
+      {"Ingrediente Activo","Agente Acidificante, Alcohol Tridecílico Etoxilado, Dietilenglicol"},
+      {"Categoría","Coadyuvante","Grupo Químico","Surfactantes etoxilados no iónicos, Fosfatos"},
+      {"Modo de Acción","Aplicación del Producto","Los agentes acidificantes de Biofase-1* reducen y amortiguan el pH del agua alcalina. La fórmula contiene un indicador que cambia de color de acuerdo al
+      pH de la solución, permitiendo ajustarlo al valor deseado dentro de un rango de 4 a 6.5; de esta forma se evita la descomposición que sufren las agroquimicas por hidrólisis alcalina. Biofase-1* ayuda a la compatibilidad de concentrados emulsionables con fertilizantes foliares alcalinos. 
+      Biofase-1 contiene un agente surfactante no iónico que rompe la tensión superficial del agua permitiendo mayor dispersión de la gota para un máximo cubrimiento, también se mejora la humectación y penetración de la solución de aplicación, asegurando una mayor eficiencia del producto aplicado.
+      Biofase-1 contiene además, un agente majante de tipo glicol que mantiene húmeda la película de aplicación una vez que el agua se ha evaporado evitando que las partículas de los plaguicidas sólidos caigan o sean retiradas por el viento."},
+      {"Compatibilidad","Este producto es compatible con todas las agroquimicas. Se recomienda hacer una pequeña prueba de compatibilidad antes de proceder a su mezcla con otros materiales."},
+      {"Presentación","Jarra 10 LT, Litros","pH de la Formulación","0.5 a 1.5 (dilución al 10%)"},
+      {"Indicaciones y Dosis","Mezcle el producto en el agua de aspersión antes de agregar otros agroquímicos y calcule la dosis requerida siguiendo este procedimiento:"},
+      {"1) Mida un litro de agua en un recipiente transparente"},{"2 Agregue poco a poco la cantidad de producto necesaria hasta lograr la coloración del PH deseado de acuerdo a la escala de colores; el rango
+       recomendable es 4.5 a 5.5, lo cual ocurre cuando el agua alcanza una coloración rosa (aproximadamente entre 70 y 100 mil por cada 100 litros de agua para aguas duras con un PH de 7.5 a 8)."},
+       {"3) Agregue la dosis de acuerdo al resultado obtenido en la prueba; por ejempla: si para lograr el PH deseado se llevó 1 ml de PHASE 1 por litro de agua, se requerirán 100 ml de PHASE 1 por cada 100 litros de agua de aspersión."},
+       {"4) Adicione al tanque o aspersora el resto de los agroquimicos."},
+       {"Características","Características y Beneficios","Es un acidificante buferizante liquido de muy alta solubilidad y concentración, diseñado para regular el pH y la dureza de las aguas utilizadas en las 
+       mezclas para las aspersiones foliares de agroquímicos en cultivos hortícolas, fruticolas, ornamentales, cereales y de granos."},
     },
   },
   {
@@ -459,13 +511,37 @@ export const Fichas = [
     nombreProducto: 'Abalone 1.8 EC',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'ABALONE 1.8 EC'}],
-    },
+      {"Formulaión y Concentración","Contiene 18 gramas de ingrediente activo por litro de producto comercial","Ingrediente Activo","1.8% ABAMECTIN","Categoría","INSECTICIDA, ACARICIDA AGRÍCOLA"},
+      {"Composición Química","Composición Química % P/V","Abamecticin (BSI, draf E-ISO ANSI); Abamecticin (f) draf F-ISO: 1,8 Ingredientes Inertes: 98,2 Total: 100","Grupo Químico:","AVERMECTINA"},
+      {"Aplicación del Producto:","Espectro Biológico:","La abamnectina es un insecticida y acaricida con acción de contacto y estomacal. Tiene actividad sistémica limitada de la planta, pero exhibe movimiento 
+      translaminar. Control de etapas móviles de ácaros, minadores de hojas, chupones, escarabajos colorados, en plantas ornamentales, algodón, citricos, frutaspomáceas, cultivos de nueces, vegetales, papas y otros cultivos."},
+      {"Modo de Acción:","ABALONE 1.8 EC Es un insecticida de origen natural, con poderosa actividad translaminar, producido por el microorganismo del suelo Streptomyces avermitilis. Actúa principalmente por ingestión y contacto directo sobre arañitas e insectos en frutales 
+      (Pomaceas, Carazos, Critricos, Nogales Kiwis y Vides), Tomate, pimiento, Berries, Cucurbitáceas, Apio, Flores y Ornamentales, El ácaro o insecto, se paraliza y no ovipone y dentro de un corto tiempo muere. ABALONE 1.8 EC posee una composición química y un modo de acción únicos, 
+      razon por la cual no presenta resistencia cruzada con otras productos. Su bajo impacto sobre insectos benéficas o enemigos naturales lo transforma en un producto ideal para el manejo integrado de plagas."},
+      {"Método de Aplicación:","Agregue la cantidad necesaria de ABALÓN 1.8 CE al tanque rociador medio lleno y agite mientras agrega el agua restante. Aplicar el producto inmediatamente después de mezclar."},
+      {"Compatibilidad:","Este producto no ha presentado problemas de incompatibilidad cuando se mezcla con agroquímicos autorizados para su uso en las cultivos aqui mencionados, sin embargo es recomendable realizar una premezcla para asegurarse de la compatibilidad fisica de los productos. No compatible con Captan."},
+      {"Presentacion:","Litros; 100 ML","Clasificación Toxicológica:","Tipo II","Fitocoxicidad:","Puede ser fitotóxico para las frutas de pepita cuando se mezcla con captan."},
+      {"Usos y Dosis de Aplicación","Cultivos y Plagas","1","Hortalizas de fruto","Ácaros: tetranychus","Minadores de Hojas: Liriomyza","Dosis","25 ml/100ml","50ml/100L","Número de Tratamiento 1","2 (a intérvalo de 7 días)","Antes de la Cosecha","3 días","3 días"},
+          },
   },
   {
     id: 16,
-    nombreProducto: 'Balear 73 SC',
+    nombreProducto: 'Balear 72 SC',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'Balear 73 SC'}],
+      {"Formulación y Concentración","Contiene 720 g/L SC de ingrediente activo por litro de producto comercial","Ingrediente Activo","Chlorothalonil 720 g/L SC","Categoría","Grupo Químico:","CLORONTRILO CHLOROTHALONIL"},
+      {"Aplicación del Producto","Espectro Biológico","Balear 72 SC es un fungicida no sistémico de amplio aspectro. Controla varias enfermedades foliares del banano. Es un fungicida multiuso, lo que le otorga un activo único en comparación con los fungicidas sistémicos, siendo estos muy a menudo monositio. 
+      El amplio espectro de actividad biológica de Balear 72 SC, junto con su probado alto. El grado de seguridad de los cultivos garantiza una excelente protección de los cultivos en diversas condiciones de enfermedades en muchas áreas geográficas. El clorotalonil esta regustrado en la EPA . Es ampliamente utilizado 
+      internacionalmente y ha cumplido con los requisitos de registro/recomendación para uso comercial. Las afirmaciones de uso de Chlorothalonil se están expandiendo, ya que los resultados de las pruebas indican un expectro en expansion de la actividad de control de enfermedades."},
+      {"Modo de Acción: Balear 72 SC es un fungicida protectante de amplio espectro, que inhibe la respiración de las células del hongo.},
+      {"Método de Aplicación:","Balear 72 SC es un concentrado en suspensión ("fluible") listo para ser mezclado en agua y adecuado para su aplicación mediante sistemas convencionales de aspersión desde el suelo y desde aeronaves como aspersiones diluidas o concentradas. Para aerosoles diluídos, la cantidad requerida de Balear 
+    72 SC debe agregarse lentamente al tanque de aspersión mientras se llena el tanque. Esto asegurará una mezcla completa y una solucion de rociado de consistencia uniforme. Con aerosoles concentrados, mezcle previamente la cantidad necesaria de Balear 72 SC con una cantidad adecuada de agua en un recipiente limpio. Agrega esta 
+  mezcla a el tanque de aspersión mientras se llena con agua. Los agitadores deben mantenerse en funcionamiento mientras se llena el tanque de aspersion en la preparación de soluciones de aspersión tanto diluídas como concentradas. Aplicar cuando aparezcan los primeros signos de enfermedad. Siga las dosis por hectárea indicadas 
+en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis recomendadas de acuerdo con la presión de la enfermedad y los datos históricos que indiquen períodos de enfermedades graves. No rocíe sobre áreas que han sido rociadas con aceite dentro de los 7 días o se pueden dañar las hojas.},
+     {"Compatibilidad:","Balear 72 SC es compatible con fungicidas, insecticidas, acaricidas y fertilizantes foliares más comúnmente utilizado en plátanos. Sin embargo, recomendamos realizar una prueba preliminar en caso de duda. Balear 72 SC no es compatible con los aceites utilizados en la agricultura y puede causar daño a las plantas. 
+     Se recomienda dejar un intérvalo de 7 a 10 dias entre un tratamiento de Balear 72 SC y aceites para evitar cualquier problema de fitotoxicidad."},
+     {"Presentación:","200 Lts; 20 Lts; Litros"},{"Fitotoxicidad","Balear 72 SC no provoca ningun efecto de fitotoxicidad en los cultivos recomendados cuando se usa siguiendo las instrucciones de uso"}
+           
     },
   },
   //fertica
@@ -474,6 +550,9 @@ export const Fichas = [
     nombreProducto: 'NPK FERTIL 20-20-0',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 20-20-0'}],
+      {"Clase de Producto","Fertilizante Solido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Numero de Registro Honduras:","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Gramulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
+      
     },
   },
   {
