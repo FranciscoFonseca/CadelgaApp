@@ -552,7 +552,9 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
       'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 20-20-0'}],
       {"Clase de Producto","Fertilizante Solido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Numero de Registro Honduras:","2002/361-66-IV"},
       {"Propiedades del Producto","Aspecto","Sólido Gramulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
-      
+      {"Composición en Elementos","Nitrógeno","(N)","Fósforo","(P2.Os.)","Potasio","(K2O)","% P/P","20%","20%","0%","Tolerancia %","=5%","=5%","=5%"},{"Recomendaciones de Uso","Fertilizante granular, mezcla fisica de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno y Fósforo, que en su formulación no requiera 
+      concentración de portasio."},
+      {"Presentaciones","43 Kg","45.36 Kg"},
     },
   },
   {
@@ -560,13 +562,23 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     nombreProducto: 'Fastrac 12-20-12',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 12-20-12'}],
-    },
+      {"Clase de Producto","Fertilizante Sólido Granulado","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Granulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosidad"},
+      {"Composición de Elementos","Nitrógeno","N","Fósforo","P2Os","Potasio","K2O"},{"% P/P","12%","20%","12%","Tolerancia","=5%","=5%","=5%"},
+      {"Recomendaciones de Uso","Fertilizante de propósito general recomendado para una amplia gama de cultivos especialmente frutales, hortalizas y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses."},
+      {"Presentaciones","43 Kg","45.36 Kg"},
+          },
   },
   {
     id: 19,
     nombreProducto: 'Fastrac Urea 43%',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC UREA 43%'}],
+      {"Clase de Producto","Fertilizante Sólido Granulado","Tipo de Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro:","2002/361-66-IV"},
+      {"Propiedades de Producto","Aspecto","Sólido Granulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosidad","N/A"},
+      {"Composición de Elementos","Nitrógeno","N","Azufre","S","% P/P","43%","6%","Tolerancia %","+-5%","+-5%"},{"Recomendaciones de Uso","Fertilizante granular recomendado especialmente para hacer mezclas físicas o para recuperación de pastizales dañados por pastoreo, potencializado 
+      liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses."},
+      {"Presentaciones","43 Kg","45.36 Kg"},
     },
   },
   {
@@ -575,6 +587,12 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     nombreProducto: 'Fastrac 12-24-12',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 12-24-12'}],
+      {"Nombre Comercial","Fastrac 12-24-12","Clase de Producto","Fertilizante Sólido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro Honduras","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Granbulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
+      {"Composición de Elementos Principales","Elemento","Nitrógeno","Fósforo","Potasio","Símbolo","N","P2Os","K2O","% P/P","12%","24%","12%","% Tolerancia","+-5%","+-5%","+-5%"},
+      {"Recomendaciones de Uso","Fertilizante de prospósito general recomendado para una amplia gama de cultivos especualmente frutales, hortalizas, y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses, además dentro 
+      de su formulación contiene ricos nutrientes como Calcio, Magnesio, Azufre, Zinc y Boro."},
+      {"Presentaciones","43 Kg","45.36 Kg"},
     },
   },
   {
@@ -582,6 +600,12 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     nombreProducto: 'NPK FERTIL 17-3-17',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 17-3-17'}],
+      {"Clase de Producto","NPK Fertil 17-3-17","Clase de Producto","Fertilizante sólido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro Honduras:","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Granulado","Estabilidad a la Luz","Estable","Densisad","N/A","Corrosividad","N/A"},
+      {"Composición de Elementos","Elemento","Nitrógeno","Fósforo","Potasio","Calcio","Magnesio","Símbolo Químico","17%","3","17%","7.70%","4.62%","% Tolerancia","+-5%","+-5%","+-5%","+-5%","+-5%"},
+      {"Recomendaciones de Uso","Fórmula cafetalera NPK FERTIL 17-3-17 es una propuesta comercial, dado a la relación 1:1 Entre Nitrógeno (N)/ Potasio (K) con un contenido del 17%, con un nivel de 3% de fósforo. Con aporte enriquecedor de 7.7% de calcio y un 4.62% de Magnesio. 
+      Esta formulación está orientada a satisfacer el requerimiento de nutrientes en una plantación de café en las etapas de: inicio, crecimiento y desarrollo del grano de forma general. Basado en la relación de extracción de nutrientes para una plantación en producción promedio de café en nuestro país o región norte de C.A."},
+      {"Presentaciones","43 Kg","45.36 Kg"},
     },
   },
   {
@@ -590,7 +614,12 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'NPK FERTIL 30.6-0-0+8.9S'},
-      ],
+        {"Clase de Producto","Fertilizante Sólido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro Honduras","2002/361-66-IV"},
+        {"Propiedades del Producto","Aspecto","Sólido Granulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosidad","N/A","Presentaciones","43 Kg"},
+        {"Composición de Elementos","Nitrógeno","N","Fósforo","(P2Os)","Potasio","(K2O)","Azufre","(S)","% P/P","31%","0%","0%","8.9%","Tolerancia %","+-5%","+-5%","+-5%","+-5%"},
+        {"Recomendaciones de Uso","Combinación de Fuentes de nitrógeno: Urea + Sulfato de amonio, la cual suple el aporte de nitrógeno y azufre. Especial en suelos con alto contenido de carbonatos de calcio y suelos de texturas arenosas y bajo contenido de materia orgánica, donde es deficitario el contenido del nutriente Azufre, 
+        también el aporte del nitrógeno en forma amoniacal, el cual tiene un fuerte impacto en el pH de la solución del suelo en el área aplicada lo que ayuda a equilibrar la fase de asimilación de otros elementos especialmente Fierro, Manganeso y Cobre."},
+              ],
     },
   },
   {
@@ -598,7 +627,11 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     nombreProducto: 'NPK FASTRAC 16-5-27',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 16-5-27'}],
-    },
+      {"Clase de Producto","Fertilizante Sólido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro Honduras","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Granulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
+      {"Composición de Elementos","Nitrógeno","(N)","Fósforo","(P2Os)","Potasio","(K2O)","Magnesio","(MgO)","Azufre","(S)","Zinc","(Zn)","Boro","(B)","Silicio","(Si)","% P/P","16%","5%","27%","3%","2%","0.1%","0.3%","1.8%","Tolerancia %","5%","5%","5%","5%","5%","5%","5%","5%"},
+      {"Recomendaciones de Uso","Fertilizante granular recomendado para el cultivo de palma en la etapa de producción. También para los cultivos demandantes de potasio en sus últimos días de llenado, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por tres meses."},
+          },
   },
   {
     id: 24,
