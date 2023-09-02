@@ -638,6 +638,11 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     nombreProducto: 'NPK FERTIL 18-3-18',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 18-3-18'}],
+      {"Fertilizante Sólido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro Honduras:","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Sólido Granulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
+      {"Composición de Elementos","Nitrógeno","(N)","Fósforo","(P2Os)","Potasio","(K2O)","% P/P","18%","3%","18%","Tolerancia %","+-5%","+-5%","+-5%","Recomendaciones de uso","Formula covencional para el cultivo de café en producción para la etapa de inicio (fertilización mayo), esta fórmula es una propuesta comercial, dado a la relación 
+      N/K 1/1, es de mantenimiento y con un nivel mínimo de fósforo"},
+      {"Presentaciones","43 Kg"},
     },
   },
   {
@@ -645,6 +650,10 @@ en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis
     nombreProducto: 'NPK FERTIL 17-4-21',
     fichaTecnica: {
       'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 17-4-21'}],
+      {"Clase de Producto","Fertilizante Sólido Granulado","Tipo Formulación","Fertilizante Granulado para uso Agrícola","Categoría Toxicológica","N/A","Número de Registro Honduras","2002/361-66-IV"},
+      {"Propiedades del Producto","Aspecto","Spolido Granulado","Estabilidad a la Luz","Estable","Densidad","N/A","Corrosividad","N/A"},
+      {"Composición de Elementos","Nitrógeno","(N)","Fósforo","(P2Os)","Potasio","(K2O)","Tolerancia %","+-5%","+-5%","+-5%","Recomendaciones de Uso","Formula caferalera de llenado, alta en potasio y considerablemente alta en Nitrógeno, es una fórmula balanceada, con las materias primas mas comunes, la cual la hace ser mas "}
+
     },
   },
   {
