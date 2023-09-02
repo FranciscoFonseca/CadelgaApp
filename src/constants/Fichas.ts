@@ -523,6 +523,7 @@ export const Fichas = [
     id: 12,
 
     nombreProducto: 'Dinamic 70 WG',
+    Categoría: 'Herbicida',
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'Dinamic® 70 WG'},
@@ -571,6 +572,7 @@ export const Fichas = [
   {
     id: 13,
     nombreProducto: 'BioGib 10 PS',
+    Categoría: 'Bioestimulante',
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'BIOGIB® 10 PS'},
@@ -633,6 +635,7 @@ export const Fichas = [
   {
     id: 14,
     nombreProducto: 'Biofase 1',
+    Categoría: 'Coadyuvante',
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'BIOFASE 1'},
@@ -675,6 +678,7 @@ export const Fichas = [
   {
     id: 15,
     nombreProducto: 'Abalone 1.8 EC',
+    Categoría: 'INSECTICIDA, ACARICIDA AGRÍCOLA',
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'ABALONE 1.8 EC'},
@@ -740,6 +744,7 @@ export const Fichas = [
   {
     id: 16,
     nombreProducto: 'Balear 72 SC',
+    Categoría: 'Fungicida',
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'Balear 73 SC'},
@@ -794,35 +799,147 @@ export const Fichas = [
         {Densidad: 'N/A'},
         {Corrosividad: 'N/A'},
       ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '20%', '=5%'],
+          ['Fósforo (P2.Os.)', '20%', '=5%'],
+          ['Potasio (K2O)', '0%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Fertilizante granular, mezcla fisica de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno y Fósforo, que en su formulación no requiera concentración de portasio.',
+      ],
     },
   },
+
   {
     id: 18,
     nombreProducto: 'Fastrac 12-20-12',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 12-20-12'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 12-20-12'},
+        {'Clase de Producto': 'Fertilizante Solido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Numero de Registro Honduras:': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: 'Sólido Gramulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '12%', '=5%'],
+          ['Fósforo (P2.Os.)', '20%', '=5%'],
+          ['Potasio (K2O)', '12%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Fertilizante de propósito general recomendado para una amplia gama de cultivos especialmente frutales, hortalizas y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses.',
+      ],
     },
   },
+
   {
     id: 19,
     nombreProducto: 'Fastrac Urea 43%',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC UREA 43%'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC UREA 43%'},
+
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
+        {'Tipo de Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro:': '2002/361-66-IV'},
+      ],
+      'Propiedades de Producto': [
+        {Aspecto: 'Sólido Gramulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '43%', '=5%'],
+          ['Azufre (S)', '6%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Fertilizante granular recomendado especialmente para hacer mezclas físicas o para recuperación de pastizales dañados por pastoreo, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses.',
+      ],
+      Presentaciones: ['43 Kg', '45.36 Kg'],
     },
   },
   {
     id: 20,
-
     nombreProducto: 'Fastrac 12-24-12',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 12-24-12'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 12-24-12'},
+        {'Nombre Comercial': 'Fastrac 12-24-12'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro Honduras': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {
+          Aspecto: 'Sólido Granulado',
+        },
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '12%', '=5%'],
+          ['Fósforo (P2.Os.)', '24%', '=5%'],
+          ['Potasio (K2O)', '12%', '=5%'],
+        ],
+        'Recomendaciones de Uso': [
+          'Fertilizante de propósito general recomendado para una amplia gama de cultivos especialmente frutales, hortalizas y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses, además dentro de su formulación contiene ricos nutrientes como Calcio, Magnesio, Azufre, Zinc y Boro.',
+        ],
+      },
     },
   },
   {
     id: 21,
     nombreProducto: 'NPK FERTIL 17-3-17',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 17-3-17'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 17-3-17'},
+
+        {'Clase de Producto': 'NPK Fertil 17-3-17'},
+        {'Clase de Producto': 'Fertilizante sólido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro Honduras:': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: 'Sólido Granulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['Fósforo (P2.Os.)', '3%', '=5%'],
+          ['Potasio (K2O)', '17%', '=5%'],
+          ['Calcio (Ca)', '7.70%', '=5%'],
+          ['Magnesio (Mg)', '4.62%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Fórmula cafetalera NPK FERTIL 17-3-17 es una propuesta comercial, dado a la relación 1:1 Entre Nitrógeno (N)/ Potasio (K) con un contenido del 17%, con un nivel de 3% de fósforo. Con aporte enriquecedor de 7.7% de calcio y un 4.62% de Magnesio. Esta formulación está orientada a satisfacer el requerimiento de nutrientes en una plantación de café en las etapas de: inicio, crecimiento y desarrollo del grano de forma general. Basado en la relación de extracción de nutrientes para una plantación en producción promedio de café en nuestro país o región norte de C.A.',
+      ],
     },
   },
   {
@@ -831,6 +948,29 @@ export const Fichas = [
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'NPK FERTIL 30.6-0-0+8.9S'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro Honduras:': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: 'Sólido Granulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+        {Presentaciones: '43 Kg'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '30.6%', '=5%'],
+          ['Fósforo (P2.Os.)', '0%', '=5%'],
+          ['Potasio (K2O)', '0%', '=5%'],
+          ['Azufre (S)', '8.9%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Combinación de Fuentes de nitrógeno: Urea + Sulfato de amonio, la cual suple el aporte de nitrógeno y azufre. Especial en suelos con alto contenido de carbonatos de calcio y suelos de texturas arenosas y bajo contenido de materia orgánica, donde es deficitario el contenido del nutriente Azufre, también el aporte del nitrógeno en forma amoniacal, el cual tiene un fuerte impacto en el pH de la solución del suelo en el área aplicada lo que ayuda a equilibrar la fase de asimilación de otros elementos especialmente Fierro, Manganeso y Cobre.',
       ],
     },
   },
@@ -838,42 +978,180 @@ export const Fichas = [
     id: 23,
     nombreProducto: 'NPK FASTRAC 16-5-27',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 16-5-27'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 16-5-27'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro Honduras:': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: 'Sólido Granulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+        {Presentaciones: '43 Kg, 45.36 Kg'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '16%', '=5%'],
+          ['Fósforo (P2.Os.)', '5%', '=5%'],
+
+          ['Potasio (K2O)', '27%', '=5%'],
+          ['Magnesio (Mg)', '3%', '=5%'],
+          ['Azufre (S)', '2%', '=5%'],
+          ['Zinc (Zn)', '0.1%', '=5%'],
+          ['Boro (B)', '0.3%', '=5%'],
+          ['Silicio (Si)', '1.8%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción. También para los cultivos demandantes de potasio en sus últimos días de llenado, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por tres meses.',
+      ],
     },
   },
   {
     id: 24,
     nombreProducto: 'NPK FERTIL 18-3-18',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 18-3-18'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 18-3-18'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro Honduras:': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: 'Sólido Granulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+        {Presentaciones: '43 Kg'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '18%', '=5%'],
+          ['Fósforo (P2.Os.)', '3%', '=5%'],
+          ['Potasio (K2O)', '18%', '=5%'],
+        ],
+      },
+      'Recomendaciones de Uso': [
+        'Formula covencional para el cultivo de café en producción para la etapa de inicio (fertilización mayo), esta fórmula es una propuesta comercial, dado a la relación N/K 1/1, es de mantenimiento y con un nivel mínimo de fósforo',
+      ],
     },
   },
   {
     id: 25,
     nombreProducto: 'NPK FERTIL 17-4-21',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 17-4-21'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 17-4-21'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
+        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
+        {'Categoría Toxicológica': 'N/A'},
+        {'Número de Registro Honduras:': '2002/361-66-IV'},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: 'Sólido Granulado'},
+        {'Estabilidad a la Luz': 'Estable'},
+        {Densidad: 'N/A'},
+        {Corrosividad: 'N/A'},
+        {Presentaciones: '43 Kg'},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['Fósforo (P2.Os.)', '4%', '=5%'],
+          ['Potasio (K2O)', '21%', '=5%'],
+        ],
+      },
     },
   },
   {
     id: 26,
     nombreProducto: 'NPK FERTIL 17-5-21',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 17-5-21'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 17-5-21'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 27,
     nombreProducto: 'FASTRAC 20-15-13',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 20-15-13'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 20-15-13'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 28,
     nombreProducto: 'FASTRAC 17-5-21',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 17-5-21'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 17-5-21'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
@@ -882,35 +1160,138 @@ export const Fichas = [
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'Redox 4X4 30(CaO3)+8(MgO)+16(S)+9(SiO2)'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
       ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 30,
     nombreProducto: 'FASTRAC 21-4-16',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 21-4-16'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 21-4-16'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 31,
     nombreProducto: 'FASTRAC 17-7-17',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 17-7-17'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 17-7-17'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 32,
     nombreProducto: 'FASTRAC 20-3-17',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 20-3-17'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 20-3-17'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 33,
     nombreProducto: 'NPK FERTIL 18-5-15',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 18-5-15'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 18-5-15'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
@@ -919,7 +1300,26 @@ export const Fichas = [
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'NPK FERTIL 17-3-17-3.0Cao-0.5Zn'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
       ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
 
@@ -929,14 +1329,54 @@ export const Fichas = [
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'NPK FERTIL CAFETALERA 20-3-18-3.0 CaO-1.4MgO'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
       ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 36,
     nombreProducto: 'FASTRAC 20-15-5',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 20-15-5'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 20-15-5'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
@@ -945,7 +1385,26 @@ export const Fichas = [
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'NPK FERTIL 18.7-0-20'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
       ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
@@ -954,91 +1413,362 @@ export const Fichas = [
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'MAKROSOL 20-20-20 TOP'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
       ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 39,
     nombreProducto: 'FASTRAC 15-7-28',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 15-7-28'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 15-7-28'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 40,
     nombreProducto: 'NPK FERTIL 21-0-30',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 21-0-30'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 21-0-30'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 41,
     nombreProducto: 'MAKROSOL 20-20-20',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'MAKROSOL 20-20-20'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'MAKROSOL 20-20-20'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 42,
     nombreProducto: 'FASTRAC 12-5-30',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 12-5-30'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 12-5-30'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 43,
     nombreProducto: 'FASTRAC UREA',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC UREA'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC UREA'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 44,
     nombreProducto: 'NPK FERTIL 20-5-17',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 20-5-17'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 20-5-17'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 45,
     nombreProducto: 'FASTRAC 15-15-15',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 15-15-15'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 15-15-15'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 46,
     nombreProducto: 'FASTRAC 20-20-0',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 20-20-0'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 20-20-0'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 47,
     nombreProducto: 'NPK FERTIL 15-15-15',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 15-15-15'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 15-15-15'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 48,
     nombreProducto: 'FASTRAC 17-4-21',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 17-4-21'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 17-4-21'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 49,
     nombreProducto: 'FASTRAC 20-5-17',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'FASTRAC 20-5-17'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'FASTRAC 20-5-17'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
     id: 50,
     nombreProducto: 'NPK FERTIL 12-24-12',
     fichaTecnica: {
-      'Descripción del Producto': [{'Nombre Comercial': 'NPK FERTIL 12-24-12'}],
+      'Descripción del Producto': [
+        {'Nombre Comercial': 'NPK FERTIL 12-24-12'},
+        {'Clase de Producto': ''},
+        {'Tipo Formulación': ''},
+        {'Categoría Toxicológica': ''},
+        {'Número de Registro Honduras:': ''},
+      ],
+      'Propiedades del Producto': [
+        {Aspecto: ''},
+        {'Estabilidad a la Luz': ''},
+        {Densidad: ''},
+        {Corrosividad: ''},
+        {Presentaciones: ''},
+      ],
+      'tabla#tabla-Composición en Elementos': {
+        headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
+        rows: [
+          ['Nitrógeno (N)', '17%', '=5%'],
+          ['', '', ''],
+        ],
+      },
+      'Recomendaciones de Uso': [''],
     },
   },
   {
