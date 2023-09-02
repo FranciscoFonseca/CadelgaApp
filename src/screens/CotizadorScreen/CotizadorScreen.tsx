@@ -84,7 +84,7 @@ const ProductList = ({products, addToCart}) => {
       <View style={styles.productContainer}>
         <SearchableDropdown
           onItemSelect={item => addToCart(item.id)}
-          onTextChange={text => console.log(text)} // You can implement your own text change logic here
+          //onTextChange={text => console.log(text)} // You can implement your own text change logic here
           containerStyle={{padding: 5}}
           textInputStyle={{
             fontSize: 16,

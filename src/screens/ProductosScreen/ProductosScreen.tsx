@@ -58,15 +58,6 @@ const ProductosScreen = (): JSX.Element => {
     </>
   );
 
-  useEffect(() => {
-    let bla = '';
-
-    Fichas.forEach(item => {
-      bla = `${bla}\n${item.nombreProducto}`;
-    });
-    console.log('Fichas', bla);
-  }, []);
-
   return (
     <ImageBackground
       source={require('../../../assets/background.png')}
