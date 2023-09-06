@@ -1,6 +1,6 @@
 //Your final app.js with stack navigator and tab navigator
 import * as React from 'react';
-import {Appearance, Button, ImageBackground, Text, View} from 'react-native';
+import {Appearance, Button, Text, View} from 'react-native';
 import {DefaultTheme, NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -31,9 +31,7 @@ function DetailsScreen() {
 
 function SettingsScreen({navigation}: any) {
   return (
-    <ImageBackground
-      source={require('./assets/background.png')}
-      style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <Text>Settings screen</Text>
         <Button
@@ -41,7 +39,7 @@ function SettingsScreen({navigation}: any) {
           onPress={() => navigation.navigate('Details')}
         />
       </View>
-    </ImageBackground>
+    </View>
   );
 }
 const HomeStack = createStackNavigator();

@@ -16,8 +16,8 @@ const ValoresScreen = () => {
     {name: 'Orientación a Resultados', imagen: 'resultados.png'},
   ];
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={sharedStyles.container}>
         {valores.map(valor => (
@@ -48,7 +48,7 @@ const ValoresScreen = () => {
           </View>
         ))}
       </View>
-    </ImageBackground>
+    </View>
   );
 };
 

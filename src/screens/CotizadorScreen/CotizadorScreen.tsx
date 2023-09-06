@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Text,
@@ -14,6 +14,7 @@ import {
 import MapView, {Marker} from 'react-native-maps';
 import SearchableDropdown from 'react-native-searchable-dropdown'; // Import the library component
 import {listaDePrecios} from '../../constants/Precios';
+import axios from 'axios';
 
 const styles = StyleSheet.create({
   container: {
@@ -84,7 +85,7 @@ const ProductList = ({products, addToCart}) => {
       <View style={styles.productContainer}>
         <SearchableDropdown
           onItemSelect={item => addToCart(item.id)}
-          //onTextChange={text => console.log(text)} // You can implement your own text change logic here
+          onTextChange={text => console.log(text)} // You can implement your own text change logic here
           containerStyle={{padding: 5}}
           textInputStyle={{
             fontSize: 16,
@@ -192,6 +193,83 @@ const CotizadorScreen = () => {
     setSelectedProduct('');
   };
 
+  const [conversionRate, setConversionRate] = useState(0);
+  useEffect(() => {
+    const response2 = fetch(
+      'https://www.ficohsa.com/hn/honduras/tipo-cambio/',
+      {
+        headers: {
+          accept:
+            'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+          'accept-language': 'en-US,en;q=0.9',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua':
+            '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'sec-fetch-dest': 'document',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-site': 'cross-site',
+          'sec-fetch-user': '?1',
+          'upgrade-insecure-requests': '1',
+        },
+        referrer: 'https://www.google.com/',
+        referrerPolicy: 'origin',
+        body: null,
+        method: 'GET',
+        mode: 'cors',
+        credentials: 'include',
+      },
+    );
+    console.log(response2);
+    console.log(response2.body);
+    console.log(response2.data);
+
+    /////////////////////////////////////////////////////////
+    const url = 'https://datosmacro.expansion.com/currConv.php';
+    const headers = {
+      accept: '*/*',
+      'accept-language': 'en-US,en;q=0.9',
+      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      'sec-ch-ua':
+        '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Windows"',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'same-origin',
+      'x-requested-with': 'XMLHttpRequest',
+      cookie: '... (your cookie values here)',
+      Referer: 'https://datosmacro.expansion.com/divisas/honduras',
+      'Referrer-Policy': 'strict-origin-when-cross-origin',
+    };
+
+    const data = 'isusd=1&amountValue=&srcCurr=USD&destCurr=HNL';
+    axios
+      .post(url, data, {headers})
+      .then(response => {
+        const responseText = response.data;
+        const conversionRateRegex = /(\d+\.\d+)\s+USD\s+=\s+(\d+\,\d+)\s+HNL/;
+        const match = responseText.match(conversionRateRegex);
+
+        if (match) {
+          // Extract the conversion rate values
+          const usdValue = match[1];
+          const hnlValue = match[2];
+
+          // Remove the comma and convert to a JavaScript number
+          const conversionRate = parseFloat(hnlValue.replace(',', '.'));
+          setConversionRate(conversionRate);
+          // Now, you can use the 'conversionRate' variable as needed
+        } else {
+          console.error('Conversion rate not found in the response');
+        }
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }, []);
+
   const removeFromCart = itemId => {
     const updatedCart = cartItems.filter(item => item.id !== itemId);
     setCartItems(updatedCart);
@@ -216,9 +294,7 @@ const CotizadorScreen = () => {
     Linking.openURL(url);
   };
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
-      style={{flex: 1, justifyContent: 'space-between'}}>
+    <View style={{flex: 1, justifyContent: 'space-between'}}>
       <SafeAreaView
         style={{
           alignItems: 'center',
@@ -253,8 +329,9 @@ const CotizadorScreen = () => {
             title="Enviar Cotización"
           />
         </View>
+        <Text>Tipo de cambio: {conversionRate.toFixed(2)} HNL por 1 USD</Text>
       </SafeAreaView>
-    </ImageBackground>
+    </View>
   );
 };
 

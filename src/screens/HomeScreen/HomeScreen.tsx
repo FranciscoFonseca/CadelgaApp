@@ -22,8 +22,8 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
   //#0068b3 blue
 
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'space-between'}}>
       <SafeAreaView
         style={{
@@ -200,7 +200,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
           </View>
         </View>
       </SafeAreaView>
-    </ImageBackground>
+    </View>
   );
 };
 

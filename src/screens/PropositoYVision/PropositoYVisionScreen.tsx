@@ -3,8 +3,8 @@ import {sharedStyles} from '../../style';
 
 const PropositoYVisionScreen = () => {
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={sharedStyles.container}>
         <View style={{marginBottom: 20, width: '80%'}}>
@@ -43,7 +43,7 @@ const PropositoYVisionScreen = () => {
           </Text>
         </View>
       </View>
-    </ImageBackground>
+    </View>
   );
 };
 

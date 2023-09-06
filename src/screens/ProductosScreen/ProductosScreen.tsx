@@ -59,8 +59,8 @@ const ProductosScreen = (): JSX.Element => {
   );
 
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={{width: '100%', height: '100%'}}>
         {}
@@ -81,7 +81,7 @@ const ProductosScreen = (): JSX.Element => {
           renderSectionHeader={renderSectionHeader}
         />
       </View>
-    </ImageBackground>
+    </View>
   );
 };
 

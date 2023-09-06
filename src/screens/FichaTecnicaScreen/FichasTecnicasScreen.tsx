@@ -48,8 +48,8 @@ const FichasTecnicasScreen = ({navigation}: any) => {
   );
 
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={{width: '100%', margin: 10, padding: 20}}>
         <FlatList
@@ -88,7 +88,7 @@ const FichasTecnicasScreen = ({navigation}: any) => {
           )}
         />
       </View>
-    </ImageBackground>
+    </View>
   );
 };
 
