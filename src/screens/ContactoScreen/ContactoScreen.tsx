@@ -195,9 +195,11 @@ const ContactoScreen = () => {
                                 borderColor: '#009643',
                                 borderRadius: 5,
                               }}
-                              onPress={() =>
-                                Linking.openURL(`tel:${vendedor.celular}`)
-                              }>
+                              onPress={() => {
+                                Linking.openURL(
+                                  'https://wa.me/50494752003?text=Hola%20me%20gustaría%20saber%20más%20sobre%20los%20productos',
+                                );
+                              }}>
                               <MaIcon
                                 name="whatsapp"
                                 size={30}
@@ -251,8 +253,8 @@ const ContactoScreen = () => {
     );
   };
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{width: '100%', height: '100%'}}>
       <View style={{}}>
         <ScrollView
@@ -271,7 +273,7 @@ const ContactoScreen = () => {
           {/* {LineItem()} */}
         </ScrollView>
       </View>
-    </ImageBackground>
+    </View>
   );
 };
 

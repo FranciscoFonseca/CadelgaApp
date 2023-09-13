@@ -1,4 +1,4 @@
-import {ImageBackground, ScrollView} from 'react-native';
+import {ImageBackground, ScrollView, View} from 'react-native';
 import {fitoSanitario} from '../../constants/programaFitosanitario';
 import RenderData from '../FichaTecnicaScreen/RenderData';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -13,8 +13,8 @@ const CultivosScreen = () => {
         <RenderData data={fitoSanitario[0].fichaTecnica as any} />
       </ScrollView> */}
 
-      <ImageBackground
-        source={require('../../../assets/background.png')}
+      <View
+        // source={require('../../../assets/background.png')}
         style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <SafeAreaView>
           <SquareImageButton
@@ -23,7 +23,7 @@ const CultivosScreen = () => {
             image={require('../../../assets/cafe.jpg')}
           />
         </SafeAreaView>
-      </ImageBackground>
+      </View>
     </>
   );
 };

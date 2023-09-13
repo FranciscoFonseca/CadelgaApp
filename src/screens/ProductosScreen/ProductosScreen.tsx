@@ -32,21 +32,37 @@ const ProductosScreen = (): JSX.Element => {
     }
     return result;
   }, []);
+  // Sort the groupedData alphabetically by category title
+
+  groupedData.forEach(item => {
+    item.data.sort((a, b) => {
+      if (a.nombreProducto < b.nombreProducto) {
+        return -1;
+      }
+      if (a.nombreProducto > b.nombreProducto) {
+        return 1;
+      }
+      return 0;
+    });
+  });
 
   const renderSectionHeader = ({section}: {section: {title: string}}) => (
     <View
       style={{
         paddingVertical: 8,
         paddingHorizontal: 15,
+        alignItems: 'flex-end',
       }}>
-      <Text style={{color: '#000'}}>{section.title}</Text>
+      <Text style={{color: '#000', fontSize: 18, fontWeight: 'bold'}}>
+        {section.title}
+      </Text>
     </View>
   );
 
   const renderItem = ({item}: {item: any}) => (
     <>
       <ArrowButton
-        style={{marginBottom: 10}}
+        style={{marginBottom: 10, height: 30}}
         key={item.nombreProducto}
         title={item.nombreProducto || ''}
         onPress={() =>
@@ -59,8 +75,8 @@ const ProductosScreen = (): JSX.Element => {
   );
 
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={{width: '100%', height: '100%'}}>
         {}
@@ -81,7 +97,7 @@ const ProductosScreen = (): JSX.Element => {
           renderSectionHeader={renderSectionHeader}
         />
       </View>
-    </ImageBackground>
+    </View>
   );
 };
 

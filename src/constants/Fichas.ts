@@ -8,7 +8,7 @@ export const Fichas = [
         {'Nombre Comercial': 'RENO 35 FS'},
         {
           'Formulación y Concentración':
-            'Suspención concentrada. Contiene 350 gramos de ingrediente activo por litro de producto comercial',
+            'Suspensión concentrada. Contiene 350 gramos de ingrediente activo por litro de producto comercial',
         },
         {'Ingrediente Activo': 'Thiarnethoxam'},
         {Categoría: 'Insecticida'},
@@ -29,7 +29,7 @@ export const Fichas = [
         {Dosis: '15 - 900 ml/Kg de semilla'},
         {
           Compatibilidad:
-            'Compatible con productos fitosanitarios de reacción neutra comunmente utilizados en la desinfección de semillas. No es compatible con formulaciones basadas en disolventes orgánicos',
+            'Compatible con productos fitosanitarios de reacción neutra comúnmente utilizados en la desinfección de semillas. No es compatible con formulaciones basadas en disolventes orgánicos',
         },
         {Presentación: '0.5, 0.9, 1, 3.5, 3.785, 20 y 200 litros'},
         {'Clasificación Toxicológica': 'IV. Franja verde'},

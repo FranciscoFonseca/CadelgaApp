@@ -22,8 +22,8 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
   //#0068b3 blue
 
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'space-between'}}>
       <SafeAreaView
         style={{
@@ -85,13 +85,6 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
               style={{width: '45%'}}
               image={require('../../../assets/cotizador.jpg')}
             />
-            {/* <View style={{width: 5}} />
-            <SquareImageButton
-              title="Legado2"
-              style={{width: '45%'}}
-              onPress={() => navigation.navigate('ProductoFichaTecnica')}
-              image={require('../../../assets/legadomenu.jpg')}
-            /> */}
           </View>
           <View style={{display: 'flex', flexDirection: 'row'}}>
             <SquareImageButton
@@ -99,6 +92,13 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
               onPress={() => navigation.navigate('ClimaMapScreen')}
               style={{width: '45%'}}
               image={require('../../../assets/fichas.png')}
+            />
+            <View style={{width: 5}} />
+            <SquareImageButton
+              title="Blog"
+              style={{width: '45%'}}
+              onPress={() => navigation.navigate('BlogScreen')}
+              image={require('../../../assets/legadomenu.jpg')}
             />
           </View>
         </ScrollView>
@@ -200,7 +200,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
           </View>
         </View>
       </SafeAreaView>
-    </ImageBackground>
+    </View>
   );
 };
 

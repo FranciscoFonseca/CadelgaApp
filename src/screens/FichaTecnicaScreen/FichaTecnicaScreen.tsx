@@ -8,8 +8,8 @@ const FichaTecnicaScreen = ({route, navigation}: any) => {
   }, [route.params.productName]);
 
   return (
-    <ImageBackground
-      source={require('../../../assets/background.png')}
+    <View
+      // source={require('../../../assets/background.png')}
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <ScrollView>
         <View
@@ -22,7 +22,7 @@ const FichaTecnicaScreen = ({route, navigation}: any) => {
           <RenderData data={route.params.productData[0]} />
         </View>
       </ScrollView>
-    </ImageBackground>
+    </View>
   );
 };
 

@@ -22,6 +22,10 @@ export interface Contacto {
   venderores?: Vendedor[];
   mapa: any;
   location: any;
+  coordinates: {
+    latitude: number;
+    longitude: number;
+  };
 }
 export const Contactos: Contacto[] = [
   {
@@ -29,9 +33,18 @@ export const Contactos: Contacto[] = [
     email: 'amejia@cadelga.hn',
     telefono: '+504 2550-3901',
     mapa: require('../../assets/mapas/CasaMatriz.png'),
+
     location: Platform.select({
-      ios: generateLocation(15.492448685639, -88.026122152805, 'CADELGA Casa Matríz'),
-      android: generateLocation(15.492448685639, -88.026122152805, 'CADELGA Casa Matríz'),
+      ios: generateLocation(
+        15.492448685639,
+        -88.026122152805,
+        'CADELGA Casa Matríz',
+      ),
+      android: generateLocation(
+        15.492448685639,
+        -88.026122152805,
+        'CADELGA Casa Matríz',
+      ),
     }),
     venderores: [
       {
@@ -45,6 +58,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 15.492448685639,
+      longitude: -88.026122152805,
+    },
   },
   {
     nombre: 'Tegucigalpa',
@@ -61,17 +78,17 @@ export const Contactos: Contacto[] = [
         celular: '+504 9979-8120',
         puesto: 'Vendedor',
       },
-      {
-        nombre: 'Heber Andino',
-        celular: '+504 9445-2833',
-        puesto: 'Promotor',
-      },
+
       {
         nombre: 'Luis Pavon',
         celular: '+504 9452-4230',
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 14.103247,
+      longitude: -87.178085,
+    },
   },
   {
     nombre: 'San Pedro Sula Bo. Lempira',
@@ -82,6 +99,10 @@ export const Contactos: Contacto[] = [
       ios: generateLocation(15.498917, -88.026361, 'CADELGA SPS'),
       android: generateLocation(15.498917, -88.026361, 'CADELGA SPS'),
     }),
+    coordinates: {
+      latitude: 15.498917,
+      longitude: -88.026361,
+    },
   },
   {
     nombre: 'Comayagua',
@@ -99,26 +120,15 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor',
       },
       {
-        nombre: 'Jose Sevilla',
-        celular: '+504 9452-3257',
-        puesto: 'Vendedor Campo',
-      },
-      {
-        nombre: 'Manuel Inestroza',
-        celular: '+504 9436-2599',
-        puesto: 'Vendedor Campo',
-      },
-      {
-        nombre: 'Tony Arevalo',
-        celular: '+504 9578-0392',
-        puesto: 'Promotor',
-      },
-      {
         nombre: 'Walter Guillen',
         celular: '+504 9895-4172',
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 14.46562,
+      longitude: -87.646164,
+    },
   },
   {
     nombre: 'Choluteca',
@@ -126,8 +136,16 @@ export const Contactos: Contacto[] = [
     telefono: '+504 2782-0715',
     mapa: require('../../assets/mapas/Choluteca.png'),
     location: Platform.select({
-      ios: generateLocation(13.301846832112, -87.193892802238, 'CADELGA Choluteca'),
-      android: generateLocation(13.301846832112, -87.193892802238, 'CADELGA Choluteca'),
+      ios: generateLocation(
+        13.301846832112,
+        -87.193892802238,
+        'CADELGA Choluteca',
+      ),
+      android: generateLocation(
+        13.301846832112,
+        -87.193892802238,
+        'CADELGA Choluteca',
+      ),
     }),
     venderores: [
       {
@@ -136,21 +154,15 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor',
       },
       {
-        nombre: 'Ismael Banegas',
-        celular: '+504 9483-1836',
-        puesto: 'Promotor',
-      },
-      {
-        nombre: 'Oscar Jimenez',
-        celular: '+504 9991-0257',
-        puesto: 'Vendedor Campo',
-      },
-      {
         nombre: 'Sayra Ramirez',
         celular: '+504 8848-8607',
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 13.301846832112,
+      longitude: -87.193892802238,
+    },
   },
   {
     nombre: 'Danli',
@@ -163,21 +175,15 @@ export const Contactos: Contacto[] = [
     }),
     venderores: [
       {
-        nombre: 'Fredy Canales',
-        celular: '+504 9580-7403',
-        puesto: 'Vendedor Campo',
-      },
-      {
         nombre: 'Omar Maradiaga',
         celular: '+504 9452-4222',
         puesto: 'Vendedor',
       },
-      {
-        nombre: 'Willy Orellana',
-        celular: '+504 9936-1313',
-        puesto: 'Promotor',
-      },
     ],
+    coordinates: {
+      latitude: 14.031815,
+      longitude: -86.577805,
+    },
   },
   {
     nombre: 'Juticalpa',
@@ -194,17 +200,17 @@ export const Contactos: Contacto[] = [
         celular: 'Sin Celular',
         puesto: 'Promotor',
       },
-      {
-        nombre: 'Luis Maradiaga',
-        celular: '+504 9465-9418',
-        puesto: 'Vendedor Campo',
-      },
+
       {
         nombre: 'Miguel Hernandez',
         celular: '+504 9720-7033',
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 14.657863,
+      longitude: -86.214588,
+    },
   },
   {
     nombre: 'La Ceiba',
@@ -232,6 +238,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor Campo',
       },
     ],
+    coordinates: {
+      latitude: 15.775521,
+      longitude: -86.801598,
+    },
   },
   {
     nombre: 'La Entrada Copan',
@@ -257,6 +267,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 15.065874099731,
+      longitude: -88.747497558594,
+    },
   },
   {
     nombre: 'La Esperanza',
@@ -273,12 +287,11 @@ export const Contactos: Contacto[] = [
         celular: '+504 9778-8831',
         puesto: 'Vendedor',
       },
-      {
-        nombre: 'Santos Manuel Pineda',
-        celular: '+504 9445-2839',
-        puesto: 'Promotor',
-      },
     ],
+    coordinates: {
+      latitude: 14.311944,
+      longitude: -88.176079,
+    },
   },
   {
     nombre: 'Morazan',
@@ -301,6 +314,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Promotor',
       },
     ],
+    coordinates: {
+      latitude: 15.312506,
+      longitude: -87.592567,
+    },
   },
   {
     nombre: 'Ocotepeque',
@@ -323,6 +340,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor Campo',
       },
     ],
+    coordinates: {
+      latitude: 14.434907,
+      longitude: -89.183266,
+    },
   },
   {
     nombre: 'Santa Barbara',
@@ -341,6 +362,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Vendedor',
       },
     ],
+    coordinates: {
+      latitude: 14.923119,
+      longitude: -88.239426,
+    },
   },
   {
     nombre: 'Santa Rosa de Copan',
@@ -368,6 +393,10 @@ export const Contactos: Contacto[] = [
         puesto: 'Promotor',
       },
     ],
+    coordinates: {
+      latitude: 14.797321,
+      longitude: -88.770882,
+    },
   },
   {
     nombre: 'Zacapa',
@@ -378,6 +407,10 @@ export const Contactos: Contacto[] = [
       ios: generateLocation(15.006946, -89.6687893, 'CADELGA Zacapa'),
       android: generateLocation(15.006946, -89.6687893, 'CADELGA Zacapa'),
     }),
+    coordinates: {
+      latitude: 15.006946,
+      longitude: -89.6687893,
+    },
   },
   {
     nombre: 'Ave. Nueva Orleans',
@@ -396,6 +429,10 @@ export const Contactos: Contacto[] = [
         'CADELGA Ave. Nueva Orleans',
       ),
     }),
+    coordinates: {
+      latitude: 15.490022573424,
+      longitude: -88.026089516731,
+    },
   },
   {
     nombre: 'Izabal',
@@ -406,6 +443,10 @@ export const Contactos: Contacto[] = [
       ios: generateLocation(15.234827, -88.751711, 'CADELGA Izabal'),
       android: generateLocation(15.234827, -88.751711, 'CADELGA Izabal'),
     }),
+    coordinates: {
+      latitude: 15.234827,
+      longitude: -88.751711,
+    },
   },
   {
     nombre: 'El Salvador',
@@ -416,5 +457,9 @@ export const Contactos: Contacto[] = [
       ios: generateLocation(13.70996, -89.7286, 'CADELGA El Salvador'),
       android: generateLocation(13.70996, -89.7286, 'CADELGA El Salvador'),
     }),
+    coordinates: {
+      latitude: 13.70996,
+      longitude: -89.7286,
+    },
   },
 ];

@@ -1,6 +1,6 @@
 //Your final app.js with stack navigator and tab navigator
 import * as React from 'react';
-import {Appearance, Button, ImageBackground, Text, View} from 'react-native';
+import {Appearance, Button, Text, View} from 'react-native';
 import {DefaultTheme, NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -18,6 +18,8 @@ import CotizadorScreen from './src/screens/CotizadorScreen/CotizadorScreen';
 import ProductosMenuScreen from './src/screens/ProductosScreen/ProductosMenuScreen';
 import CultivoScreen from './src/screens/ProductosScreen/Tabs/CultivoScreen';
 import ClimaMapScreen from './src/screens/ClimaMapScreen/ClimaMapScreen';
+import BlogEntriesScreen from './src/screens/BlogScreen/BlogEntriesScreen';
+import BlogEntryScreen from './src/screens/BlogScreen/BlogEntryScreen';
 
 Appearance.setColorScheme('light');
 
@@ -31,9 +33,7 @@ function DetailsScreen() {
 
 function SettingsScreen({navigation}: any) {
   return (
-    <ImageBackground
-      source={require('./assets/background.png')}
-      style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <Text>Settings screen</Text>
         <Button
@@ -41,7 +41,7 @@ function SettingsScreen({navigation}: any) {
           onPress={() => navigation.navigate('Details')}
         />
       </View>
-    </ImageBackground>
+    </View>
   );
 }
 const HomeStack = createStackNavigator();
@@ -93,6 +93,20 @@ function HomeStackScreen() {
           title: 'Clima',
         }}
       />
+      <HomeStack.Screen
+        name="BlogScreen"
+        component={BlogEntriesScreen}
+        options={{
+          title: 'Blog',
+        }}
+      />
+      <HomeStack.Screen
+        name="BlogEntriesScreen"
+        component={BlogEntryScreen}
+        options={{
+          title: 'Blog',
+        }}
+      />
     </HomeStack.Navigator>
   );
 }
@@ -128,7 +142,6 @@ function ProductosStackScreen() {
     </SettingsStack.Navigator>
   );
 }
-
 const navTheme = {
   ...DefaultTheme,
   colors: {
