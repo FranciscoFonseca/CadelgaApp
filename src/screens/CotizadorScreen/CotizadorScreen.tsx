@@ -6,15 +6,14 @@ import {
   StyleSheet,
   ScrollView,
   TextInput,
-  Image,
-  ImageBackground,
   SafeAreaView,
   Linking,
 } from 'react-native';
-import MapView, {Marker} from 'react-native-maps';
 import SearchableDropdown from 'react-native-searchable-dropdown'; // Import the library component
 import {listaDePrecios} from '../../constants/Precios';
-import axios from 'axios';
+import RNFetchBlob from 'rn-fetch-blob';
+import MaIcon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {TouchableOpacity} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -54,7 +53,7 @@ const styles = StyleSheet.create({
   },
   cartItemPrice: {
     fontSize: 14,
-    color: '#888',
+    //color: '#888',
   },
   quantityInput: {
     width: 50,
@@ -70,8 +69,12 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 });
-const calculateTotal = items => {
-  return items.reduce((total, item) => total + item.product.price, 0);
+const calculateTotal = (items, d_venta) => {
+  return items.reduce(
+    (total, item) =>
+      total + parseFloat(item.product.price) * item.quantity * d_venta,
+    0,
+  );
 };
 const ProductList = ({products, addToCart}) => {
   const productData = products.map(product => ({
@@ -109,39 +112,69 @@ const ProductList = ({products, addToCart}) => {
   );
 };
 
-const ShoppingCart = ({cartItems, removeFromCart, updateQuantity}) => (
+const ShoppingCart = ({cartItems, removeFromCart, updateQuantity, d_venta}) => (
   <View
     style={{
       flex: 1,
       justifyContent: 'flex-end',
       alignContent: 'flex-end',
       alignItems: 'flex-end',
+      width: '100%',
     }}>
     <ScrollView
       contentContainerStyle={[
         styles.cartContainer,
         {
           justifyContent: 'flex-end',
+          width: '100%',
         },
       ]}>
+      <View
+        style={[
+          styles.cartItem,
+          {
+            width: '95%',
+            gap: 10,
+          },
+        ]}>
+        <View style={[styles.cartItemDetails, {width: '60%'}]}>
+          <Text style={styles.cartItemName}>Producto</Text>
+        </View>
+        <View style={{}}>
+          <Text style={styles.cartItemName}>Cantidad</Text>
+        </View>
+        <View style={{width: '15%'}}></View>
+      </View>
       {cartItems.map(item => (
         <View
           key={item.id}
           style={[
             styles.cartItem,
             {
-              width: '95%',
               gap: 10,
             },
           ]}>
-          <View style={[styles.cartItemDetails, {width: '60%'}]}>
-            <Text style={styles.cartItemName}>{item.product.name}</Text>
-            <Text style={styles.cartItemPrice}>${item.product.price}</Text>
-          </View>
           <View
-            style={{
-              width: '15%',
-            }}>
+            style={[
+              styles.cartItemDetails,
+              {
+                width: '60%',
+              },
+            ]}>
+            <Text
+              style={[
+                styles.cartItemName,
+                {
+                  flexWrap: 'wrap',
+                },
+              ]}>
+              {item.product.name}
+            </Text>
+            <Text style={styles.cartItemPrice}>
+              L. {(item.product.price * d_venta).toFixed(2)}
+            </Text>
+          </View>
+          <View style={{}}>
             <TextInput
               style={[styles.quantityInput]}
               keyboardType="numeric"
@@ -152,20 +185,45 @@ const ShoppingCart = ({cartItems, removeFromCart, updateQuantity}) => (
               }}
             />
           </View>
-          <View style={{width: '25%'}}>
-            <Button title="Remover" onPress={() => removeFromCart(item.id)} />
-          </View>
+          <TouchableOpacity
+            style={{
+              width: '15%',
+              backgroundColor: '#1e90ff',
+              padding: 12,
+              marginRight: 10,
+              alignContent: 'center',
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: 5,
+              shadowColor: '#000',
+              shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+            }}
+            onPress={() => removeFromCart(item.id)}>
+            {/* <Button title="Remover" onPress={() => removeFromCart(item.id)} > */}
+            <MaIcon name="trash-can" size={18} color={'white'} />
+            {/* </Button> */}
+          </TouchableOpacity>
         </View>
       ))}
     </ScrollView>
     <Text style={styles.totalPrice}>
-      Total: ${calculateTotal(cartItems).toFixed(2)}
+      Total: L. {calculateTotal(cartItems, d_venta).toFixed(2)}
     </Text>
   </View>
 );
 
 // CotizadorScreen component
 const CotizadorScreen = () => {
+  const [e_compra, setE_compra] = useState(0);
+  const [e_venta, setE_venta] = useState(0);
+  const [d_compra, setD_compra] = useState(0);
+  const [d_venta, setD_venta] = useState(0);
+
   const [selectedProduct, setSelectedProduct] = useState('');
   const [cartItems, setCartItems] = useState([]);
 
@@ -193,80 +251,59 @@ const CotizadorScreen = () => {
     setSelectedProduct('');
   };
 
-  const [conversionRate, setConversionRate] = useState(0);
   useEffect(() => {
-    const response2 = fetch(
-      'https://www.ficohsa.com/hn/honduras/tipo-cambio/',
-      {
-        headers: {
-          accept:
-            'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-          'accept-language': 'en-US,en;q=0.9',
-          'cache-control': 'max-age=0',
-          'sec-ch-ua':
-            '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
-          'sec-ch-ua-mobile': '?0',
-          'sec-ch-ua-platform': '"Windows"',
-          'sec-fetch-dest': 'document',
-          'sec-fetch-mode': 'navigate',
-          'sec-fetch-site': 'cross-site',
-          'sec-fetch-user': '?1',
-          'upgrade-insecure-requests': '1',
-        },
-        referrer: 'https://www.google.com/',
-        referrerPolicy: 'origin',
-        body: null,
-        method: 'GET',
-        mode: 'cors',
-        credentials: 'include',
-      },
-    );
-    console.log(response2);
-    console.log(response2.body);
-    console.log(response2.data);
+    const url = 'https://www.banpais.hn/divisas/barradolar.php';
 
-    /////////////////////////////////////////////////////////
-    const url = 'https://datosmacro.expansion.com/currConv.php';
-    const headers = {
-      accept: '*/*',
-      'accept-language': 'en-US,en;q=0.9',
-      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'sec-ch-ua':
+    // Make an HTTP GET request to the URL
+    RNFetchBlob.fetch('GET', url, {
+      // Request headers
+      Accept:
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Cache-Control': 'max-age=0',
+      'Sec-Ch-Ua':
         '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
-      'sec-ch-ua-mobile': '?0',
-      'sec-ch-ua-platform': '"Windows"',
-      'sec-fetch-dest': 'empty',
-      'sec-fetch-mode': 'cors',
-      'sec-fetch-site': 'same-origin',
-      'x-requested-with': 'XMLHttpRequest',
-      cookie: '... (your cookie values here)',
-      Referer: 'https://datosmacro.expansion.com/divisas/honduras',
-      'Referrer-Policy': 'strict-origin-when-cross-origin',
-    };
-
-    const data = 'isusd=1&amountValue=&srcCurr=USD&destCurr=HNL';
-    axios
-      .post(url, data, {headers})
+      'Sec-Ch-Ua-Mobile': '?0',
+      'Sec-Ch-Ua-Platform': '"Windows"',
+      'Sec-Fetch-Dest': 'document',
+      'Sec-Fetch-Mode': 'navigate',
+      'Sec-Fetch-Site': 'cross-site',
+      'Sec-Fetch-User': '?1',
+      'Upgrade-Insecure-Requests': '1',
+      Referer: 'https://www.google.com/',
+      'Referrer-Policy': 'origin',
+    })
       .then(response => {
-        const responseText = response.data;
-        const conversionRateRegex = /(\d+\.\d+)\s+USD\s+=\s+(\d+\,\d+)\s+HNL/;
-        const match = responseText.match(conversionRateRegex);
+        // Check the response status
+        if (response.respInfo.status === 200) {
+          // Parse the HTML content
+          const htmlContent = response.data;
 
-        if (match) {
-          // Extract the conversion rate values
-          const usdValue = match[1];
-          const hnlValue = match[2];
+          // Use regular expressions to extract the values of e_compra, e_venta, d_compra, and d_venta
+          const regexECompra = /var e_compra = (\d+\.\d+);/;
+          const regexEVenta = /var e_venta = (\d+\.\d+);/;
+          const regexDCompra = /var d_compra = (\d+\.\d+);/;
+          const regexDVenta = /var d_venta = (\d+\.\d+);/;
 
-          // Remove the comma and convert to a JavaScript number
-          const conversionRate = parseFloat(hnlValue.replace(',', '.'));
-          setConversionRate(conversionRate);
-          // Now, you can use the 'conversionRate' variable as needed
+          const e_compraMatch = regexECompra.exec(htmlContent);
+          const e_ventaMatch = regexEVenta.exec(htmlContent);
+          const d_compraMatch = regexDCompra.exec(htmlContent);
+          const d_ventaMatch = regexDVenta.exec(htmlContent);
+
+          if (e_compraMatch && e_ventaMatch && d_compraMatch && d_ventaMatch) {
+            setE_compra(parseFloat(e_compraMatch[1]));
+            setE_venta(parseFloat(e_ventaMatch[1]));
+            setD_compra(parseFloat(d_compraMatch[1]));
+            setD_venta(parseFloat(d_ventaMatch[1]));
+          } else {
+            console.error('No matches found');
+          }
         } else {
-          console.error('Conversion rate not found in the response');
+          console.error(`HTTP error! Status: ${response.respInfo.status}`);
         }
       })
       .catch(error => {
-        console.error(error);
+        console.error('Fetch error:', error);
       });
   }, []);
 
@@ -274,7 +311,6 @@ const CotizadorScreen = () => {
     const updatedCart = cartItems.filter(item => item.id !== itemId);
     setCartItems(updatedCart);
   };
-
   const updateQuantity = (itemId, newQuantity) => {
     const updatedCartItems = cartItems.map(item => {
       if (item.id === itemId) {
@@ -284,23 +320,21 @@ const CotizadorScreen = () => {
     });
     setCartItems(updatedCartItems);
   };
-
   const handleEmailPress = () => {
     let url =
-      'mailto:support@example.com?subject=Cotización&body=Buenas tardes, me gustaría cotizar los siguientes productos:\n\n';
+      'mailto:sac@grupocadelga.com?subject=Cotización&body=Buenas tardes, me gustaría cotizar los siguientes productos:\n\n';
     cartItems.forEach(item => {
       url += `${item.quantity} ${item.product.name} $${item.product.price}\n`;
     });
     Linking.openURL(url);
   };
   return (
-    <View style={{flex: 1, justifyContent: 'space-between'}}>
+    <View style={{flex: 1, justifyContent: 'space-between', width: '100%'}}>
       <SafeAreaView
         style={{
           alignItems: 'center',
           justifyContent: 'space-between',
           height: '100%',
-          rowGap: 10,
           backgroundColor: 'rgba(255,255,255,0.8)',
         }}>
         <View style={[styles.container, {justifyContent: 'space-between'}]}>
@@ -317,19 +351,30 @@ const CotizadorScreen = () => {
               flex: 1, // Take up all available space
               justifyContent: 'flex-end', // Align items to the bottom
               alignContent: 'flex-end', // Align items to the bottom
+              width: '100%',
             }}>
             <ShoppingCart
               cartItems={cartItems}
               removeFromCart={removeFromCart}
               updateQuantity={updateQuantity}
+              d_venta={d_venta}
             />
           </View>
           <Button
             onPress={() => handleEmailPress()}
             title="Enviar Cotización"
           />
+          <View
+            style={{
+              justifyContent: 'center',
+              alignContent: 'center',
+              alignItems: 'center',
+              width: '100%',
+              marginTop: 10,
+            }}>
+            <Text>Tipo de cambio: {e_venta.toFixed(4)} HNL por 1 USD</Text>
+          </View>
         </View>
-        <Text>Tipo de cambio: {conversionRate.toFixed(2)} HNL por 1 USD</Text>
       </SafeAreaView>
     </View>
   );

@@ -195,9 +195,11 @@ const ContactoScreen = () => {
                                 borderColor: '#009643',
                                 borderRadius: 5,
                               }}
-                              onPress={() =>
-                                Linking.openURL(`tel:${vendedor.celular}`)
-                              }>
+                              onPress={() => {
+                                Linking.openURL(
+                                  'https://wa.me/50494752003?text=Hola%20me%20gustaría%20saber%20más%20sobre%20los%20productos',
+                                );
+                              }}>
                               <MaIcon
                                 name="whatsapp"
                                 size={30}

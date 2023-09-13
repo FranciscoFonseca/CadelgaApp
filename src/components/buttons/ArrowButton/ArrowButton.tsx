@@ -70,6 +70,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
     paddingRight: 15,
+    borderWidth: 1,
+    borderColor: '#ccc',
   },
   leftSide: {
     width: 10,

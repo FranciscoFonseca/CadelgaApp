@@ -18,6 +18,8 @@ import CotizadorScreen from './src/screens/CotizadorScreen/CotizadorScreen';
 import ProductosMenuScreen from './src/screens/ProductosScreen/ProductosMenuScreen';
 import CultivoScreen from './src/screens/ProductosScreen/Tabs/CultivoScreen';
 import ClimaMapScreen from './src/screens/ClimaMapScreen/ClimaMapScreen';
+import BlogEntriesScreen from './src/screens/BlogScreen/BlogEntriesScreen';
+import BlogEntryScreen from './src/screens/BlogScreen/BlogEntryScreen';
 
 Appearance.setColorScheme('light');
 
@@ -91,6 +93,20 @@ function HomeStackScreen() {
           title: 'Clima',
         }}
       />
+      <HomeStack.Screen
+        name="BlogScreen"
+        component={BlogEntriesScreen}
+        options={{
+          title: 'Blog',
+        }}
+      />
+      <HomeStack.Screen
+        name="BlogEntriesScreen"
+        component={BlogEntryScreen}
+        options={{
+          title: 'Blog',
+        }}
+      />
     </HomeStack.Navigator>
   );
 }
@@ -126,7 +142,6 @@ function ProductosStackScreen() {
     </SettingsStack.Navigator>
   );
 }
-
 const navTheme = {
   ...DefaultTheme,
   colors: {
