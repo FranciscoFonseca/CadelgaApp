@@ -14,7 +14,9 @@ import {listaDePrecios} from '../../constants/Precios';
 import RNFetchBlob from 'rn-fetch-blob';
 import MaIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {TouchableOpacity} from 'react-native';
-
+import CotizadorUtil from './CotizadorUtil';
+import RNHTMLtoPDF from 'react-native-html-to-pdf';
+import Mailer from 'react-native-mail';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -290,6 +292,7 @@ const CotizadorScreen = () => {
           const d_compraMatch = regexDCompra.exec(htmlContent);
           const d_ventaMatch = regexDVenta.exec(htmlContent);
 
+          console.log(htmlContent);
           if (e_compraMatch && e_ventaMatch && d_compraMatch && d_ventaMatch) {
             setE_compra(parseFloat(e_compraMatch[1]));
             setE_venta(parseFloat(e_ventaMatch[1]));
@@ -321,12 +324,49 @@ const CotizadorScreen = () => {
     setCartItems(updatedCartItems);
   };
   const handleEmailPress = () => {
-    let url =
-      'mailto:sac@grupocadelga.com?subject=Cotización&body=Buenas tardes, me gustaría cotizar los siguientes productos:\n\n';
+    // let url =
+    //   'mailto:sac@grupocadelga.com?subject=Cotización&body=Buenas tardes, me gustaría cotizar los siguientes productos:\n\n';
+    // cartItems.forEach(item => {
+    //   url += `${item.quantity} ${item.product.name} $${item.product.price}\n`;
+    // });
+    // Linking.openURL(url);
+    createPDF();
+  };
+  const createPDF = async () => {
+    let dataText = '';
     cartItems.forEach(item => {
-      url += `${item.quantity} ${item.product.name} $${item.product.price}\n`;
+      dataText += `<tr><td>${item.product.name}</td> <td>${
+        item.quantity
+      }</td> <td>L${item.product.price}</td><td>L${
+        item.quantity * item.product.price
+      }</td>`;
     });
-    Linking.openURL(url);
+    let total = calculateTotal(cartItems, d_venta).toFixed(2);
+    let options = {
+      html: CotizadorUtil(dataText, total),
+      fileName: 'test',
+      directory: 'Documents',
+    };
+
+    let file = await RNHTMLtoPDF.convert(options);
+    Mailer.mail(
+      {
+        subject: 'need help',
+        recipients: ['kikirey097@gmail.com'],
+        body: '<b>A Bold Body</b>',
+        isHTML: true,
+        attachments: [
+          {
+            path: file.filePath, // The absolute path of the file from which to read data.
+            type: 'pdf', // Mime Type: jpg, png, doc, ppt, html, pdf, csv
+            name: 'test', // Optional: Custom filename for attachment
+          },
+        ],
+      },
+      (error, event) => {
+        console.log(error);
+      },
+    );
   };
   return (
     <View style={{flex: 1, justifyContent: 'space-between', width: '100%'}}>
@@ -372,10 +412,10 @@ const CotizadorScreen = () => {
               width: '100%',
               marginTop: 10,
             }}>
-            <Text>Tipo de cambio: {e_venta.toFixed(4)} HNL por 1 USD</Text>
+            <Text>Tipo de cambio: {d_venta.toFixed(4)} HNL por 1 USD</Text>
           </View>
         </View>
-      </SafeAreaView>
+      </SafeAreaView> 
     </View>
   );
 };

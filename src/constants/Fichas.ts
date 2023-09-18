@@ -807,9 +807,8 @@ export const Fichas = [
           ['Potasio (K2O)', '0%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular, mezcla fisica de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno y Fósforo, que en su formulación no requiera concentración de portasio.',
-      ],
     },
   },
 
@@ -838,9 +837,8 @@ export const Fichas = [
           ['Potasio (K2O)', '12%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante de propósito general recomendado para una amplia gama de cultivos especialmente frutales, hortalizas y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses.',
-      ],
     },
   },
 
@@ -869,9 +867,8 @@ export const Fichas = [
           ['Azufre (S)', '6%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado especialmente para hacer mezclas físicas o para recuperación de pastizales dañados por pastoreo, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses.',
-      ],
       Presentaciones: ['43 Kg', '45.36 Kg'],
     },
   },
@@ -937,9 +934,8 @@ export const Fichas = [
           ['Magnesio (Mg)', '4.62%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula cafetalera NPK FERTIL 17-3-17 es una propuesta comercial, dado a la relación 1:1 Entre Nitrógeno (N)/ Potasio (K) con un contenido del 17%, con un nivel de 3% de fósforo. Con aporte enriquecedor de 7.7% de calcio y un 4.62% de Magnesio. Esta formulación está orientada a satisfacer el requerimiento de nutrientes en una plantación de café en las etapas de: inicio, crecimiento y desarrollo del grano de forma general. Basado en la relación de extracción de nutrientes para una plantación en producción promedio de café en nuestro país o región norte de C.A.',
-      ],
     },
   },
   {
@@ -969,9 +965,8 @@ export const Fichas = [
           ['Azufre (S)', '8.9%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Combinación de Fuentes de nitrógeno: Urea + Sulfato de amonio, la cual suple el aporte de nitrógeno y azufre. Especial en suelos con alto contenido de carbonatos de calcio y suelos de texturas arenosas y bajo contenido de materia orgánica, donde es deficitario el contenido del nutriente Azufre, también el aporte del nitrógeno en forma amoniacal, el cual tiene un fuerte impacto en el pH de la solución del suelo en el área aplicada lo que ayuda a equilibrar la fase de asimilación de otros elementos especialmente Fierro, Manganeso y Cobre.',
-      ],
     },
   },
   {
@@ -1006,9 +1001,8 @@ export const Fichas = [
           ['Silicio (Si)', '1.8%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción. También para los cultivos demandantes de potasio en sus últimos días de llenado, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1037,9 +1031,8 @@ export const Fichas = [
           ['Potasio (K2O)', '18%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Formula covencional para el cultivo de café en producción para la etapa de inicio (fertilización mayo), esta fórmula es una propuesta comercial, dado a la relación N/K 1/1, es de mantenimiento y con un nivel mínimo de fósforo',
-      ],
     },
   },
   {
@@ -1096,9 +1089,8 @@ export const Fichas = [
           ['Potasio (K2O)', '21%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula cafetalera de llenado, alta en Potasio y considerablemente alta en Nitrógeno, es una fórmula balanceada, con las materias primas mas comunes, el cual la hace ser más económica y por lo tanto mas accesible para los productores poco innovadores',
-      ],
     },
   },
   {
@@ -1133,9 +1125,8 @@ export const Fichas = [
           ['Silicio (Si)', '1%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para el cultivo de papa en su primera etapa de crecimiento, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por 3 meses',
-      ],
     },
   },
   {
@@ -1170,9 +1161,8 @@ export const Fichas = [
           ['Silicio (Si)', '0.6%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado especialmente para café en su última etapa de llenado de grano para obtener maduraciones uniformes, buen tamaño de grano y buen peso, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por tres meses',
-      ],
     },
   },
   {
@@ -1249,9 +1239,8 @@ export const Fichas = [
           ['Silicio (Si)', '1%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado especialmente para plantaciones adultas, así como también para el cultivo del plátano, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1284,9 +1273,8 @@ export const Fichas = [
           ['Zinc (Zn)', '7%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula cafetalera de etapa de crecimiento dado a la condición del balance de su contenido de nutrientes y su relación con Nitrógeno protegido con tecnología agrocote versus potasio 1/1, con una concentración de Fósforo que apoya dicha fase vegetativa. Tamnbién aporta elementos secundarios como ser: calcio magnesio y azufre. Contiene microelementos como Zinc.',
-      ],
     },
   },
   {
@@ -1315,9 +1303,8 @@ export const Fichas = [
           ['Potasio K2O', '17%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula convencional (mezcla física) balanceada para el cultivo de café en producción, actualmente es la más utilizada en el rubro cafetalero por ser la de mas bajo costo. Se le llama convencional porque está compuesta por tres elementos mayores, Nitrógeno, Fósforo, Potasio, Calcio y Magnesio, en su formulación total consta de cinco elementos que dan la nutrición necesaria a la planta de café.',
-      ],
     },
   },
   {
@@ -1346,9 +1333,8 @@ export const Fichas = [
           ['Potasio (K2O)', '15%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula convencional para el cultivo de café en producción para la etapa de inicio (fertilización mayo), esta fórmula es una propuesta comercial, dado a la relación N/K 1/1, es de mantenimiento y con un nivel medio de fósforo y un aporte de elementos secundarios como Magnesio y Calcio.',
-      ],
     },
   },
   {
@@ -1379,9 +1365,8 @@ export const Fichas = [
           ['Zinc (Zn)', '0.5%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula convencional para el cultivo de café en producción para la etapa de inicio (Fertilización Mayo). Esta fórmula es una propuesta comercial, dado a la relación N/K 1/1, es de mantenimiento y con un nivel mínimo de fósforo. Con aporte de Calcio y Zinc.',
-      ],
     },
   },
 
@@ -1413,9 +1398,8 @@ export const Fichas = [
           ['Magnesio (MgO)', '1.4%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular, mezcla física de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno, Fósforo y Potasio.',
-      ],
     },
   },
   {
@@ -1450,9 +1434,8 @@ export const Fichas = [
           ['Silicio (Si)', '2%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para los primeros dos años de establecimiento del cultivo de café o para otros cultivos perennes, potencializado con liberación controlada que permite una mejor eficiencia de Nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1482,9 +1465,8 @@ export const Fichas = [
           ['Magnesio (MgO)', '7.2%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular, mezcla física de N-K-S, en proporciones 1-0-1.1-0.38 MgO, para ser utilizada en aplicaciones en el cultivo de banano y con ello suplir las demandas requeridas de nutrientes según requerimiento de cliente.',
-      ],
     },
   },
   {
@@ -1514,16 +1496,15 @@ export const Fichas = [
           ['Azufre (S)', '0.1%', '=5%'],
           ['Zinc (Zn)', '0.1%', '=5%'],
           ['Boro (B)', '0.1%', '=5%'],
-          Trazas[('Fierro (Fe)', '60')],
+          ['Trazas', 'Fierro (Fe)', '60'],
           ['Molibdeno (Mo)', '100'],
           ['Aminio ácidos (Complejo)', '450'],
           ['Susutancias húmicas (-)', '-'],
           ['Coadyuvantes (-)', '500'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante sólido y soluble recomendado para el uso en el cultivo de banano, piña, hortalizas, cucurbitáceas, altamente productivo. De ser requerido, sus componentes aportaran mayores eficiencias en aprovechamiento de Nitrógeno y Fósforo. Componentes húmicos agregados para mejorar la capacidad de intercambio catiónico entre nutrientes en el suelo y de esta manera recuperar suelos pobres y degradados por la explotación continua.',
-      ],
     },
   },
   {
@@ -1556,9 +1537,8 @@ export const Fichas = [
           ['Boro (B)', '0.3%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción. Así como también para aquellos cultivos demandantes de potasio en sus ultimos dias de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1588,9 +1568,8 @@ export const Fichas = [
           ['Azufre (S)', '3%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular, mezcla fpisica de N-K-S, en proporciones 1-0-1.5-0.15S, para ser utilizada en aplicaciones en el cultivo de banano y con ello suplir demandas requeridas de nutrientes según requerimiento de cliente.',
-      ],
     },
   },
   {
@@ -1622,9 +1601,8 @@ export const Fichas = [
           ['Boro (B)', '0.2%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante sólido y soluble recomendado para el uso en el cultivo de banano, piña, hortalizas, cucurbitáceas, altamente productivo. De ser requerido, sus componentes aportaran mayores eficiencias en aprovechamiento de Nitrógeno y Fósforo. Componentes húmicos agregados para mejorar la capacidad de intercambio catiónico entre nutrientes en el suelo y de esta manera recuperar suelos pobres y degradados por la explotación continua.',
-      ],
     },
   },
   {
@@ -1659,9 +1637,8 @@ export const Fichas = [
           ['Silicio (Si)', '0.2%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para el cultivo de papa en la etapa de aporque, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1689,9 +1666,8 @@ export const Fichas = [
           ['Azufre (S)', '6%', '=15%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado especialmente para hacer mezclas físicas o para recuperación de pastizales dañados por sobre pastoreo, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por 3 meses.',
-      ],
     },
   },
   {
@@ -1723,9 +1699,8 @@ export const Fichas = [
           ['Zinc (Zn)', '0.5%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula convencional y balanceada para el cultuivo de café en etapa de inicio, es económica para el productor ya que solo contiene cinco elementos en su composición: Nitrógeno, Fósforo, Potasio, Calcio y Magnesio, contiene un 5% de fósforo debido a las deficiencias de este momento a nivel de país, por lo tanto, es necesario un balance que pueda aportar lo necesario al cultivo para un buen desarrollo del mismo.',
-      ],
     },
   },
   {
@@ -1760,9 +1735,8 @@ export const Fichas = [
           ['Silicio (Si)', '2%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante de Propósito general recomendado para una amplia gama de cultivos especialmente frutales, hortalizas y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1795,9 +1769,8 @@ export const Fichas = [
           ['Silicio (Si)', '0.7%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fórmula balanceada en porciones equitativas, para la utilización en cultivos con demandas elevadas de contenidos Nitrógeno y Fósforo, orientada para uso en las etapas de crecimiento, desarrollo y mantenimiento sano de un cultivar.',
-      ],
     },
   },
   {
@@ -1826,9 +1799,8 @@ export const Fichas = [
           ['Potasio (K2O)', '15%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granulado diseñado para aplicación a todo tipo de cultivos, frutales, forestales, flores y hortalizas que aporta los macronutrientes más importantes: Nitrógeno, Fósforo y Potasio en la mezcla. Es el fertilizante de la línea que suministra NPK rápidamente disponible por las plantas.',
-      ],
     },
   },
   {
@@ -1863,9 +1835,8 @@ export const Fichas = [
           ['Silicio (Si)', '1%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado especialmente para café en su última etapa de llenado de grano para obtener maduraciones uniformes, buen tamaño de grano y buen peso, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1900,9 +1871,8 @@ export const Fichas = [
           ['Silicio (Si)', '1%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción asi como también para aquellos cultivos demandantes de potasio en sus ultimos dias de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
-      ],
     },
   },
   {
@@ -1937,9 +1907,8 @@ export const Fichas = [
           ['Silicio (Si)', '1%', '=5%'],
         ],
       },
-      'Recomendaciones de Uso': [
+      'Recomendaciones de Uso':
         'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción asi como también para aquellos cultivos de demandantes de potasio en sus últimos dias de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno por tres meses.',
-      ],
     },
   },
   {

@@ -45,7 +45,7 @@ const HomeScreen = ({navigation}: any): JSX.Element => {
               title="Productos"
               onPress={() => navigation.navigate('Productos')}
               style={{width: '45%'}}
-              image={require('../../../assets/fertilizantes1.webp')}
+              image={require('../../../assets/fertilizantes.jpg')}
             />
             <View style={{width: 5}} />
             <SquareImageButton

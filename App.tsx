@@ -20,6 +20,7 @@ import CultivoScreen from './src/screens/ProductosScreen/Tabs/CultivoScreen';
 import ClimaMapScreen from './src/screens/ClimaMapScreen/ClimaMapScreen';
 import BlogEntriesScreen from './src/screens/BlogScreen/BlogEntriesScreen';
 import BlogEntryScreen from './src/screens/BlogScreen/BlogEntryScreen';
+import Example from './src/screens/CotizadorScreen/example';
 
 Appearance.setColorScheme('light');
 
@@ -84,6 +85,13 @@ function HomeStackScreen() {
         component={CotizadorScreen}
         options={{
           title: 'Cotizador',
+        }}
+      />
+      <HomeStack.Screen
+        name="Example"
+        component={Example}
+        options={{
+          title: 'Example',
         }}
       />
       <HomeStack.Screen

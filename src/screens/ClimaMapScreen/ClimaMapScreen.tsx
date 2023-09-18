@@ -1,5 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import {ImageBackground, Text, View, StyleSheet} from 'react-native';
+import {
+  ImageBackground,
+  Text,
+  View,
+  StyleSheet,
+  ActivityIndicator,
+} from 'react-native';
 import LottieView from 'lottie-react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Geolocation from '@react-native-community/geolocation';
@@ -301,12 +307,7 @@ const ClimaMapScreen = ({navigation}) => {
   if (isLoading) {
     return (
       <View style={styles.container}>
-        <Text>blaF</Text>
-        <LottieView
-          source={require('./anim/loader_animation.json')}
-          autoPlay
-          loop
-        />
+        <ActivityIndicator />
       </View>
     );
   } else {
@@ -318,7 +319,8 @@ const ClimaMapScreen = ({navigation}) => {
             backgroundColor: 'white',
           },
         ]}
-        source={background()}>
+        source={background()}
+        blurRadius={10}>
         <ScrollView
           contentContainerStyle={{
             alignItems: 'center',
@@ -438,9 +440,9 @@ const ClimaMapScreen = ({navigation}) => {
                       paddingVertical: 10,
                       backgroundColor: 'rgba(255,255,255,0.5)',
                       borderRadius: 10,
-                      width: 100,
+                      width: 85,
                     }}>
-                    <Text style={{fontSize: 20, fontWeight: 'bold'}}>
+                    <Text style={{fontSize: 16, fontWeight: 'bold'}}>
                       {dayBuilder(new Date(), index + 1)}
                     </Text>
                     <Icon
@@ -448,7 +450,7 @@ const ClimaMapScreen = ({navigation}) => {
                         weatherConditions[item.weather.main]?.icon ||
                         'circle-off-outline'
                       }
-                      size={80}
+                      size={40}
                       color={'#5b616b'}
                     />
                     <Text style={{fontSize: 20}}>{item.temp}°C</Text>
