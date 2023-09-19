@@ -2148,3 +2148,38 @@ export const Fichas = [
     Cultivos: 'Cucurbitaceas, Hortalizas',
   },
 ];
+id: 52,
+nombreProducto: '2,4-D 60 SL',
+fichaTecnica: {
+  'Descripción del Producto': [{'Nombre Comercial': '2,4-D 60 SL'}],
+},
+dosis: '',
+casa: 'ONE',
+Categoría: 'Herbicida',
+imagen: require('../../assets/Productos/BELLIS_38_WG.png'),
+],
+modoDeUso:
+  '',
+intervalo: '',
+Cultivos: '',
+    },
+  },
+{
+  id: 53,
+  nombreProducto: 'PARAQUONE 24SL',
+  fichaTecnica: {
+    'Descripción del Producto': [{'Nombre Comercial': 'PARAQUONE 24SL'}],
+  },
+  dosis: '',
+  casa: 'ONE',
+  Categoría: 'Herbicida-Bipiridilo',
+  imagen: require('../../assets/Productos/BELLIS_38_WG.png'),
+  beneficios: [
+    '',
+  ],
+  modoDeUso:
+    '',
+  intervalo: '',
+  Cultivos: '',
+},
+];
