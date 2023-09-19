@@ -781,6 +781,222 @@ export const Fichas = [
       ],
     },
   },
+  {
+    id: 52,
+    nombreProducto: 'DURO ONE 80 WG',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'Duro 80 WG es un herbicida formulado como gránulos dispersables en agua, eficaz en el control pre-emergente y post-emergente temprano de la mayoría de las malezas de hoja ancha y gramínea anual y perennes. Inhibe el proceso fotosintético interfiriendo en la reacción de Hill.',
+        },
+        {
+          'Equipo de Aplicación': `Aplicación terrestre empleando equipos manuales(bomba de mochila) o acoplados al tractor, con boquillas de abanico. El volumen de agua a usar es de 200 a 400 litros por hectárea`,
+        },
+        {
+          'Forma de Preparacion de la Mezcla': `Llene el tanque de aplicación hasta la mitad de su volumen con agua, agregue la dosis recomendada del producto y termine de llenar el volumen del tanque de aplicación. Mantenga en agitación constante la mezcla dentro del tanque. Prepare únicamente la solución que pueda ser aplicada durante el mismo día. El equipo de aplicación y los utensilios usados en la  mezcla del producto deben ser lavados después de cada jornada de trabajo, por lo menos tres veces.`,
+        },
+        {
+          'Malezas que Controla': `Suelda con suelda, (Commelina difusa); Grama dulce cimarrona, (Digitaria ciliaris); Cañamazo, (Paspalum conjugatum); Juana la blanca, (Borreria laevis); Pata de gallina, (Chloris radiata); Hierba mora, (Solanum americanun); Pajon blanco, (Setaria geniculata); Altamisa, (Ambrosia artemisifolia); Ballico, (Lolium spp); Pata de cotorra, (Echinochloa colona); Pata de gallina, (Eleusine indica); Verdolaga, (Portulaca oleracea); Bledo, (Amaranthus spp); Pelosa, (Poa annua); Barbasco, (Polygonum hidropiproides); Llantén, (Plantago major); Ruibarbo, (Rumex crispus); Nabo, (Brassica spp); Bolsa de pastor, (Capsella bursa); Alfiler, (Bidens pilosa); Lechugilla, (Sonchus oleraceus).`,
+        },
+      ],
+      'tabla#tabla- ': {
+        headers: ['Cultivo', 'Dosis /ha', 'Observaciones'],
+        rows: [
+          [
+            'Guineo (Musa sapientum) Plátano (Musa paradisiaca)',
+            '1.0 kg/ha',
+            'Aplicación pre- emergente o post emergencia temprana de las malezas, dirigida sin tocar el cultivo.',
+          ],
+          [
+            'Cítricos (Citrus spp)',
+            '0.5-0.75 kg/ha',
+            'Aplicación dirigida a la maleza, en un radio de 1-2 m. en plantaciones mayores de 2 años.',
+          ],
+          [
+            'Caña de azúcar (Sacharum officinarum)',
+            '3-4 kg/ha',
+            'Aplicación total después del corte o la siembra en tratamiento de pre y post-emergencia de las malezas',
+          ],
+          [
+            'Maíz (Zea mays)',
+            '1-2 kg/ha',
+            'Hacer una aplicación en forma pre-emergente inmediatamente después de la siembra',
+          ],
+          [
+            'Piña (Ananas comosus)',
+            '2-3 kg/ha',
+            'Aplicación pre-emergente de las malezas, bien sea después de la siembra o de la cosecha. Aplicación post-emergente, dirigida a las malezas entre hileras.',
+          ],
+        ],
+      },
+      Observaciones:
+        'Se debe preparar muy bien el suelo, para que quede libre de terrones y restos de vegetación. También se requiere de suficiente humedad en el suelo para activar el producto',
+      'Intervalo de Aplicación':
+        'Generalmente se aplica una sola vez en el ciclo del cultivo.',
+      'Intervalo Entre la Ultima Apliación y la Cosecha':
+        'De acuerdo con las condiciones de aplicación y el periodo de crecimiento restante entre la aplicación y la cosecha es de 14 dias.',
+      'Intervalo de Reingreso al Area Tratada':
+        'Evite el reingreso a personas a un campo recién tratado con el producto hasta pasadas 24 horas de la aplicación.',
+      Fitotoxicidad:
+        'No es un producto fititóxico si se sigue las recomendaciones dadas en el panfleto.',
+      Compatibilidad:
+        'Es compatible con la mayoría de los herbicidas de uso común siguiendo las instrucciones de uso y la dosis especificadas en el panfleto.',
+      'Precauciones y Advertencias de Uso': [
+        {
+          'Almacenamiento y Transporte':
+            'No transporte ni almacene conjuntamente con alimentos de consumo humano, animal, fertilizantes y semillas. Almacénese y transpórtese en su envase original, en lugar seco y ventilado y lejos del alcance de los niños ó personas mentalmente incapaces. Maneje el producto cuidadosamente para evitar derrames. Si el derrame ocurre cúbralo con aserrín o tierra y entiérrelo en lugares alejados de fuentes de agua y casas de habitación',
+        },
+      ],
+    },
+  },
+  {
+    id: 53,
+    nombreProducto: 'PARAQ ONE 24SL',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            ' Es un herbicida no selectivo, de contacto y de post emergencia, con cierta capacidad de traslocación a través del xilema. Es absorbido únicamente por los órganos verdes. Actúa en presencia de luz, desecando las partes de todas las plantas que entran en contacto con él.',
+        },
+        {
+          'Equipo de Aplicación':
+            'Aplicación terrestre empleando equipos manuales (bomba de mochila) o acoplados al tractor, con boquillas de abanico. El volumen de agua a usar es de 200 a 400 litros por hectárea.',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Llene el tanque de aplicación hasta la mitad de su volumen con agua, agregue la dosis recomendada del producto y agite; termine de llenar con agua limpia el tanque del equipo de aplicación y mantenga la agitación incluso durante la aplicación. Prepare únicamente la solución que pueda ser aplicada durante el mismo día. El equipo de aplicación y los utensilios usados en la mezcla del producto deben ser lavados después de cada jornada de trabajo, por lo menos tres veces.',
+        },
+      ],
+      'Recomendaciones de Uso': [
+        {
+          'Malezas que Controla':
+            'Pata de gallina: Eleusine indica; Pata de cotorra: Digitaria sanguinalis; Jaragua: Hyparrhenia rufa; Cadillo: Cenchrus echinatus; Alfiler: Bidens pilosa; Yerba de Guinea: Panicum maximum; Verdolaga: Portulaca oleracea; Arrocillo: Echinochloa colonum; Nailon: Echinochloa cruz-galli; Yerba popa: Ischaemun rugosum; Yerba de hilo: Leptochloa filiformis; Limpia botella: Setaria glauca; Cebada: Sorghum halapense; Bledo: Amaranthus hybridus.',
+        },
+        {
+          Cultivos:
+            'Guineo: Musa sapientum; Plátano: Musa paradisíaca; Aguacate: Persea americana; Lechosa: Carica papaya; Café: Coffea arabica; Guandul: Cajanus cajan',
+        },
+        {
+          'Dosis Recomendadas':
+            'La dosis es de 1.5-3.0 litros ha. Para limpiar áreas no cultivadas use 3.5 - 5.5 litros ha. Las dosis altas se deben usar para maleza altas o primer tratamiento; las dosis bajas para rebrotes o malezas bajo sombra. En post - emergencia dirigida, use 570 litros de mezcla /ha con equipo manual; con equipo de motor use 230 litros de mezcla ha.',
+        },
+        {
+          'INTERVALO DE APLICACIÓN':
+            'Generalmente, el producto se aplica una sola vez durante el ciclo de los cultivos anuales. En los cultivos permanentes, una segunda aplicación dependerá de la aparición de nuevas malezas.',
+        },
+        {
+          'INTERVALO ENTRE LA ÚLTIMA APLICACIÓN Y LA COSECHA':
+            'El intervalo es de 30 a 45 días antes de la cosecha',
+        },
+        {
+          'INTERVALO DE REINGRESO AL ÁREA TRATADA':
+            'Evite el reingreso a personas a un campo recién tratado con el producto hasta pasadas 24 horas de la aplicación.',
+        },
+        {
+          FITOTOXICIDAD:
+            'Al ser un herbicida de contacto, no selectivo, actúa sobre cualquier material vegetal verde que toque.',
+        },
+        {
+          COMPATIBILIDAD:
+            'Compatible con muchos herbicidas residuales. Incompatible con preparados alcalinos y materias inertes que contengan arcilla. No añadir surfactantes aniónicos. ',
+        },
+      ],
+      'Precauciones y Advertencias de Uso': [
+        {
+          'Almacenamiento y Transporte':
+            'No transporte ni almacene este producto junto con alimentos, forrajes, medicamentos, ropa y utensilios de uso doméstico. No mantenga este producto en contacto con otros agroquímicos, fertilizantes ni semillas. Almacénelo bajo llave en un lugar fresco.',
+        },
+      ],
+    },
+  },
+  {
+    id: 54,
+    nombreProducto: '2,4D ONE 60 SL',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'Es un herbicida sistémico y selectivo que actúa contra malezas de hoja ancha en cultivos de gramíneas. Por sus propiedades hormonales, a base de substancias activadoras de crecimiento, el ingrediente activo se distribuye por el xilema y el floema y se acumula en zonas meristemáticas, rebrotes y tejidos de crecimiento.',
+        },
+        {
+          'Equipo de Aplicación':
+            'Aspersora de mochila y equipo accionado por tractor. Verifique que el equipo utilizado este en buen estado de funcionamiento y debidamente calibrado. Para aplicar este producto se recomienda utilizar boquillas de Abanico Plano. Durante las actividades de mezclar, y aplicar este producto, utilice el equipo de protección consistente en botas de hule, mascarilla, anteojos, guantes, dosificador y aplicador.',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Llene el tanque de aplicación hasta la mitad de su volumen con agua, agregue la dosis recomendada del producto y termine de llenar el volumen del tanque de aplicación. Mantenga en agitación constante la mezcla dentro del tanque. Prepare únicamente la solución que pueda ser aplicada durante el mismo día. El equipo de aplicación y los utensilios usados en la mezcla del producto deben ser lavados después de cada jornada de trabajo, por lo menos tres veces.',
+        },
+      ],
+      'Recomendaciones de Uso': [
+        {
+          'Usos Autorizados en Honduras':
+            'Cultivos: Maíz(zea mays); sorgo (Sorghum vulgare Pers); caña de azúcar (Sacharum officinarum); Arroz (Oryza sativa); Cesped.',
+        },
+      ],
+      'tabla#tabla-Malezas que Controla': {
+        headers: ['Nombre común', 'Nombre Cientifico'],
+        rows: [
+          ['Cardo', 'Cirsium sp'],
+          ['Tomatillo', 'Salanum americanum'],
+          ['Correhuela', 'Convolvulus arvensis'],
+          ['Campanilla', 'Ipomoea sp'],
+          ['Malva', 'Sida acuta'],
+          ['Mostaza', 'Brassica campestris'],
+          ['Diente de león', 'Taraxacum officinale'],
+          ['Orozus', 'Glycrthiza glabra'],
+          ['Flor Amarilla', 'Baltimora Recta'],
+          ['Ortiga', 'Utrics sp'],
+          ['Verdolaga', 'Portulaca oleracea'],
+          ['Bledo espinoso', 'Amaranthus spp'],
+          ['Rábano silvestre', 'Raphanus raphanistrum'],
+          ['Lengua de vaca', 'Rumex crispus'],
+          ['Canutillo', 'Commellina difusa'],
+          ['Mosote', 'Bidens pilosa'],
+          ['Bledo o quelite', 'Sonchus oleraceus'],
+        ],
+      },
+      'tabla#tabla-Dosis Recomendadas': {
+        headers: ['Cultivo', 'Aplicación'],
+        rows: [
+          [
+            'Maíz (sea mays); Sorgo (Sorgohum vulgare Pers)',
+            'Cuando el cultivo no ha brotado aplíquese de 4.0 a 6.0 L/ha ó 3.0 a 4.0 L/manzana de producto en agua suficiente',
+          ],
+          [
+            'Arroz (oriza zativa)',
+            'Usar una dosis de 1.0 a 2.5 L/ha ó 0.7 a 1.75 L/manzana de producto en agua suficiente. Aplíquese de 4 a 8 semanas después de nacido el cultivo',
+          ],
+          [
+            'Caña de Azucar (saccharum officinarum)',
+            'La dosis común es de 3.0 a 4.0 L/ha ó 2.0 a 3.0 L/manzana de producto en agua suficiente',
+          ],
+          [
+            'Cesped',
+            'Aplique el producto en dosis de 1.5 a 4.0 L/ha ó de 1.0 a 3.0 L/manzana en agua suficiente para humedecer completamente las malezas',
+          ],
+        ],
+      },
+      'INTERVALO ENTRE LA ULTIMA APLICACIÓN Y LA COSECHA':
+        'De acuerdo con las condiciones de aplicación y el período de crecimiento restante entre la aplicación y la cosecha, ningún intervalo de seguridad es obligatorio.',
+      'INTERVALO DE REINGRESO AL ÁREA TRATADA':
+        'No entrar al área tratada dentro de las 12 horas del tratamiento a menos que use ropa de protección',
+      INCOMPATIBILIDAD:
+        'ARRASADOR no debe mezclarse con productos que tengan reacción fuertemente alcalina. Cuando se desconozca la compatibilidad de algunas mezclas, deberá hacerse una prueba previa para determinar si hay efectos fitotóxicos. Si se mezcla con otros herbicidas, éstos deben estar registrados y con uso autorizado en los cultivos indicados en la etiqueta.',
+      FITOTOXICIDAD:
+        'Es un herbiicida selectivo para gramíneas, es un fitotoxico a cultivos de hoja ancha. No lo aplique bajo condiciones adversas de clima (viento constante o en ráfagas).',
+    },
+  },
+  {
+    id: 55,
+    nombreProducto: 'Piclo One',
+    fichaTecnica: {
+      'Modo de Acción':
+        'Es un herbicida sistémico y selectivo para el control de maleza de hoja ancha, actúa en la planta interfiriendo y alterando su crecimiento por malformación de los haces vasculares.',
+      'Equipo de Aplicación': '',
+    },
+  },
+  //file:///C:/Users/francisco.fonseca/Downloads/PANFLETO%20(SEP-16).pdf
   //fertica
   {
     id: 17,
@@ -811,7 +1027,6 @@ export const Fichas = [
         'Fertilizante granular, mezcla fisica de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno y Fósforo, que en su formulación no requiera concentración de portasio.',
     },
   },
-
   {
     id: 18,
     nombreProducto: 'Fastrac 12-20-12',
