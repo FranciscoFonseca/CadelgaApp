@@ -421,7 +421,7 @@ export const Fichas = [
         },
         {
           'Grupo Químico':
-            'No aplica: son extractos  plantas mas micronutrientes',
+            'No aplica: son extractos plantas mas micronutrientes',
         },
       ],
       'Detalles del Producto': [
@@ -794,7 +794,7 @@ export const Fichas = [
           'Equipo de Aplicación': `Aplicación terrestre empleando equipos manuales(bomba de mochila) o acoplados al tractor, con boquillas de abanico. El volumen de agua a usar es de 200 a 400 litros por hectárea`,
         },
         {
-          'Forma de Preparacion de la Mezcla': `Llene el tanque de aplicación hasta la mitad de su volumen con agua, agregue la dosis recomendada del producto y termine de llenar el volumen del tanque de aplicación. Mantenga en agitación constante la mezcla dentro del tanque. Prepare únicamente la solución que pueda ser aplicada durante el mismo día. El equipo de aplicación y los utensilios usados en la  mezcla del producto deben ser lavados después de cada jornada de trabajo, por lo menos tres veces.`,
+          'Forma de Preparacion de la Mezcla': `Llene el tanque de aplicación hasta la mitad de su volumen con agua, agregue la dosis recomendada del producto y termine de llenar el volumen del tanque de aplicación. Mantenga en agitación constante la mezcla dentro del tanque. Prepare únicamente la solución que pueda ser aplicada durante el mismo día. El equipo de aplicación y los utensilios usados en la mezcla del producto deben ser lavados después de cada jornada de trabajo, por lo menos tres veces.`,
         },
         {
           'Malezas que Controla': `Suelda con suelda, (Commelina difusa); Grama dulce cimarrona, (Digitaria ciliaris); Cañamazo, (Paspalum conjugatum); Juana la blanca, (Borreria laevis); Pata de gallina, (Chloris radiata); Hierba mora, (Solanum americanun); Pajon blanco, (Setaria geniculata); Altamisa, (Ambrosia artemisifolia); Ballico, (Lolium spp); Pata de cotorra, (Echinochloa colona); Pata de gallina, (Eleusine indica); Verdolaga, (Portulaca oleracea); Bledo, (Amaranthus spp); Pelosa, (Poa annua); Barbasco, (Polygonum hidropiproides); Llantén, (Plantago major); Ruibarbo, (Rumex crispus); Nabo, (Brassica spp); Bolsa de pastor, (Capsella bursa); Alfiler, (Bidens pilosa); Lechugilla, (Sonchus oleraceus).`,
@@ -991,12 +991,792 @@ export const Fichas = [
     id: 55,
     nombreProducto: 'Piclo One',
     fichaTecnica: {
-      'Modo de Acción':
-        'Es un herbicida sistémico y selectivo para el control de maleza de hoja ancha, actúa en la planta interfiriendo y alterando su crecimiento por malformación de los haces vasculares.',
-      'Equipo de Aplicación': '',
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'Es un herbicida sistémico y selectivo para el control de maleza de hoja ancha, actúa en la planta interfiriendo y alterando su crecimiento por malformación de los haces vasculares.',
+        },
+        {
+          'Equipo de Aplicación':
+            'Puede aplicarse con aspersores, equipo de mochila o aéreo bien calibrado, con brisa tenue a la espalda el rociador y sin derrames que mojen al aplicador. En aplicación aérea debe evitarse el arrastre por el viento.',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Llene el tanque de mezcla con agua a 2/3 o 3/4 e inicie la agitación adicionando Piclo One. Continúe agitando. Adicione coadyuvante, si es necesario y agite 1 o 2 minutos. Continúe llenando el tanque hasta completar el volumen. Inmediatamente después de su uso el equipo debe lavarse muy bien con agua y jabón. Utilice boquillas de abanico plano.',
+        },
+      ],
+      'Recomendaciones de Uso': [
+        {
+          'Malezas que Controla':
+            'Campanilla (Ipomoea spp), Carbon (Acacia farnesiana), Cinco Negritos (Lantana cámara) Cornezuelo o Subin (Acacia cornigera) Chukum, Humo (Pithecellobium spp) Flor Amarilla (Melampodium divaricatum) Frijolillo (Casia torra) Pica-pica (Mucuna pruriens)' +
+            ', Platanillo bijaua (Heliconia bihai) Platanillo (Canna indica) Huisache o Subinche (Espino Blanco) (Acacia farnesiana) Escobilla (Sida acuta) Golondrina (Euphorbia spp)' +
+            'Golondrina (Verbena spp) Correhuela (Convolvulus arvensis) Malva Blanca (Waltheria americana) Malva (Malva spp) Mala mujer (Cnidoscolus urens) Zarza (Mimosa pigra) Cardo Santo (Argemone spp), ' +
+            'Candelilo (Tecoma stans), Quiebra Platos (Crotalaria sagitallis), Huisachillo (Acacia tortuosa), Mezquite (Prosopis juliflora), Dormilona (Mimosa pudica), Pata de Vaca (Bauhinia spp.).',
+        },
+      ],
+      'tabla#tabla-': {
+        headers: ['Tratamiento', 'Dosis (L/ha) y Observaciones'],
+        rows: [
+          [
+            'Pastos',
+            '3.0 - 4.0 L/ha. Aplicar cuando las malezas estén en crecimiento activo.',
+          ],
+        ],
+      },
+      'Intervalos de Aplicación': [
+        {
+          'Intervalos de reingreso al área tratada':
+            'Ingresar al área tratada transcurrido un dia de tratamiento.',
+        },
+        {
+          'Intervalo entre la última aplicación y la cosecha': 'No aplica.',
+        },
+      ],
+      'Precauciones y Advertencias de Uso': [
+        {
+          'Almacenamiento y Transporte':
+            'No transporte ni almacene conjuntamente con alimentos de consumo humano, animal, fertilizantes y semillas. Almacénese y transpórtese en su envase original, en lugar seco y ventilado y lejos del alcance de los niños ó personas mentalmente incapaces. Maneje el producto cuidadosamente para evitar derrames. Si el derrame ocurre cúbralo con aserrín o tierra y entiérrelo en lugares alejados de fuentes de agua y casas de habitación.',
+        },
+      ],
     },
   },
-  //file:///C:/Users/francisco.fonseca/Downloads/PANFLETO%20(SEP-16).pdf
+  {
+    id: 56,
+    nombreProducto: 'Guerrero One 48 EC',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo Y Mecanismo de Acción':
+            'Es un insecticida organofosforado con acción de contacto, inhalación e ingestión. Es un insecticida no sistémico de amplio de amplio espectro, inhibidor de la colinesterasa.',
+        },
+        {
+          'Equipo de Aplicación':
+            'Puede aplicarse con aspersora terrestre de espalda o equipo terrestre accionado por tractor. Antes de utilizar el equipo de aspersión revise cuidadosamente que este en buen funcionamiento. Para dosificar la cantidad correcta de acuerdo al tanque de la aspersora, debe utilizar tazón medidor. Después de la aplicación, lave el equipo de aplicación de aspersión con agua y jabón, deje secarlo y guárdelo. Utilice el equipo de protección personal,antes de usar y manipular',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Llene el tanque de la bomba aspersora con agua a la mitad de la capacidad, agregue la dosis recomendada con un medidor. Agite bien y complete el volumen de agua. Continúe la agitación durante la aplicación. Asegúrese que el producto se haya disuelto completamente antes de agregar otro ingrediente a la mezcla. No guardar la mezcla en el tanque del aspersor de un día para otro. Terminada la aplicación lavar el equipo de aplicación con agua, mantener el equipo en buenas condiciones. Este producto es ligeramente persistente en el suelo. El pH del agua para que el producto se mantenga estable es pH 6',
+        },
+      ],
+      'tabla#tabla-Recomendaciones de Uso': {
+        headers: ['Cultivo', 'Plaga', 'Dosis'],
+        rows: [
+          [
+            'Banano y plátano (Musa sp)',
+            'Picudo negro (Cosmopolites sordidus)',
+            'Aplicar 6 mL, de insecticida en 30-40 mL de agua, por cepa.',
+          ],
+          [
+            'Piña Ananas comosus',
+            'control de cochinilla harinosa Dysmicoccus brevipes sinfilidos Scutigerella inmaculata',
+            '4-6 Litros/ha',
+          ],
+          ['Citricos Citrus sinensis', 'Cochinilla Unaspis citri', '0.4 lt/ha'],
+          [
+            'Algodón Gossypium hirsutum',
+            'Gusano de la Hoja Alabama argillacea',
+            '1.5 L/ha',
+          ],
+          ['Maíz Zea mays', 'Cogollero Spodoptera frugiperda', '2.5-3.0 L/ha'],
+          [
+            'Arroz Oryza sativa',
+            'Sogata Sogatodes oryzicola Chince Blissus leucopterus Chinche Verde Nezara viridula',
+            '1.5-2.0 L/ha',
+          ],
+          [
+            'Papa Solanum tuberosum',
+            'Minador de la Hoja Lyriomiza sp.',
+            '1.5-2.5 L/ha',
+          ],
+          [
+            'Chile Capsicum annum',
+            'Gusano Tierrero Agrotis sp.',
+            '0.5-1.5 L/ha',
+          ],
+          [
+            'Sorgo Sorghum bicolor',
+            'Mosquita del Sorgo Contarinia sorghicola',
+            '0.3-0.5 L/ha',
+          ],
+          [
+            'Tomate Lycopersicum esculentum',
+            'Gusano Tierrero Agrotis sp.',
+            '0.5-1.5 L/ha',
+          ],
+          [
+            'Café Coffea arabica',
+            'Broca del Café Hypothenemus hampei',
+            '2.0 L/ha',
+          ],
+          [
+            'Tabaco Nicotiana tabacum',
+            'Gusano Tierrero Agrotis sp.',
+            '0.5-1.5 L/ha',
+          ],
+          [
+            'Manzano Malus domestica',
+            'Chanchito blanco Pseudococcus affinis Pulgón lanígero del manzano Eriosoma lanigerum',
+            '1.0-2.0 L/ha',
+          ],
+        ],
+      },
+      'Intervalos de Aplicación':
+        'Se aplica cada 10 a 15 días. En café aplicar una sola vez cuando el nivel de ataque este en un 13%.',
+      'Intervalo Entre la Ultima Apliación y la Cosecha':
+        'Para los cultivos de algodón, citricos, Manzano, arroz, banano, plátano, chile, maíz, papa, piña, sorgo, tabaco, tomate 20 días, para el cultivo de café 21 dias.',
+      'Intervalo de Reingreso al Area Tratada':
+        'Ingresar 24 horas después de la aplicación, si se ingresa antes utilizar el equipo de protección personal adecuado.',
+      Fitotoxicidad: 'No es fitotóxico en los cultivos y dosis recomendadas.',
+      Compatibilidad:
+        'No mezclar con productos de reacción alcalina en el cultivo de arroz no es compatible con el herbicida propanil, si va a aplicar en el cultivo de arroz dejar un intervalo de al menos catorce días con cualquier aplicación de propanil. ',
+      'Precauciones y Advertencias de Uso':
+        'No se debe de comer, beber o fumar durante el manejo, mezcla, aplicación del producto. Es necesario que se utilice el equipo de protección completo: sombrero, gafas, mascarillas, overol, guantes y botas de hule. Lave el equipo de protección después de cada jornada de trabajo. No lave la ropa de protección junto con la ropa de uso normal. Evite el contacto de uso normal. Evite el contacto directo con el producto.',
+      'Almacenamiento y Transporte':
+        'No transporte ni almacene este producto junto con los alimentos, forrajes, medicamentos, ropa y utensilios de usos doméstico y pecuario en general. Tanto en el transporte como el almecenamiento  procure que no esté el producto con ningun tipo de fertilizates y semillas. Almacénece bajo llave, en un lugar fresco y seco, alejado del calor. Los residuos sin usar deben guardarse en su envase original debidamente cerrado y procurando que su etiqueta se encuentre adherida.',
+    },
+  },
+  // {
+  //   id: 57,
+  //   nombreProducto: 'Circular Extra 28 SC',
+  //   fichaTecnica: {
+  //     'Ingrediente Activo': 'CIPROCONAZOL + AZOXISTROBIN',
+  //     'FORMULACION Y CONCENTRACIÓN':
+  //       'Suspensión concentrada. Contiene 280 gramos de ingrediente activo por litro de producto comercial.',
+  //     CLASE: 'FUNGICIDA',
+  //     'GRUPO QUÍMICO': 'TRIAZOL + ESTROBILURINA.',
+  //     'MODO DE ACCIÓN': 'Protectante, curativa y sistémica. ',
+  //     'MECANISMO DE ACCIÓN':
+  //       'Azoxystrobin con acción protectante, curativa y con propiedades sistémicas, inhibe la germinación de las esporas y el crecimiento del micelio en los hongos y Ciproconazol la síntesis del ergosterol',
+  //     CULTIVOS: 'arroz, ajo, café, frijol, maní y maíz',
+  //     DOSIS: '350 - 750 ml/ha, según el cultivo',
+  //     COMPATIBILIDAD:
+  //       'puede ser aplicado en mezcla con la mayoría de los productos de reacción neutra, sin embargo se recomienda hacer un pequeña pre mezcla para evaluar la compatibilidad física y biológica de los componentes.',
+  //     'CLASIFICACIÓN TOXICOLÓGICA': 'IV. Franja verde',
+  //     'Enfermedades que Controla': `Roya: Puccinia allii
+  //     Podredumbre del tallo: Sclerotium oryzae
+  //     Piricularia: Pyricularia oryzae
+  //     Añublo: Rhizoctonia solani
+  //     Mancha Marrón Angosta: Cercospora oryzae
+  //     Mancha Marrón: Helminthosporium oryzae
+  //     Pudrición de la vaina: Sarocladium oryzae
+  //     Manchado de grano
+  //     Bipolaris spp.
+  //     Fusarium spp.
+  //     Curvularia spp.
+  //     Mancha de Hierro: Cercospora coffeicola
+  //     Antracnosis: Colletotrichum coffeanum
+  //     Roya: Hemileia vastatrix
+  //     Ojo de Gallo: Mycena citricolor
+  //     Mal de Hilachas: Pellicularia koleroga
+  //     Derrite: Phoma spp.
+  //     Mal de talluelo: Rhizoctonia solani
+  //     Mancha angular: Phaeoisariopsis griseola
+  //     Roya: Uromyces spp.
+  //     Mancha temprana: Cercospora arachidicola
+  //     Mancha tardía: Cercosporidium personatum
+  //     Roya del maní: Puccinia arachidis
+  //     Moho blanco: Sclerotinia spp.
+  //     Roya: Puccinia sorghi
+  //     Tizón del norte: Helminthosporium spp.`,
+  //   },
+  // },
+
+  {
+    id: 58,
+    nombreProducto: 'Acrobat MZ 69 WP',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'ACROBAT MZ es un fungicida contra hongos Oomicetes que interrumpe la biogenesis durante la formación de la pared celular, posee una excelente acción protectante y antiesporulante con lo cual se reduce el potencial de reinfestación. Además posee propiedades de sistemicidad local y traslaminar. Por su parte mancozeb es un fungicida protector que permite ampliar el rango de acción contra diferentes hongos y por ser un fungicida de diferente base química y modo de acción, evita la aparición de razas resistentes',
+        },
+        {
+          'Equipo de Aplicación':
+            ' Puede ser aplicado con equipo manual o terrestre. Calibre el equipo antes de aplicar el producto. En aplicaciones terrestres use un mínimo de 400 l/ha. La utilización de nebulizadores y discos en las boquillas ayudan a obtener una aplicación profesional, al igual que la utilización de boquillas de cono hueco. Lave el equipo después de cada jornada de trabajo. No es corrosivo a los equipos de aplicación.',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Llene hasta la mitad el tanque con agua, prepare una premezcla al añadir la cantidad de ACROBAT MZ recomendada a un poco de agua, vierta esta premezcla al tanque y termine de llenar mientras agita. Verifique la calidad del agua para evitar el uso de aguas duras y así lograr la mayor eficacia del producto. Agite la mezcla durante todo el proceso de preparación de la mezcla',
+        },
+      ],
+      'tabla#tabla-Recomendaciones de Uso': {
+        headers: ['Cultivo', 'Plaga', 'Dosis', 'Epoca de Aplicación'],
+        rows: [
+          [
+            'TABACO Nicotiana tabacum',
+            'Moho azul Peronospora tabacina',
+            'La dosis por volumen es de 750 g de producto comercial por estañón de 200 litros',
+            'En semillero aplique en forma preventiva para así obtener los mejores resultados. Realice la aplicación al inicio del estableciemiento del semillero y otra previo al transplante. En aplicación establecida aplique preventivamente o cuando aparezcan los primeros síntomas.',
+          ],
+          [
+            'PAPA Solanum tuberosum TOMATE Lycopersicon esculentum',
+            'Tizon tardio Phytophtora infestans',
+            'La dosis por volumen es de 750 g de producto comercial por estañon de 200 litros',
+            'Efectuar las aplicaciones en forma preventiva o cuando aparezcan los primeros síntomas. Cubra uniformemente el follaje de las plantas.',
+          ],
+        ],
+      },
+      'Intervalo de Aplicación':
+        'Aplique cada 7 a 10 días según sean las condiciones climáticas y la incidencia de la enfermedad.',
+      'Intervalo Entre la Ultima Apliación y la Cosecha':
+        '7 días para papa y tomate. 5 días para melon y sandía.',
+      'Intervalo de Reingreso al Area Tratada':
+        'Una vez que la superficie tratada se haya secado.',
+      Fitotoxicidad:
+        'No es fitotóxico en los cultivos y bajo las recomendaciones dadas en este panfleto.',
+      Compatibilidad:
+        'ACROBAT MZ 69 WP es compatible con la mayoría de los productos fitosanitarios de uso común, como lo son  dimetoato, deltametrina, cipermetrina, pirimicarb, así como nutrientes líquidos. No es compatible con productos con reacción alcalina fuerte como el caldo bordelés.',
+      'MANEJO ANTIRESISTENCIA':
+        'Se recomienda para reducir el potencial de desarrollo de resistencia a este producto y a otros fungicidas con el mismo modo de acción, aplicarlo secuencialmente en rotación con otros fungicidas registrados con modo de acción diferentes. En el caso del cultivo del tabaco realizar un máximo de cuatro aplicaciones en el semillero',
+    },
+  },
+  {
+    id: 59,
+    nombreProducto: 'Aura 20 EC',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'AURA 20 EC es un herbicida sistemico, postemergente para el control de malezas gramíneas anuales y perennes en cultivos de Arroz de siembra directa o transplante. El producto es rápidamente absorbido por las hojas que entran en contacto con la aspersión y es translocado al resto de la planta. Actúa a nivel de los cloroplastos donde interfiere la acción de la enzima Acetil-CoA-Carboxilasa, dando como resultado la detención general del crecimiento y muerte de las malezas suceptibles',
+        },
+        {
+          'Equipo de Aplicación':
+            'Aspersora de mochila, tractor o aéreo. Antes de utilizar el equipo de aspersión, revise que esté en buen estado de funcionamiento y calíbrelo para asegurar que aplica la dosis correcta. Para dosificar la cantidad correcta de acuerdo al tanque de la aspersora se debe utilizar un tazón medidor o recipiente calibrado. En aplicación terrestre se recomienda el uso de boquillas de abanico TJ 8003 o su equivalente, con una presión de 30 a 40 libras por pulgada cuadrada y una altura del aguilón o la boquilla de 50 cms sobre el nivel del suelo.Después de la aplicación lave el equipo de aplicación con agua y detergente por dentro y por fuera, dele el mantenimiento recomendado (limpieza de boquillas y filtros, engrase, etc.) déjelo secar y guárdelo',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Antes de manipular y utilizar AURA 20 EC póngase el equipo de protección ' +
+            'personal. Como con todos los productos químicos evite en lo posible el contacto con el producto concentrado o diluido y con la niebla de aspersión. ' +
+            'No comer, beber o fumar durante el manejo y aplicación del producto. De acuerdo con la dosis y equipo a utilizar, mezcle la dosis correspondiente ' +
+            'de AURA 20 EC directamente en el tanque de preparación, lleno con agua limpia hasta la mitad de su volumen, luego de agitar agregue la dosis de DASH 37.5 EC y agite hasta lograr una mezcla homogénea. Seguidamente ' +
+            'complete el volumen de agua, agitando continuamente para lograr una mezcla homogénea antes de iniciar la aplicación. Con equipos terrestres, utilice el volumen total de mezcla derivado de la calibración del equipo o en ' +
+            'caso de no disponerse de está información, use entre 285 a 570 litros de ' +
+            'agua por hectárea (200 - 400 litros manzana); en aplicaciones aéreas use 80 ' +
+            'a 100 litros de agua por hectárea, con una presión de 20 a 40 libras por ' +
+            'pulgada cuadrada.',
+        },
+      ],
+      'Recomendaciones de Uso':
+        'AURA 20 EC es un herbicida diseñado para ser aplicado siempre en ' +
+        'combinación con el adyuvante DASH 37.5 EC, la dosis del adyuvante esta ' +
+        'en función de la cantidad de agua a aplicar según el equipo disponible, el ' +
+        'DASH 37.5 EC se usa en una concentración del 0,5% del volumen total de ' +
+        'caldo de aspersión (0,5 litros DASH 37.5 EC por cada 100 litros de agua de ' +
+        'aspersión). ' +
+        'Se recomienda aplicación AURA 20 EC solo después de que el Arroz tenga ' +
+        'mas de 3-4 hojas y que las malezas se encuentren como mínimo en un ' +
+        'estado de crecimiento entre 2 y 4 hojas, procurando obtener un adecuado ' +
+        'cubrimiento de las mismas. ' +
+        'Ensayos de campo han demostrado que la selectividad del producto esta en ' +
+        'función del estado de crecimiento del cultivo y el nivel de humedad del suelo ' +
+        'y cultivo; aplicar solo cuando el Arroz tenga mas de 3 - 4 hojas y halla buena ' +
+        'humedad de suelo; no aplicar sobre plantas de Arroz sometidas a estrés por ' +
+        'falta de agua o a ataques severos de insectos ' +
+        'En cultivos de Arroz con mas de una macolla se puede aplicar aun cuando ' +
+        'haya lamina de agua de 3-5 cms, procurando que se haga buen cubrimiento ' +
+        'de las malezas con el caldo de aspersión. ' +
+        'No se han evidenciado efectos antagónicos o adversos por la aplicación de ' +
+        'AURA 20 EC con las practicas culturales normales en la época de aplicación ' +
+        '(18-20 D.D.G. y/o en rescates).',
+      'tabla#tabla-Usos Autorizados': {
+        headers: ['Nombre de las Malezas', ''],
+        rows: [
+          ['Arroz', '(Oryza sativa)'],
+          ['Zacate pinto, Pie de Gallo', '(Echinochloa colonum)'],
+          ['Zacate de agua, Tumba Credito', '(Echinochloa crus-galli)'],
+          ['Plumilla, Flor Mora', '(Leptochloa filiformis) '],
+          ['Caminadora', '(Rottboellia exaltata) '],
+          ['Arrocillo, Yerba Popa', '(Ischaemun rugosum)'],
+          ['Zalea', '(Digitaria sp)'],
+          ['Pata de Gallina', '(Eleusine indica)'],
+        ],
+      },
+      'Dosis Recomendadas':
+        'La recomendación general del producto es de 0,75-1,0 litros de AURA 20 EC ' +
+        'por hectárea, aplicando la dosis menor en épocas tempranas (malezas de 2 ' +
+        'hojas a 1 macolla) y la dosis alta en aplicaciones de rescate; en todos los ' +
+        'casos adicionar DASH 37.5 EC al 0,5% en concentración respecto al ' +
+        'volumen de caldo de aspersión (o sea, 0,5 litros de DASH 37.5 EC por cada ' +
+        '100 litros de agua de aplicación). ' +
+        'Para República Dominicana se recomienda una dosis de 0,8 L/ha de Aura, o ' +
+        'sea, 800 c.c. de AURA 20 EC mas 1,0 litro de DASH 37.5 EC por tanque de ' +
+        '55 galones, para cubrir un área de aplicación de 12 tareas aproximadamente',
+      'Intervalo de Aplicación':
+        'No aplicable. Sólo se debe hacer una aplicación durante el ciclo de cultivo',
+      'INTERVALO ENTRE LA ÚLTIMA APLICACIÓN Y LA COSECHA':
+        'No ' +
+        'aplicable. Sólo se hacen aplicaciones tempranas en el ciclo de cultivo.',
+      'INTERVALO DE ENTRE LA ULTIMA APLICACIÓN Y LA COSECHA':
+        'No aplicable. Sólo se hacen aplicaciones tempranas en el ciclo de cultivo.',
+      'INTERVALO DE REINGRESO AL ÁREA TRATADA':
+        'Después de que la aspersión se haya secado.',
+
+      FITOTOXICIDAD:
+        'AURA 20 EC es un producto selectivo al Arroz cuando se ' +
+        'usa de acuerdo con las recomendaciones. Ensayos de campo han ' +
+        'demostrado que la _selectividad del AURA 20 EC esta en función del ' +
+        'estado de crecimiento del Arroz y del nivel de humedad del suelo y cultivo; ' +
+        'Aplicar AURA 20 EC solo cuando el Arroz tenga mas de 3-4 hojas y haya ' +
+        'buena humedad de suelo; Aplicaciones del producto sobre _plantas de ' +
+        'Arroz pequeñas sometidas a estrés por falta de agua o por ataques severos ' +
+        'de insectos, producen toxicidad severa. El incremento en la concentración ' +
+        'del adyuvante DASH 37.5 EC por encima del 0,5% (0,5 L/100 L de agua de ' +
+        'aplicación), induce toxicidad independientemente del tamaño del Arroz.',
+      COMPATIBILIDAD:
+        'AURA 20 EC puede mezclarse con otros herbicidas ' +
+        'como FACET® 25 SC, Basagrán 48, Prowl y Bolero; no se recomiendan ' +
+        'mezclas con herbicidas Hormonales y Sulfonilureas por fenómenos de ' +
+        'antagonismo, ni mezclas con Propanil por problemas de toxicidad al cultivo. ' +
+        'AURA 20 EC puede ser mezclado con Fungicidas e Insecticidas de uso ' +
+        'común en el Arroz. No debe mezclarse con productos de reacción alcalina.',
+    },
+  },
+  {
+    id: 60,
+    nombreProducto: 'BREAK THRU 100 SL',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'BREAK TRHU es un surfactante novedoso que reúne cualidades de excelente dispersión y penetración estomática que influyen positivamente en la eficacia de tratamiento con plaguicidas. BREAK THRU es un humectante, dispersante y penetrante no iónico',
+        },
+        {
+          'Equipo de Aplicación':
+            'Se puede aplicar con equipo aéreo, manual de espalda ' +
+            'o con equipo terrestre acoplado al tractor. Calibre el ' +
+            'equipo antes de aplicar el producto. Lave el equipo ' +
+            'después de cada jornada de trabajo. No es corrosivo a ' +
+            'los equipos de aplicación.',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Prepare el plaguicida de acuerdo con las instrucciones de ' +
+            'uso en una cantidad reducida de agua, luego añada la ' +
+            'cantidad correspondiente de BREAK THRU, termine de ' +
+            'llenar el tanque.',
+        },
+      ],
+      FITOTOXICIDAD:
+        ' No es fitotóxico en los cultivos, dosis y epocas recomendadas.',
+      'PRECAUCIONES Y ADVERTENCIAS DE USO': [
+        {
+          'Almacenamiento y Transporte':
+            'No almacene ' +
+            'ni transporte este producto con alimentos, medicinas, ' +
+            'ropas, utensilios de uso doméstico. Almacene bajo llave, ' +
+            'en un lugar seco y fresco, alejado del calor o del fuego. ' +
+            'Conserve el producto en su envase original, etiquetado y ' +
+            'cerrado herméticamente',
+        },
+      ],
+    },
+  },
+  {
+    id: 61,
+    nombreProducto: 'Cabrio Team 18.7 WG',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'Cabrio® Team 18.7 WG, es un fungicida sistémico con acción preventiva, erradicante y curativa, que ' +
+            'combina la acción del Pyraclostrobin y del Dimethomorph. ' +
+            'Pyraclostrobin afecta la producción de energía de las células del hongo, afectando sus funciones vitales. ' +
+            'Preventivamente actúa inhibiendo los estados tempranos del desarrollo del hongo desde la germinación ' +
+            'de la espora hasta la formación del apresorio. ' +
+            'El Dimethomorph es un fungicida sistémico local, actúa contra hongos Oomicetes, posee una excelente ' +
+            'acción protectante y antiesporulante ayuda a prevenir la difusión de la enfermedad entre las plantas, ' +
+            'reduciendo el potencial de reinfestación. Además presenta propiedades de sistemicidad local y ' +
+            'traslaminar.' +
+            'El Pyraclostrobin presenta acción translaminar y se redistribuye localmente en la hoja formando depósitos ' +
+            'adheridos a la cera de la cutícula proporcionando alta resistencia al lavado. Parte de la molécula ' +
+            'solubilizada penetra y difunde en el interior del tejido vegetal a distancias cortas y se distribuye formando ' +
+            'depósitos en áreas de la capa cerosa de la epidermis, que no fueron tratadas directamente con el fungicida. ' +
+            'Preventivamente actúa inhibiendo los estados tempranos del desarrollo del hongo desde la germinación ' +
+            'de la espora hasta la formación del apresorio. ' +
+            'Los ingredientes activos de Cabrio® Team 18.7 WG presentan sitios de acción diferentes, de esta manera ' +
+            'se reduce el riesgo de resistencia cruzada.',
+        },
+        {
+          'Equipo de Aplicación':
+            'Puede ser aplicado con equipo manual o terrestre. Calibre el equipo antes de aplicar el producto. En ' +
+            'aplicaciones terrestres use un mínimo de 400 L/Ha (280 L/mz). La utilización de nebulizadores y discos en ' +
+            'las boquillas ayudan a obtener una aplicación profesional, al igual que la utilización de boquillas de cono ' +
+            'hueco. Lave el equipo después de cada jornada de trabajo. No es corrosivo a los equipos de aplicación.' +
+            'Las autoridades de Nicaragua prohíben la aspersión, espolvoreo o cualquier otro tipo de aplicación de ' +
+            'Cabrio® Team 18.7 WG en un perímetro menor a 50 metros por vía terrestre de los poblados, caseríos ' +
+            'o cualquier tipo de fuentes de agua, con la finalidad de evitar la contaminación del medio ambiente y ' +
+            'humanidad. ',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Verifique la calidad del agua para evitar el uso de aguas duras y así lograr la mayor eficacia del producto. ' +
+            'Regule el pH de la solución de manera que se mantenga entre 5 - 6.5. ' +
+            'Llene hasta la mitad el tanque con agua limpia, prepare una premezcla al añadir la cantidad de ' +
+            'Cabrio® Team 18.7 WG recomendada a un poco de agua, vierta esta premezcla al tanque y termine de ' +
+            'llenar mientras agita. Agite la mezcla durante todo el proceso de preparación de la mezcla.' +
+            'BASF recomienda la adición del coadjuvante Break Thru® 100 SL a razón de 0.03%-0.06% v/v para mejorar la cobertura. ',
+        },
+      ],
+      'tabla#tabla-Usos Autorizados': {
+        headers: [
+          'Cultivo',
+          'Enfermedad',
+          'Dosis Recomendada',
+          'Intervalo Entre La Última Aplicación Y La Cosecha (Días)',
+        ],
+        rows: [
+          [
+            'Tomate (Lycopersicum esculentum) Chile (Capsicum annuum L.)',
+            'Tizón tardío (Phythophtora infestans)',
+            '1,2 a 1,5 kg/Ha',
+            '4',
+          ],
+          [
+            'Melón (Cucumis melo) Sandía (Citrullus vulgaris)',
+            'Mildiu velloso (Pseudoperonospora cubensis)',
+            '1,2 a 1,5 kg/Ha',
+            '0',
+          ],
+          [
+            'Papa (Solanum tuberosum)',
+            'Tizón tardío (Phythophtora infestans)',
+            '1,2 a 1,5 kg/Ha',
+            '4',
+          ],
+          [
+            'Tabaco (Nicotiana tabacum)',
+            'Moho azul (Peronospora tabacina)',
+            '1,2-1,5 kg/Ha',
+            '14',
+          ],
+        ],
+      },
+    },
+  },
+  {
+    id: 62,
+    nombreProducto: 'Cycosin 70 WP',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Modo de Acción':
+            'CYCOSIN es un fungicida sistémico de elevada acción ' +
+            'preventiva y curativa que se absorbe por hojas y raíces. Inhibe la respiración ' +
+            'celular e impide la culminación de la mitosis en las células del hongo.',
+        },
+        {
+          'Equipo de Aplicación':
+            'Puede ser aplicado con equipo manual, terrestre o ' +
+            'aéreo. Calibre el equipo antes de aplicar el producto. En aplicaciones aéreas el ' +
+            'volumen de caldo no debe ser menos de 50 l/ha, en aplicaciones terrestres use ' +
+            'un mínimo de 200 l/ha .Lave el equipo después de cada jornada de trabajo. ' +
+            'Utilice boquillas de cono hueco.',
+        },
+        {
+          'Forma de Preparacion de la Mezcla':
+            'Agregue la mitad de agua al ' +
+            'tanque, vierta la cantidad recomendada de CYCOSIN, agite y termine de llenar el ' +
+            'tanque. Verifique la calidad del agua para evitar el uso de aguas duras y así ' +
+            'lograr la mayor eficacia del producto.',
+        },
+      ],
+      'Recomendaciones de Uso': '',
+      'tabla#tabla-Usos Autorizados': {
+        headers: [
+          'Cultivos',
+          'Plagas a Controlar',
+          'Dosis Recomendada',
+          'Época',
+        ],
+        rows: [
+          [
+            'Arroz (Oryza sativa)',
+            'Quemazón o añublo (Pyricularia spp.)',
+            '0.5-0.6 Kg/ha (0.35-0.42 Kg/mz)',
+            '1. aplicación al panzoneo.\n2. inicio de espigamiento \n3. a al terminar de espigar',
+          ],
+          [
+            'Arroz (Oryza sativa)',
+            'Pudrición de la vaina (Rhizoctonia solani)',
+            '0.7-1.0 Kg/ha (0.49-0.7 Kg/mz)',
+            'Use la dosis baja como preventivo al observar los primeros síntomas, y la dosis alta si la enfermedad está claramente visible.',
+          ],
+          [
+            'Banano (Musa spp.)',
+            'Sigatoka amarilla (Mycosphaerella musicola)',
+            '0.3-0.35 Kg/ha (0.21-0.25 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Banano (Musa spp.)',
+            'Sigatoka negra (Mycosphaerella fijiensis)',
+            '0.3-0.35 Kg/ha (0.21-0.25 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Café (Coffea arabica)',
+            'Mal de hilachas (Pellicularia spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Café (Coffea arabica)',
+            'Chasparria (Cercospora coffeicola)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Café (Coffea arabica)',
+            'Chasparria negra (Colletotrichum spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Melón (Cucumis melo)',
+            'Antracnosis (Colletotrichum spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Sandía (Citrullus lunatus)',
+            'Antracnosis (Colletotrichum spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Pepino (Cucumis sativus)',
+            'Antracnosis (Colletotrichum spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Tomate (Lycopersicon esculentum)',
+            'Antracnosis (Colletotrichum spp.)',
+            '0.7-1.0 Kg/ha (0.49-0.7 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Frijol (Phaseolus vulgaris)',
+            'Antracnosis (Colletotrichum spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Maní (Arachis hypogaea)',
+            'Mancha o viruela (Cercospora spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Cítricos (Citrus sp.)',
+            'Sarna (Elsinoe fawcettii)',
+            '0.7-1.0 Kg/ha (0.49-0.7 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
+          ],
+          [
+            'Tabaco (Nicotiana tabacum)',
+            'Ojo de sapo (Cercospora spp.)',
+            '0.5-1.0 Kg/ha (0.35-0.7 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 10 días.',
+          ],
+          [
+            'Fresa (Fragaria spp.)',
+            'Mancha cercospora (Cercospora spp.)',
+            '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
+            'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 10 días.',
+          ],
+        ],
+      },
+      'Intervalo de Aplicación':
+        ' Aplique cada 15 a 20 días según sean las condiciones climáticas y la incidencia de la enfermedad.',
+      'tabla#tabla-Intervalo Entre la Ultima Apliación y la Cosecha': {
+        rows: [
+          ['Café', '50'],
+          ['Arroz, Cítricos, Tabaco, Fesa', '15'],
+          ['Melón, Sandía, Pepino, Frijol, Maní', '10'],
+          ['Tomate', '8'],
+          ['Banano', '0'],
+        ],
+      },
+      'Intervalo de Reingreso al Area Tratada':
+        'Una vez que la aspersión se haya secado sobre el follaje',
+      FITOTOXICIDAD:
+        'No se ha reportado FITOTOXICIDAD alguna en los cultivos ' +
+        'en que se ha aplicado el producto de acuerdo a la dosis que aquí se recomienda.',
+      COMPATIBILIDAD:
+        'CYCOSIN es compatible con la mayoría de los plaguicidas ' +
+        'comunes en el mercado con excepción de aquellos muy alcalinos. No es ' +
+        'compatible con el caldo bordelés y productos fuertemente alcalinos. ',
+    },
+  },
+  {
+    id: 63,
+    nombreProducto: 'KELPAK',
+    fichaTecnica: {
+      'Uso Agronomico': [
+        {
+          'Instrucciones de Uso':
+            'Revise que los equipos de aspersión estén en buen estado de uso, calibre con agua antes ' +
+            'de utilizar los equipos para aplicar la dosis correcta. Diluya en agua antes de aplicarlo. Llene ' +
+            'a la mitad con agua el tanque de la mezcla y vierta el total de la dosis a utilizar, agite y luego ' +
+            'complete con agua, recuerde siempre tener un tazón medidor y paletas para agitar la mezcla. ' +
+            'La dilución puede variar según el método de aplicación. En Costa Rica, para aplicaciones ' +
+            'aéreas en plantaciones de banano y arroz, acátese el Reglamento para las Actividades de la ' +
+            'Aviación Agrícola según Decreto No. 31520-MS-MAG-MINAE-MOPT-MGPSP No. 34202-' +
+            'MS-MAG-MOPT-MGSP, o el reglamento vigente.',
+        },
+        {
+          'Recomendaciones de Uso':
+            'KELPAK es un fertilizante que promueve el desarrollo radicular del cultivo, estimula la mayor ' +
+            'absorción de nutrientes, mejora la capacidad de las plantas para sobreponerse a condiciones ' +
+            'de estrés, es un producto biodegradable y compatible con la mayoría de productos ' +
+            'fitosanitarios. ',
+        },
+      ],
+      'tabla#tabla-Usos Autorizados': {
+        headers: ['Cultivo', 'Dosis Recomendada', 'Época Aplicación'],
+        rows: [
+          [
+            'Ajo (Allium sativum)',
+            '1 L/100 L agua',
+            'Sumergir las semillas por 6-7 horas.',
+          ],
+          [
+            'Papa (Solanum tuberosum)',
+            '2 L/ Ha (1.4 L/mz)',
+            '28 días post emergencia vía foliar.',
+          ],
+          [
+            'Tabaco (Nicotiana tabacum)',
+            '2.5 L/100 L agua',
+            'sumergir las raices en la solución.',
+          ],
+          [
+            'Flores y Ornamentales',
+            '1 L/100 L agua',
+            'Regar después de la emergencia o el trasplante.',
+          ],
+          [
+            'Cebolla (Allium cepa)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Puerro (Allium porrun)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Hule (Hevea brasillensis)',
+            '15-30 mL/planta',
+            'Aplicar al suelo en solución en 0.5 L de agua por planta al inicio del crecimiento radicular.',
+          ],
+          [
+            'Lechuga (Lactuca sativa)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Espinaca (Spinacia oleracea)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Tomate (Lycopersicon esculentum)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Chile (Capsicum annuum)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Berenjena (Solanum melonga)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Brócoli (Brassica oleracea var. itálica)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Repollo (Brassica oleracea var. capitata)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días.',
+          ],
+          [
+            'Coliflor (Brassica oleracea var. botrytis)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 21 o 30 días',
+          ],
+          [
+            'Melón (Cucumis melo)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 15 días.',
+          ],
+          [
+            'Sandía (Citrullus vulgaris)',
+            '2 L/100 L agua',
+            'Regar nuevamente 1 a 2 semanas después de la aplicación, repetir 2 o 3 veces mas cada 15 días.',
+          ],
+          [
+            'Arroz (Orysa sativa)',
+            '1-2 L/ha',
+            '0.5 L/100 L agua 30 días antes del trasplante. Pulverizar con alto volumen, simulando un riego.',
+          ],
+          [
+            'Banano (Musa sp)',
+            '1,5 - 4 L/ha',
+            'Aplicar vía foliar 21 días post emergencia.',
+          ],
+        ],
+      },
+    },
+  },
+
+  /**
+  CULTIVO DOSIS EPOCA APLICACIÓN
+Ajo (Allium sativum) 1 L/100 L agua Sumergir las semillas por 6-7 horas.
+Papa (Solanum tuberosum) 2 L/ Ha (1.4 L/mz) 28 días post emergencia vía foliar.
+Tabaco (Nicotiana tabacum) 2.5 L/100 L agua sumergir las raices en la solución.
+Flores y 1 L/100 L agua Regar después de la emergencia o el trasplante.
+Ornamentales 2 L/100 L agua Regar nuevamente 1 a 2 semanas después de la 
+aplicación, repetir 2 o 3 veces mas cada 21 o 30 
+Cebolla (Allium cepa)
+Puerro (Allium porrun)
+Hule (Hevea brasillensis) 15-30 mL/planta Aplicar al suelo en solución en 0.5 L de agua por 
+planta al inicio del crecimiento radicular.
+Lechuga (Lactuca sativa)
+Espinaca (Spinacia oleracea)
+Tomate (Lycopersicon esculentum) 
+Chile (Capsicum annuum)
+Berenjena (Solanum melonga)
+Brócoli (Brassica oleracea var. itálica)
+Repollo (Brassica oleracea var. 
+Coliflor (Brassica oleracea var. 
+Melón (Cucumis melo)
+Sandía (Citrullus vulgaris)
+Arroz (Orysa sativa) 1-2 L/ha
+Banano (Musa sp) 1,5 - 4 L/ha
+Café (Coffee arabica) 15-30 mL/planta Aplicar al suelo en solución en 0.5 L de agua por 
+planta al inicio del crecimiento radicular.
+0.5 L/100 L agua 30 días antes del trasplante. Pulverizar con alto
+volumen, simulando un riego.
+2 L/ Ha (1.4 L/mz) Aplicar vía foliar 21 días post emergencia.
+Se recomienda un intervalo de mínimo de aplicación 
+de 15 días, a un volumen de caldo de aplicación 
+entre 18-25 L/ha. Se recomiendan unas 25 
+aplicaciones por año, sin embargoes posible 
+ajustar estas aplicaiones según las necesidades 
+del cultivo, ya que por ser un producto de 
+naturaleza orgánica, con caracteristicas 
+bioestimulantes no se condiera riesto de generar 
+resistencia. Este producto puede aplicarse vía 
+aérea 
+
+   */
   //fertica
   {
     id: 17,
@@ -2143,8 +2923,8 @@ export const Fichas = [
       'Controla enfermidades como: MILDEU POLVOSO, BOTRYTIS ',
     ],
     modoDeUso:
-      'Bellis® es un producto preventivo y se recomienda aplicarlo cuando haya riesgo de infección o al  detectar los primeros síntomas de esta, repitiendo las aplicaciones, dependiendo de la mayor o  menor presión de la enfermedad.Bellis® es muy resistente al lavado y no le afectan las lluvias posteriores a su aplicación.Se recomienda utilizar Bellis® en manzano y peral con un máximo de 3 tratamientos por tempo-  rada y es aconsejable alternarlo con otros productos de distinto modo de acción, en bloques de  no más de 2 tratamientos consecutivos. ',
+      'Bellis® es un producto preventivo y se recomienda aplicarlo cuando haya riesgo de infección o al detectar los primeros síntomas de esta, repitiendo las aplicaciones, dependiendo de la mayor o menor presión de la enfermedad.Bellis® es muy resistente al lavado y no le afectan las lluvias posteriores a su aplicación.Se recomienda utilizar Bellis® en manzano y peral con un máximo de 3 tratamientos por tempo- rada y es aconsejable alternarlo con otros productos de distinto modo de acción, en bloques de no más de 2 tratamientos consecutivos. ',
     intervalo: '24 Horas',
     Cultivos: 'Cucurbitaceas, Hortalizas',
   },
-];
+];-

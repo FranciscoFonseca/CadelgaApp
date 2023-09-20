@@ -16,11 +16,15 @@ interface TableProps {
 const RenderData: React.FC<Props> = ({data}) => {
   const TableComponent: React.FC<TableProps> = ({tableData}) => {
     return (
-      <Table>
+      <Table
+        borderStyle={{
+          borderWidth: 1,
+          borderColor: '#C1C0B9',
+        }}>
         <Row
           data={tableData.headers}
-          style={{height: 40}}
-          textStyle={{margin: 6}}
+          style={{height: 'auto'}}
+          textStyle={{ fontWeight: 'bold', justifyContent: 'center', textAlign: 'center'}}
         />
         <Rows data={tableData.rows} textStyle={{margin: 6}} />
       </Table>
