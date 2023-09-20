@@ -2928,3 +2928,80 @@ aérea
     Cultivos: 'Cucurbitaceas, Hortalizas',
   },
 ];-
+{
+  id: 52,
+  nombreProducto: 'KELPAK',
+  fichaTecnica: {
+    'Descripción del Producto': [{'Nombre Comercial': 'KELPAK'}],
+  },
+  dosis: '',
+  casa: 'BASF',
+  Categoría: 'Fungicida',
+  imagen: require('../../assets/Productos/BELLIS_38_WG.png'),
+  beneficios: [
+    '',
+  ],
+  modoDeUso:
+    'KELPAK es un fertilizante que promueve el desarrollo radicular del cultivo, estimula la mayor absorción de nutrientes, mejora la capacidad de las plantas para sobreponerse a condiciones de estrés, es un producto biodegradable y compatible con la mayoría de productos fitosanitarios.',
+  intervalo: '',
+  Cultivos: '',
+},
+];
+];
+{
+  id: 53,
+  nombreProducto: 'OPERA 18,3 SE',
+  fichaTecnica: {
+    'Descripción del Producto': [{'Nombre Comercial': 'OPERA 18,3 SE'}],
+  },
+  dosis: '',
+  casa: 'BASF',
+  Categoría: 'Fungicida-Estrobilurina, Triazol, Pyraclostrobin, Epoxiconazole',
+  imagen: require('../../assets/Productos/BELLIS_38_WG.png'),
+  beneficios: [
+    '',
+  ],
+  modoDeUso:
+    '',
+  intervalo: '',
+  Cultivos: '',
+},
+];
+{
+  id: 54,
+  nombreProducto: 'SUNFIRE 24 SC',
+  fichaTecnica: {
+    'Descripción del Producto': [{'Nombre Comercial': 'SUNFIRE 24 SC'}],
+  },
+  dosis: '',
+  casa: 'BASF',
+  Categoría: 'Insecticida, Pirrol, Chlorfenapyr',
+  imagen: require('../../assets/Productos/BELLIS_38_WG.png'),
+  beneficios: [
+    '',
+  ],
+  modoDeUso:
+    'SUNFIRE es un insecticida que se convierte en su forma activa mediante las enzimas del insecto. El metabolismo activo es un fuerte interruptor del gradiente electroquímico de las mitocondrias, lo cual da lugar al desenlace de la fosforilación oxidativa. SUNFIRE posee una muy buena actividad translaminar.',
+  intervalo: '',
+  Cultivos: '',
+},
+];
+{
+  id: 55,
+  nombreProducto: 'DASH 37.5 EC',
+  fichaTecnica: {
+    'Descripción del Producto': [{'Nombre Comercial': 'DASH 37.5 EC'}],
+  },
+  dosis: 'Mezcle de 0,35 a 0,5 litros de DASH 55.8 EC por cada 100 litros de caldo de aplicación (en concentraciones de 0,35% a 0,5% del volumen total de caldo de aplicación por hectárea según los productos en mezcla). Use las dosis menores cuando el pH del agua a utilizar sea ácido y cuando los productos o mezclas tengan riesgo de causar fitotoxicidad.',
+  casa: 'BASF',
+  Categoría: 'Coadyuvante Agrícola',
+  imagen: require('../../assets/Productos/BELLIS_38_WG.png'),
+  beneficios: [
+    '',
+  ],
+  modoDeUso:
+    'DASH 55.8 EC es un coadyuvante para mejorar la eficacia de herbicidas postemergentes, tanto selectivos como no selectivos. DASH 55.8 EC reduce el pH y la tensión superficial de la mezcla de aspersión y protege los herbicidas de la fotodescomposición por la luz ultravioleta. Como resultado de ello, la adherencia, absorción, y actividad de la mezcla de aspersión sobre la superficie de la hoja se prolonga e incrementa.',
+  intervalo: '',
+  Cultivos: '',
+},
+];
