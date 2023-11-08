@@ -62,7 +62,7 @@ const CotizadorUtil = (dataText: string, total: string) => {
         <p style="margin: 0">RTN:</p>
         <p style="margin: 0">Dirección:</p>
         <p style="margin: 0">Teléfono:</p>
-        <p style="margin: 0">Condiciones: 720 Dias</p>
+        <p style="margin: 0">Condiciones: 720 días</p>
         <p style="margin: 0">Moneda: LPS</p>
         <p style="margin: 0">Vendedor: Cadelga APP</p>
         <p style="margin: 0">Tasa de Cambio:</p>

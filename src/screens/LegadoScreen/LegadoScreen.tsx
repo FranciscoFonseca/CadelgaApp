@@ -12,7 +12,7 @@ const LegadoScreen = () => {
     {
       id: 1,
       time: '1970',
-      title: 'AGROQUIMICOS',
+      title: 'agroquímicos',
       image: require('../../../assets/Legado/AGROQUIMICOS.png'),
     },
     {

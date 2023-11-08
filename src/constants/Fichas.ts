@@ -10,7 +10,7 @@ export const Fichas = [
           'Formulación y Concentración':
             'Suspensión concentrada. Contiene 350 gramos de ingrediente activo por litro de producto comercial',
         },
-        {'Ingrediente Activo': 'Thiarnethoxam'},
+        {'Ingrediente Activo': 'Thiamethoxam'},
         {Categoría: 'Insecticida'},
         {'Grupo Químico': 'Neonicotinoide'},
       ],
@@ -37,7 +37,7 @@ export const Fichas = [
       'Enfermedades que controla': [
         {Cucarro: 'Eutheola bidentata, Hylernia cilicrura'},
         {Pulgones: 'Rhophalosiphum maidis'},
-        {'Gusano Barrenador': 'Elosmapalpusangustellus'},
+        {'Gusano Barrenador': 'Elasmopalpus angustellus'},
         {Gorgojo: 'Listronotus bonariensis'},
         {'Gusanos Blancos': 'Hylamorpha elegans, Phytoloema herrmanni'},
         {'Mosca Blanca': 'Trialeurodes vaporariorum'},
@@ -71,29 +71,29 @@ export const Fichas = [
       'tabla#tabla-Composición Porcentual': {
         headers: ['Análisis Garantizado', '% en peso'],
         rows: [
-          ['Matería orgánica total', '20,000'],
-          ['Matería orgánica de extracto vegetal', '8,940'],
+          ['Matería orgánica total', '20.000'],
+          ['Matería orgánica de extracto vegetal', '8.940'],
           ['Actividad hormonal del extracto vegetal'],
-          ['Actividad Giberelinica (equivalente a 20 ppm de GA3)', '0,002'],
+          ['Actividad Giberelínica (equivalente a 20 ppm de GA3)', '0.002'],
           [
-            'Actividad Auxinica (equivalente a 63 ppm de Ácido Indol Acético)',
-            '0,006',
+            'Actividad Auxínica (equivalente a 63 ppm de Ácido Indol Acético)',
+            '0.006',
           ],
           [
-            'Actividad Citocininica (equivalente a 210 oom de Zeatina)',
-            '0,021',
+            'Actividad Citocinínica (equivalente a 210 ppm de Zeatina)',
+            '0.021',
           ],
-          ['Acidos grasos totales', '0,900'],
-          ['Carbohidratos (Glucosa y Fructosa)', '0,700'],
-          ['Vitaminas (Niacina)', '0,001'],
-          ['Vitaminas (Inositol)', '0,430'],
-          ['Aminoácidos totales', '9,000'],
-          ['Nitrógeno (N)', '1,000'],
-          ['Fósforo (P205)', '0,500'],
-          ['Potasio (K20)', '4,500'],
-          ['Manganeso (Mn)', '0,120'],
-          ['Hierro (Fe)', '0,490'],
-          ['Zinc (Zn)', '0,370'],
+          ['Ácidos grasos totales', '0.900'],
+          ['Carbohidratos (Glucosa y Fructosa)', '0.700'],
+          ['Vitaminas (Niacina)', '0.001'],
+          ['Vitaminas (Inositol)', '0.430'],
+          ['Aminoácidos totales', '9.000'],
+          ['Nitrógeno (N)', '1.000'],
+          ['Fósforo (P205)', '0.500'],
+          ['Potasio (K20)', '4.500'],
+          ['Manganeso (Mn)', '0.120'],
+          ['Hierro (Fe)', '0.490'],
+          ['Zinc (Zn)', '0.370'],
         ],
       },
     },
@@ -111,16 +111,16 @@ export const Fichas = [
         },
         {'Ingrediente Activo': 'Diazinon'},
         {Categoría: 'Insecticida'},
-        {'Grupo Qumico': 'Organofosforado'},
+        {'Grupo Quimico': 'Organofosforado'},
       ],
       'Aplicación del Producto': [
         {
           'Modo de Acción':
-            'Insecticida organofosforado con acción de contacto, ingestión e inhalación. El Diazinon no es sistémico, pero si presenta acción translaminar. Incorporado al suelo, puede ser absorbido por la raiz y translocado a los brotes vía floema.',
+            'Insecticida organofosforado con acción de contacto, ingestión e inhalación. El Diazinon no es sistémico, pero si presenta acción translaminar. Incorporado al suelo, puede ser absorbido por la raíz y translocado a los brotes vía floema.',
         },
         {
           'Mecanismo de Acción':
-            'Inhibidor de la colinesterasa afectando el sistema nervioso centralm causando parálisis y provocando la muerte del insecto.',
+            'Inhibidor de la colinesterasa afectando el sistema nervioso central, causando parálisis y provocando la muerte del insecto.',
         },
         {
           Cultivos:
@@ -128,7 +128,7 @@ export const Fichas = [
         },
         {
           Dosis:
-            'Arroz: 1.0-1.50 l/ha. Intervalos entre aplicación dependerá del nivel de infestación.\nBanano 0.5-0.75 l/ha. Aplicar cuando el nivel de infestación lo amerite.\nCebolla: 0.5-0.75 l/ha\nCítricos: 0.5-0.75 l/ha\nFrijol: 0.5-0.75 l/ha\nMaíz: 0.5-0.75 l/ha\nPiña: 0.5-0.75 l/ha\nSorgo: 0.5-0.75 l/ha\nMelón: 0.5-0.75 l/ha\nSandia: 0.7-1.5 l/ha',
+            'Arroz: 1.0-1.50 l/ha. Intervalos entre aplicación dependerá del nivel de infestación.\nBanano 0.5-0.75 l/ha. Aplicar cuando el nivel de infestación lo amerite.\nCebolla: 0.5-0.75 l/ha\nCítricos: 0.5-0.75 l/ha\nFrijol: 0.5-0.75 l/ha\nMaíz: 0.5-0.75 l/ha\nPiña: 0.5-0.75 l/ha intervalos de aplicación 8-12 días.\nSorgo: 0.5-0.75 l/ha\nMelón: 0.5-0.75 l/ha\nSandia: 0.7-1.5 l/ha',
         },
         {
           Compatibilidad:
@@ -153,7 +153,7 @@ export const Fichas = [
           'Formulación y Concentración':
             'Gránulos dispersables. Contiene 250 gramos de ingrediente activo por kilogramo de producto comercial',
         },
-        {'Ingrediente Activo': 'Thiarnethoxam'},
+        {'Ingrediente Activo': 'Thiamethoxam'},
         {Categoría: 'Insecticida'},
         {'Grupo Químico': 'Neonicotinoide'},
       ],
@@ -163,7 +163,7 @@ export const Fichas = [
         },
         {
           'Mecanismo de Acción':
-            'Rápidamente absorbido por la planta y transportado acropetalmente vía xilema. Actúa a nivel del sistema nervioso del insecto al funcionar como agonista de los receptores de acetil colina.',
+            'Rápidamente absorbido por la planta y transportado acrópetamente vía xilema. Actúa a nivel del sistema nervioso del insecto al funcionar como agonista de los receptores de acetil colina.',
         },
         {
           Cultivos:
@@ -178,13 +178,13 @@ export const Fichas = [
         {'Clasificación Toxicológica': 'IV. Franja verde'},
       ],
       'Enfermedades que controla': [
-        {Sogata: 'Sogatodes orizicola'},
+        {Sogata: 'Sogatodes oryzicola'},
         {Chinche: 'Oebalus poecilus'},
-        {'Chinche marrón': 'Tibraca limbativentris'},
+        {'Chinche marrón': 'Oebalus insularis'},
         {Millonaria: 'Hydrellia spp'},
         {'Mosca Blanca': 'Bemisia argentifolii, Bemisia spp. Trialeurodes sp'},
         {Áfidos: 'Aphis spp, Myzus spp, Macrosiphum spp'},
-        {'Mosca pinta': 'Aulacophora spp'},
+        {'Mosca pinta': 'Aenolamia sp'},
       ],
     },
   },
@@ -211,7 +211,7 @@ export const Fichas = [
         },
         {
           'Mecanismo de Acción':
-            'Axzoxystrobin con acción protectante, curativa y con propiedades sistémicas, inhibe la germinación de las esporas y el crecimiento del micelio en los hongos y Ciproconazol la sintesis del ergosterol',
+            'Azoxystrobin con acción protectante, curativa y con propiedades sistémicas, inhibe la germinación de las esporas y el crecimiento del micelio en los hongos y Ciproconazol la síntesis del ergosterol',
         },
         {
           Cultivos: 'Arroz, Ajo, Café, Frijol, Maní y Maíz',
@@ -219,7 +219,7 @@ export const Fichas = [
         {Dosis: '350 - 750 ml/ha, según el cultivo'},
         {
           Compatibilidad:
-            'Puede ser aplicado en mezcla con la mayoría de los productos de reacción neutra, sin embargo se recomienda hacer una pequeña pre mezcla para evaluar la compatibilidad fisica y biológica de los componentes.',
+            'Puede ser aplicado en mezcla con la mayoría de los productos de reacción neutra, sin embargo se recomienda hacer una pequeña pre mezcla para evaluar la compatibilidad física y biológica de los componentes.',
         },
         {Presentación: 'LITRO'},
         {'Clasificación Toxicológica': 'IV. Franja verde'},
@@ -230,8 +230,8 @@ export const Fichas = [
         {Piricularia: 'Pyricularia oryzae'},
         {Añublo: 'Rhizoctonia solani'},
         {'Mancha Marrón Angosta': 'Cercospora oryzae'},
-        {'Fusarium spp': 'Fusarium spp'},
-        {'Curvularia spp': 'Curvularia spp'},
+        {'Fusarium spp': ''},
+        {'Curvularia spp': ''},
         {'Mancha de Hierro': 'Cercospora coffeicola'},
         {Antracnosis: 'Colletotrichum coffeanum'},
         {Roya: 'Hemileia vastatrix'},
@@ -239,7 +239,7 @@ export const Fichas = [
         {Roya: 'Uromyces spp'},
         {'Mancha temprana': 'Cercospora arachidicola'},
         {'Mancha tardía': 'Cercosporidium personatum'},
-        {'Roya del mani': 'Puccinia arachidis'},
+        {'Roya del maní': 'Puccinia arachidis'},
       ],
     },
   },
@@ -260,10 +260,10 @@ export const Fichas = [
         },
       ],
       'Detalles del Producto':
-        'Evito® 48 SC, es un fungicida a base de Fluoxastrobin de acción sistémica perteneciente al grupo de estrobilurinas de última generación. El producto tirnr una fuerte acción preventiva, curativa y antiesporulante, con un amplio espectro de acción sobre numerosas enfermedades ocasionadas por hongos pertenecientes a las familias de Ascomycetes, Basidiomycetes, Deuteromycetes y Oomycetes en diversos cultivos, presentando una elevada retención y una rápida penetración en la hoja y distribución dentro de la planta lo cual incrementa su actividad.',
+        'Evito® 48 SC, es un fungicida a base de Fluoxastrobin de acción sistémica perteneciente al grupo de estrobilurinas de última generación. El producto tiene una fuerte acción preventiva, curativa y antiesporulante, con un amplio espectro de acción sobre numerosas enfermedades ocasionadas por hongos pertenecientes a las familias de Ascomicetes, Basidiomicetes, Deuteromicetes y Oomicetes en diversos cultivos, presentando una elevada retención y una rápida penetración en la hoja y distribución dentro de la planta lo cual incrementa su actividad.',
       'Aplicación del Producto':
-        'Evito® 48 SC, se absorbe rápimente a través de la hoja hasta alcanzar los tejidos vasculares para moverse acropétalmente por efecto de la transpiracion, lo que permite una redistribución uniforme del fluoxastrobin dentro de la hoja dando una excelente protección. La absorción por semillas y raíces es mucho menor. Evito® 48 SC es único en su clase, con un "EFECTO PLANT HEALTH" que afecta el metabolismo de la planta, reduciendo la producción de etileno, incrementando la eficiencia en la asimilación de Carbono, Incrementando la fijación de Nitrógeno, incrementando la eficiencia en la utilización del agua, y mejorando la eficiencia y uso de nutrientes. Todo lo anterior trae los siguientes beneficios: un retraso en la maduración, un mayor verdor de la planta, un incremento en la tolerancia de la planta a condiciones adversas, y una recuperación más rápida de plantas afectadas por condiciones de estrés.' +
-        '\n\nPor sus prodiedades y su formulación Evito penetra la citícula 15 minutos después de su aplicación, quedando protegido del ambiente inmediatamente después de la aplicación, posteriormente a las seis horas llega al Xilema por donde se desplaza a áreas de tejido que no recibieron la aplicación. Adicionalmente al caer al suelo el producto es absorbido por las raíces proporcionando un efecto fungicida en el sistema radicular y transportandose a las hojas por via sistémica.',
+        'Evito® 48 SC, se absorbe rápimente a través de la hoja hasta alcanzar los tejidos vasculares para moverse acropétalmente por efecto de la transpiración, lo que permite una redistribución uniforme del fluoxastrobin dentro de la hoja dando una excelente protección. La absorción por semillas y raíces es mucho menor. Evito® 48 SC es único en su clase, con un "EFECTO PLANT HEALTH" que afecta el metabolismo de la planta, reduciendo la producción de etileno, incrementando la eficiencia en la asimilación de Carbono, Incrementando la fijación de Nitrógeno, incrementando la eficiencia en la utilización del agua, y mejorando la eficiencia y uso de nutrientes. Todo lo anterior trae los siguientes beneficios: un retraso en la maduración, un mayor verdor de la planta, un incremento en la tolerancia de la planta a condiciones adversas, y una recuperación más rápida de plantas afectadas por condiciones de estrés.' +
+        '\n\nPor sus prodiedades y su formulación Evito penetra la citícula 15 minutos después de su aplicación, quedando protegido del ambiente inmediatamente después de la aplicación, posteriormente a las seis horas llega al Xilema por donde se desplaza a áreas de tejido que no recibieron la aplicación. Adicionalmente al caer al suelo el producto es absorbido por las raíces proporcionando un efecto fungicida en el sistema radicular y transportandose a las hojas por vía sistémica.',
     },
   },
 
@@ -278,7 +278,7 @@ export const Fichas = [
           'Formulación y Concentración':
             'Granulo dispersable. Contiene 500 gramos de ingrediente activo por kg de producto comercial',
         },
-        {'Ingrediente Activo': 'Azoxytrobin'},
+        {'Ingrediente Activo': 'AZOXYSTROBIN'},
         {Categoría: 'Fungicida'},
         {'Grupo Químico': 'Estrobilurina'},
       ],
@@ -293,7 +293,7 @@ export const Fichas = [
         },
         {
           Cultivos:
-            'Café, Arroz, Papa, Tomate, Chile, Ajo, Cebolla, Cucurbitáceas, Tabaco, Apio, Frijol, Helecho hoja de cuero, Lechuga, Cruciferas, Rosa, Mango, Zanahoria',
+            'Café, Arroz, Papa, Tomate, Chile, Ajo, Cebolla, Cucurbitáceas, Tabaco, Apio, Frijol, Helecho hoja de cuero, Lechuga, crucíferas, Rosa, Mango, Zanahoria',
         },
         {Dosis: '150 - 750 g/ha'},
         {
@@ -316,13 +316,13 @@ export const Fichas = [
         {Alternariosis: 'Alternaria spp'},
         {'Tizón tardío': 'Phytophthora infestans'},
         {Roya: 'Puccinia allii'},
-        {'Mildiu velloso': 'Pseudoalbugo cubensis'},
+        {'Mildiú velloso': 'Pseudoperonospora cubensis'},
         {Fusariosis: 'Fusarium spp'},
         {Esclerotinia: 'Sclerotinia sclerotiorum'},
         {Septoriosis: 'Septoria apii'},
-        {Antracnosis: 'Colletotrichum spp'},
+        {Antracnosis: 'Colletotrichum sp'},
         {Roya: 'Uromyces phaseoli'},
-        {Mildiu: 'Bremia lactucae'},
+        {Mildiú: 'Bremia lactucae'},
       ],
     },
     dosis: '350ml/Barril',
@@ -364,11 +364,11 @@ export const Fichas = [
         },
         {
           Dosis:
-            'Banano, plátano: 0.8 - 1.55 L/ha (0.56-1.05lt/mz)\nCaña de Azúcar: 1.5 - 2.0 L/ha (1.05-1.4lt/mz)\nCafé: 2.0 L/ha (1.4lt/mz)\nPalma africana: 2.0 - 2.5 L/ha (1.4-1.75lt/mz)',
+            'Banano, plátano: 0.8 - 1.55 L/ha (0.56-1.05lt/mz)\nCaña de Azúcar: 1.5 - 2.0 L/ha (1.05-1.4lt/mz)\nCafé: 2.0 L/ha (1.4lt/mz)\nPalma africana: 2.0 - 2.5 L/ha (1.4lt/mz1.75lt/mz)',
         },
         {
           Compatibilidad:
-            'Es compatible con la mayoría de los agroquimicos utilizados en la agricultura, sin embargo, se recomienda realizar pruebas previas al uso del producto.',
+            'Es compatible con la mayoría de los agroquímicos utilizados en la agricultura, sin embargo, se recomienda realizar pruebas previas al uso del producto.',
         },
         {
           Presentación: '25 kg',
@@ -379,9 +379,9 @@ export const Fichas = [
       ],
       'Enfermedades que controla': [
         {
-          Alambrillo: 'Digitaria spp',
+          Alambrillo: '',
         },
-        {Arrocillo: 'Echinochloa spp'},
+        {Arrocillo: 'Equinochloa'},
         {Bledo: 'Amaranthus spp'},
         {Caminadora: 'Rottboellia cochinchinensis'},
         {Campanilla: 'Ipomoea spp'},
@@ -393,7 +393,7 @@ export const Fichas = [
         {'Pasto de agua': 'Ixophorus spp'},
         {'Pata de gallina': 'Eleusine indica'},
         {Verdolaga: 'Portulaca oleracea'},
-        {'Pela-bolsillo': 'Rattboellia exaltata'},
+        {'Pela-bolsillo': 'Rottboelia exaltata'},
         {'Pasto Johnson': 'Sorghum halepense'},
         {'Grama común': 'Cynodon spp'},
       ],
@@ -410,26 +410,26 @@ export const Fichas = [
         },
         {
           'Formulación y Concentración':
-            'Liquido, Matería orgánica de origen vegetal, Sulfato Ferroso, Sulfato de Manganeso, Sulfato de Zinc, Sulfato de Magnesio, Octaborato de Sodio',
+            'Líquido, Materia orgánica de origen vegetal, Sulfato Ferroso, Sulfato de Manganeso, Sulfato de Zinc, Sulfato de Magnesio, Octaborato de Sodio',
         },
         {
           'Ingrediente Activo':
-            'Extractos de origen vegetal y fitohormonas biologicamente activas, Microelementos',
+            'Extractos de origen vegetal y fitohormonas biológicamente activas, Microelementos',
         },
         {
           Categoría: 'Bioestimulante',
         },
         {
           'Grupo Químico':
-            'No aplica: son extractos plantas mas micronutrientes',
+            'No aplica: son extractos plantas más micronutrientes',
         },
       ],
       'Detalles del Producto': [
         {
-          Presentacion: '10 Lts; Litros; 225 ml',
+          Presentación: '10 Lts; Litros; 225 ml',
         },
         {
-          'pH de la Formulacion': '4 a 5 (al 10%)',
+          'pH de la Formulación': '4 a 5 (al 10%)',
         },
         {
           Color: 'Café',
@@ -438,27 +438,34 @@ export const Fichas = [
           'Solubilidad en Agua': ' Miscible',
         },
       ],
-      'Composicion Porcentual': [
+      'Composición Porcentual': [
         {
           'Ingredientes Activos': [
-            'Extractos de origen vegetal y fitohormonas biológicamente activas',
-            'Giberelinas',
-            'Acido indolacético',
-            'Zeratina',
+            'Extractos de origen vegetal y fitohormonas biológicamente activas ……............ 78.87%',
+            'Giberelinas ……………………… 32.2 ppm',
+            'Ácido indolacético ……………………. 32.2 ppm',
+            'Zeatina …………………….…………  83.2 ppm',
           ],
         },
         {
-          'Ingredientes Inherentes': ' Diluyente y acondicionadores',
+          'Ingredientes Inherentes': 'Diluyente y acondicionadores ………. 19.27%',
         },
         {
-          'Ingredientes Inertes':
-            ' Microelementos, Magnesio (MgO, Azufre (S), Boro (B), Fierro (Fe), Manganeso (Mn), Zinc (Zn)',
+          'Ingredientes Inertes': [
+            'Microelementos….............................. 1.86%',
+            'Magnesio (MgO ...................................... 0.14%',
+            'Azufre (S)….................................... 0.44%',
+            'Boro (B)................................................ 0.30%,',
+            'Fierro (Fe) ...........................................0.49%',
+            'Manganeso (Mn)................................... 0.12%',
+            'Zinc (Zn) ….............................................0.37%',
+          ],
         },
       ],
       'Aplicación del Producto:': [
         {
           'Modo de Accion':
-            'Biozyme TF es un producto de origen natural clasificado como regulador del crecimiento vegetal. Su formulacion a base de extractos de plantas con actividad hormonal mas micronutrientes, le confiere propiedades únicas y novedosas que a nivel metabólico desencadenan reacciones que promueven la división celular en meristernos, asi como la elongación celular y el incremento del área foliar. Es también promotor de la diferenciación celular induciendo mas botones florales y mas vigorosos, mejora el amarre de flores y con ello mayor número de frutos. Cuando se aplica durante el crecimiento de frutillos induce la formación de más células epidernales con lo que se obtienen frutos de mayor tamaño y consistencia, obteniendo cosechas uniformes y de alta calidad.',
+            'Biozyme TF es un producto de origen natural clasificado como regulador del crecimiento vegetal. Su formulación a base de extractos de plantas con actividad hormonal más micronutrientes, le confiere propiedades únicas y novedosas que a nivel metabólico desencadenan reacciones que promueven la división celular en meristernos, asi como la elongación celular y el incremento del área foliar. Es también promotor de la diferenciación celular induciendo mas botones florales y mas vigorosos, mejora el amarre de flores y con ello mayor número de frutos. Cuando se aplica durante el crecimiento de frutillos induce la formación de más células epidernales con lo que se obtienen frutos de mayor tamaño y consistencia, obteniendo cosechas uniformes y de alta calidad.',
         },
       ],
     },
@@ -481,7 +488,7 @@ export const Fichas = [
         },
         {
           'Mecanismo de acción:':
-            'Inhibidor de la acetilcolinesterasa, afectando el sistema nervioso del insecto, causando paralisis y muerte.',
+            'Inhibidor de la acetilcolinesterasa, afectando el sistema nervioso del insecto, causando parálisis y muerte.',
         },
         {'PH de Aplicación:': 'Aplicar al pH ácido siempre ideal 4.0-5-5.'},
         {
@@ -496,13 +503,13 @@ export const Fichas = [
         headers: ['Cultivo', 'Plaga que controla', 'Dosis'],
         rows: [
           [
-            'Algodon, Gossypium, Hirsutum',
+            'Algodón, Gossypium, Hirsutum',
             'Ácaros:Tetranychus urticae\nChinche: Dysdercus spp.\nGusano perdorador: Bucculatrix thurberiella\nMosca Blanca: Bemicida tabaci\nPulgon: Aphis gossypii',
             ' Aplicación foliar de 3-6 litros/ha, ó 2-4.5 litros/manzana',
           ],
           [
             'Apio, Apium graveolens',
-            'Trips: Thrisps spp\nMinador de la hoja: Liriomysa sp',
+            'Trips: Thrisps spp\nMinador de la hoja: Liriomyza sp',
             'Aplicación foliar de 2-5 litros/ha ó 1.5-4.0 litros/manzana',
           ],
           [
@@ -544,7 +551,7 @@ export const Fichas = [
       'Aplicación del Producto:': [
         {
           'Modo de Acción:':
-            'DINAMIC® 70 WG, es un herbicida pre y post emergente con acción selectiva en el cultivo de caña de azúcar, recomendado para el control de malezas de hoja ancha y gramineas. En el cultivo de maiz no es selectivo por lo que debe aplicarse únicamente en pre emergencia. Se absorbe principalmente a través de las raíces y las hojas, se transloca hacia arriba (acropetalmente) por medio del xilema y se acumula en los meristemos apicales y las hojas. Inhibe la fotosintesis e interfiere en otros procesos enzimáticos.',
+            'DINAMIC® 70 WG, es un herbicida pre y post emergente con acción selectiva en el cultivo de caña de azúcar, recomendado para el control de malezas de hoja ancha y gramíneas. En el cultivo de maíz no es selectivo por lo que debe aplicarse únicamente en pre emergencia. Se absorbe principalmente a través de las raíces y las hojas, se transloca hacia arriba (acrópetamente) por medio del xilema y se acumula en los meristemos apicales y las hojas. Inhibe la fotosíntesis e interfiere en otros procesos enzimáticos.',
         },
         {
           'Modo de Aplicación:':
@@ -556,7 +563,7 @@ export const Fichas = [
         },
         {
           'Compatibilidad:':
-            'DINAMIC® 70 WG, es compatible con la mayoría de agroquimicos, se recomienda realizar previamente pruebas de compatibilidad en pequeña escala antes de realizar mezclas de agroquimicos.',
+            'DINAMIC® 70 WG, es compatible con la mayoría de agroquímicos, se recomienda realizar previamente pruebas de compatibilidad en pequeña escala antes de realizar mezclas de agroquímicos.',
         },
         {
           Fitotoxicidad:
@@ -564,7 +571,7 @@ export const Fichas = [
         },
         {
           'Frecuencia y Epoca de Aplicación:':
-            'Dadas sus caracteristicas físico-químicas y su novedoso mecanismo de acción, DINAMIC® 70 WG puede ser aplicado en preemergencia con efecto sistémico y residual, y en past-emergencia con efecto de contacto. DINAMIC® 70 WG expresa su máximo beneficio de eficacia sobre el complejo de malezas y manifiesta su máxima residualidad cuando se aplica en épocas secas o de verano. Se recomienda en el cultivo de la caña como herbicida selectivo post-emergente para el control de malezas de hoja ancha. Para Maiz, debe aplicarse únicamente en pre emergencia y ejerce control sobre malezas de hoja ancha y gramineas.',
+            'Dadas sus características físico-químicas y su novedoso mecanismo de acción, DINAMIC® 70 WG puede ser aplicado en preemergencia con efecto sistémico y residual, y en post-emergencia con efecto de contacto. DINAMIC® 70 WG expresa su máximo beneficio de eficacia sobre el complejo de malezas y manifiesta su máxima residualidad cuando se aplica en épocas secas o de verano. Se recomienda en el cultivo de la caña como herbicida selectivo post-emergente para el control de malezas de hoja ancha. Para maíz, debe aplicarse únicamente en pre emergencia y ejerce control sobre malezas de hoja ancha y gramíneas.',
         },
       ],
     },
@@ -578,7 +585,7 @@ export const Fichas = [
         {'Nombre Comercial': 'BIOGIB® 10 PS'},
         {
           'Formulación y Concentración':
-            'Polvo, Ácido giberélico (GA), Diluyentes y acondicionadores',
+            'Ácido Gilberélico (GA₃), Diluyentes y Acondicionadores',
         },
         {
           'Ingrediente Activo:':
@@ -610,12 +617,12 @@ export const Fichas = [
         rows: [
           [
             'Uva Flame sin semilla',
-            'De 15 a 37.5 gramos de BIOGIB® 10 PS por ha durante la floración, aplique cuando la mayoría de las racimos estén al 80% de floración. De 100 a 240 gramos de BIOGIB® 10 PS por ha después del raleo del racimo o cuando las bayas midan un promedio de 6 a 8 mm y la segunda aplicación durante las próximos 5 a 10 dias.',
+            'De 15 a 37.5 gramos de BIOGIB® 10 PS por ha durante la floración, aplique cuando la mayoría de las racimos estén al 80% de floración. De 100 a 240 gramos de BIOGIB® 10 PS por ha después del raleo del racimo o cuando las bayas midan un promedio de 6 a 8 mm y la segunda aplicación durante las próximos 5 a 10 días.',
             'Para disminuir el amarre reduciendo costos de raleo y acelerar la maduración. Aumenta el tamaño de los frutos.',
           ],
           [
             'Uva Perlette',
-            'De 160 a 400 gramos de BIOGIB® 10 PS por ha cuando las bayas midan de 4 a 5 mm de diámetro. La primera aplicación después del raleo del racimo y la segunda dentro de las próximas 7 dias. (Si la segunda aplicación ocurre a más de 14 dias se reducirá el efecto potencial)',
+            'De 160 a 400 gramos de BIOGIB® 10 PS por ha cuando las bayas midan de 4 a 5 mm de diámetro. La primera aplicación después del raleo del racimo y la segunda dentro de las próximas 7 días. (Si la segunda aplicación ocurre a más de 14 días se reducirá el efecto potencial)',
             'Para aumentar el tamaño de bayas y racimos.',
           ],
           [
@@ -667,11 +674,11 @@ export const Fichas = [
         '1) Mida un litro de agua en un recipiente transparente',
         '2 Agregue poco a poco la cantidad de producto necesaria hasta lograr la coloración del PH deseado de acuerdo a la escala de colores; el rango recomendable es 4.5 a 5.5, lo cual ocurre cuando el agua alcanza una coloración rosa (aproximadamente entre 70 y 100 mil por cada 100 litros de agua para aguas duras con un PH de 7.5 a 8).',
         '3) Agregue la dosis de acuerdo al resultado obtenido en la prueba; por ejempla: si para lograr el PH deseado se llevó 1 ml de PHASE 1 por litro de agua, se requerirán 100 ml de PHASE 1 por cada 100 litros de agua de aspersión.',
-        '4) Adicione al tanque o aspersora el resto de los agroquimicos.',
+        '4) Adicione al tanque o aspersora el resto de los agroquímicos.',
       ],
       'Características y Beneficios': {
         Características:
-          'Es un acidificante buferizante liquido de muy alta solubilidad y concentración, diseñado para regular el pH y la dureza de las aguas utilizadas en las mezclas para las aspersiones foliares de agroquímicos en cultivos hortícolas, fruticolas, ornamentales, cereales y de granos.',
+          'Es un acidificante buferizante liquido de muy alta solubilidad y concentración, diseñado para regular el pH y la dureza de las aguas utilizadas en las mezclas para las aspersiónes foliares de agroquímicos en cultivos hortícolas, fruticolas, ornamentales, cereales y de granos.',
       },
     },
   },
@@ -686,7 +693,7 @@ export const Fichas = [
           'Formulación y Concentración':
             'Contiene 18 gramas de ingrediente activo por litro de producto comercial',
         },
-        {'Ingrediente Activo': '1.8% ABAMECTIN'},
+        {'Ingrediente Activo': '1,8% ABAMECTIN'},
         {Categoría: 'INSECTICIDA, ACARICIDA AGRÍCOLA'},
       ],
       'Composición Química': [
@@ -699,11 +706,11 @@ export const Fichas = [
       'Aplicación del Producto:': [
         {
           'Espectro Biológico:':
-            'La abamnectina es un insecticida y acaricida con acción de contacto y estomacal. Tiene actividad sistémica limitada de la planta, pero exhibe movimiento translaminar. Control de etapas móviles de ácaros, minadores de hojas, chupones, escarabajos colorados, en plantas ornamentales, algodón, citricos, frutaspomáceas, cultivos de nueces, vegetales, papas y otros cultivos.',
+            'La abamnectina es un insecticida y acaricida con acción de contacto y estomacal. Tiene actividad sistémica limitada de la planta, pero exhibe movimiento translaminar. Control de etapas móviles de ácaros, minadores de hojas, chupones, escarabajos colorados, en plantas ornamentales, algodón, cítricos, frutaspomáceas, cultivos de nueces, vegetales, papas y otros cultivos.',
         },
         {
           'Modo de Acción:':
-            'ABALONE 1.8 EC Es un insecticida de origen natural, con poderosa actividad translaminar, producido por el microorganismo del suelo Streptomyces avermitilis. Actúa principalmente por ingestión y contacto directo sobre arañitas e insectos en frutales (Pomaceas, Carazos, Critricos, Nogales Kiwis y Vides), Tomate, pimiento, Berries, Cucurbitáceas, Apio, Flores y Ornamentales, El ácaro o insecto, se paraliza y no ovipone y dentro de un corto tiempo muere. ABALONE 1.8 EC posee una composición química y un modo de acción únicos, razon por la cual no presenta resistencia cruzada con otras productos. Su bajo impacto sobre insectos benéficas o enemigos naturales lo transforma en un producto ideal para el manejo integrado de plagas.',
+            'ABALONE 1.8 EC Es un insecticida de origen natural, con poderosa actividad translaminar, producido por el microorganismo del suelo Streptomyces avermitilis. Actúa principalmente por ingestión y contacto directo sobre arañitas e insectos en frutales (Pomaceas, Carazos, Critricos, Nogales Kiwis y Vides), Tomate, pimiento, Berries, Cucurbitáceas, Apio, Flores y Ornamentales, El ácaro o insecto, se paraliza y no ovipone y dentro de un corto tiempo muere. ABALONE 1.8 EC posee una composición química y un modo de acción únicos, razon por la cual no presenta resistencia cruzada con otras productos. Su bajo impacto sobre insectos benéficos o enemigos naturales lo transforma en un producto ideal para el manejo integrado de plagas.',
         },
         {
           'Método de Aplicación:':
@@ -711,9 +718,9 @@ export const Fichas = [
         },
         {
           'Compatibilidad:':
-            'Este producto no ha presentado problemas de incompatibilidad cuando se mezcla con agroquímicos autorizados para su uso en las cultivos aqui mencionados, sin embargo es recomendable realizar una premezcla para asegurarse de la compatibilidad fisica de los productos. No compatible con Captan.',
+            'Este producto no ha presentado problemas de incompatibilidad cuando se mezcla con agroquímicos autorizados para su uso en las cultivos aqui mencionados, sin embargo es recomendable realizar una premezcla para asegurarse de la compatibilidad física de los productos. No compatible con Captan.',
         },
-        {'Presentacion:': 'Litros; 100 ML'},
+        {'Presentación:': 'Litros; 100 ML'},
         {'Clasificación Toxicológica:': 'Tipo II'},
         {
           'Fitocoxicidad:':
@@ -729,7 +736,7 @@ export const Fichas = [
         ],
         rows: [
           ['Hortalizas de Fruto'],
-          ['Acaros: Tetranychus', '25 ml/100ml', '1', '3 días'],
+          ['Ácaros: Tetranychus', '25 ml/100ml', '1', '3 días'],
           [
             'Minadores de Hojas: Liriomyza',
             '50ml/100L',
@@ -747,19 +754,19 @@ export const Fichas = [
     Categoría: 'Fungicida',
     fichaTecnica: {
       'Descripción del Producto': [
-        {'Nombre Comercial': 'Balear 73 SC'},
+        {'Nombre Comercial': 'Balear™ 72 SC'},
         {
           'Formulación y Concentración':
             'Contiene 720 g/L SC de ingrediente activo por litro de producto comercial',
         },
         {'Ingrediente Activo': 'Chlorothalonil 720 g/L SC'},
         {Categoría: 'Fungicida'},
-        {'Grupo Químico:': 'CLORONTRILO CHLOROTHALONIL'},
+        {'Grupo Químico:': 'CLORONITRILO  CHLOROTHALONIL CHLOROTHALONIL'},
       ],
       'Aplicación del Producto': [
         {
           'Espectro Biológico':
-            'Balear 72 SC es un fungicida no sistémico de amplio aspectro. Controla varias enfermedades foliares del banano. Es un fungicida multiuso, lo que le otorga un activo único en comparación con los fungicidas sistémicos, siendo estos muy a menudo monositio. El amplio espectro de actividad biológica de Balear 72 SC, junto con su probado alto. El grado de seguridad de los cultivos garantiza una excelente protección de los cultivos en diversas condiciones de enfermedades en muchas áreas geográficas. El clorotalonil esta regustrado en la EPA . Es ampliamente utilizado internacionalmente y ha cumplido con los requisitos de registro/recomendación para uso comercial. Las afirmaciones de uso de Chlorothalonil se están expandiendo, ya que los resultados de las pruebas indican un expectro en expansion de la actividad de control de enfermedades.',
+            'Balear 72 SC es un fungicida no sistémico de amplio aspectro. Controla varias enfermedades foliares del banano. Es un fungicida multiuso, lo que le otorga un activo único en comparación con los fungicidas sistémicos, siendo estos muy a menudo monositio. El amplio espectro de actividad biológica de Balear 72 SC, junto con su probado alto. El grado de seguridad de los cultivos garantiza una excelente protección de los cultivos en diversas condiciones de enfermedades en muchas áreas geográficas. El clorotalonil esta registrado en la EPA . Es ampliamente utilizado internacionalmente y ha cumplido con los requisitos de registro/recomendación para uso comercial. Las afirmaciones de uso de Chlorothalonil se están expandiendo, ya que los resultados de las pruebas indican un expectro en expansión de la actividad de control de enfermedades.',
         },
         {
           'Modo de Acción':
@@ -767,16 +774,16 @@ export const Fichas = [
         },
         {
           'Método de Aplicación:':
-            'Balear 72 SC es un concentrado en suspensión ("fluible") listo para ser mezclado en agua y adecuado para su aplicación mediante sistemas convencionales de aspersión desde el suelo y desde aeronaves como aspersiones diluidas o concentradas. Para aerosoles diluídos, la cantidad requerida de Balear 72 SC debe agregarse lentamente al tanque de aspersión mientras se llena el tanque. Esto asegurará una mezcla completa y una solucion de rociado de consistencia uniforme. Con aerosoles concentrados, mezcle previamente la cantidad necesaria de Balear 72 SC con una cantidad adecuada de agua en un recipiente limpio. Agrega esta mezcla a el tanque de aspersión mientras se llena con agua. Los agitadores deben mantenerse en funcionamiento mientras se llena el tanque de aspersion en la preparación de soluciones de aspersión tanto diluídas como concentradas. Aplicar cuando aparezcan los primeros signos de enfermedad. Siga las dosis por hectárea indicadas en la tabla siguiente. Aplique en intérvalos de 10 a 21 dias y ajuste las dosis recomendadas de acuerdo con la presión de la enfermedad y los datos históricos que indiquen períodos de enfermedades graves. No rocíe sobre áreas que han sido rociadas con aceite dentro de los 7 días o se pueden dañar las hojas.',
+            'Balear 72 SC es un concentrado en suspensión ("fluible") listo para ser mezclado en agua y adecuado para su aplicación mediante sistemas convencionales de aspersión desde el suelo y desde aeronaves como aspersiónes diluidas o concentradas. Para aerosoles diluídos, la cantidad requerida de Balear 72 SC debe agregarse lentamente al tanque de aspersión mientras se llena el tanque. Esto asegurará una mezcla completa y una solucion de rociado de consistencia uniforme. Con aerosoles concentrados, mezcle previamente la cantidad necesaria de Balear 72 SC con una cantidad adecuada de agua en un recipiente limpio. Agrega esta mezcla a el tanque de aspersión mientras se llena con agua. Los agitadores deben mantenerse en funcionamiento mientras se llena el tanque de aspersión en la preparación de soluciones de aspersión tanto diluídas como concentradas. Aplicar cuando aparezcan los primeros signos de enfermedad. Siga las dosis por hectárea indicadas en la tabla siguiente. Aplique en intérvalos de 10 a 21 días y ajuste las dosis recomendadas de acuerdo con la presión de la enfermedad y los datos históricos que indiquen períodos de enfermedades graves. No rocíe sobre áreas que han sido rociadas con aceite dentro de los 7 días o se pueden dañar las hojas.',
         },
         {
           'Compatibilidad:':
-            'Balear 72 SC es compatible con fungicidas, insecticidas, acaricidas y fertilizantes foliares más comúnmente utilizado en plátanos. Sin embargo, recomendamos realizar una prueba preliminar en caso de duda. Balear 72 SC no es compatible con los aceites utilizados en la agricultura y puede causar daño a las plantas. Se recomienda dejar un intérvalo de 7 a 10 dias entre un tratamiento de Balear 72 SC y aceites para evitar cualquier problema de fitotoxicidad.',
+            'Balear 72 SC es compatible con fungicidas, insecticidas, acaricidas y fertilizantes foliares más comúnmente utilizado en plátanos. Sin embargo, recomendamos realizar una prueba preliminar en caso de duda. Balear 72 SC no es compatible con los aceites utilizados en la agricultura y puede causar daño a las plantas. Se recomienda dejar un intérvalo de 7 a 10 días entre un tratamiento de Balear 72 SC y aceites para evitar cualquier problema de fitotoxicidad.',
         },
         {'Presentación:': '200 Lts; 20 Lts; Litros'},
         {
           Fitotoxicidad:
-            'Balear 72 SC no provoca ningun efecto de fitotoxicidad en los cultivos recomendados cuando se usa siguiendo las instrucciones de uso',
+            'Balear 72 SC no provoca ningún efecto de fitotoxicidad en los cultivos recomendados cuando se usa siguiendo las instrucciones de uso',
         },
       ],
     },
@@ -835,7 +842,7 @@ export const Fichas = [
       'Intervalo de Aplicación':
         'Generalmente se aplica una sola vez en el ciclo del cultivo.',
       'Intervalo Entre la Ultima Apliación y la Cosecha':
-        'De acuerdo con las condiciones de aplicación y el periodo de crecimiento restante entre la aplicación y la cosecha es de 14 dias.',
+        'De acuerdo con las condiciones de aplicación y el periodo de crecimiento restante entre la aplicación y la cosecha es de 14 días.',
       'Intervalo de Reingreso al Area Tratada':
         'Evite el reingreso a personas a un campo recién tratado con el producto hasta pasadas 24 horas de la aplicación.',
       Fitotoxicidad:
@@ -1123,7 +1130,7 @@ export const Fichas = [
       'Intervalos de Aplicación':
         'Se aplica cada 10 a 15 días. En café aplicar una sola vez cuando el nivel de ataque este en un 13%.',
       'Intervalo Entre la Ultima Apliación y la Cosecha':
-        'Para los cultivos de algodón, citricos, Manzano, arroz, banano, plátano, chile, maíz, papa, piña, sorgo, tabaco, tomate 20 días, para el cultivo de café 21 dias.',
+        'Para los cultivos de algodón, cítricos, Manzano, arroz, banano, plátano, chile, maíz, papa, piña, sorgo, tabaco, tomate 20 días, para el cultivo de café 21 días.',
       'Intervalo de Reingreso al Area Tratada':
         'Ingresar 24 horas después de la aplicación, si se ingresa antes utilizar el equipo de protección personal adecuado.',
       Fitotoxicidad: 'No es fitotóxico en los cultivos y dosis recomendadas.',
@@ -1132,7 +1139,7 @@ export const Fichas = [
       'Precauciones y Advertencias de Uso':
         'No se debe de comer, beber o fumar durante el manejo, mezcla, aplicación del producto. Es necesario que se utilice el equipo de protección completo: sombrero, gafas, mascarillas, overol, guantes y botas de hule. Lave el equipo de protección después de cada jornada de trabajo. No lave la ropa de protección junto con la ropa de uso normal. Evite el contacto de uso normal. Evite el contacto directo con el producto.',
       'Almacenamiento y Transporte':
-        'No transporte ni almacene este producto junto con los alimentos, forrajes, medicamentos, ropa y utensilios de usos doméstico y pecuario en general. Tanto en el transporte como el almecenamiento  procure que no esté el producto con ningun tipo de fertilizates y semillas. Almacénece bajo llave, en un lugar fresco y seco, alejado del calor. Los residuos sin usar deben guardarse en su envase original debidamente cerrado y procurando que su etiqueta se encuentre adherida.',
+        'No transporte ni almacene este producto junto con los alimentos, forrajes, medicamentos, ropa y utensilios de usos doméstico y pecuario en general. Tanto en el transporte como el almecenamiento  procure que no esté el producto con ningún tipo de fertilizates y semillas. Almacénece bajo llave, en un lugar fresco y seco, alejado del calor. Los residuos sin usar deben guardarse en su envase original debidamente cerrado y procurando que su etiqueta se encuentre adherida.',
     },
   },
   // {
@@ -1433,7 +1440,7 @@ export const Fichas = [
           ],
           [
             'Melón (Cucumis melo) Sandía (Citrullus vulgaris)',
-            'Mildiu velloso (Pseudoperonospora cubensis)',
+            'Mildiú velloso (Pseudoperonospora cubensis)',
             '1,2 a 1,5 kg/Ha',
             '0',
           ],
@@ -1527,37 +1534,37 @@ export const Fichas = [
           ],
           [
             'Café (Coffea arabica)',
-            'Chasparria negra (Colletotrichum spp.)',
+            'Chasparria negra (Colletotrichum sp.)',
             '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
             'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
           ],
           [
             'Melón (Cucumis melo)',
-            'Antracnosis (Colletotrichum spp.)',
+            'Antracnosis (Colletotrichum sp.)',
             '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
             'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
           ],
           [
             'Sandía (Citrullus lunatus)',
-            'Antracnosis (Colletotrichum spp.)',
+            'Antracnosis (Colletotrichum sp.)',
             '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
             'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
           ],
           [
             'Pepino (Cucumis sativus)',
-            'Antracnosis (Colletotrichum spp.)',
+            'Antracnosis (Colletotrichum sp.)',
             '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
             'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
           ],
           [
             'Tomate (Lycopersicon esculentum)',
-            'Antracnosis (Colletotrichum spp.)',
+            'Antracnosis (Colletotrichum sp.)',
             '0.7-1.0 Kg/ha (0.49-0.7 Kg/mz)',
             'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
           ],
           [
             'Frijol (Phaseolus vulgaris)',
-            'Antracnosis (Colletotrichum spp.)',
+            'Antracnosis (Colletotrichum sp.)',
             '0.5-0.7 Kg/ha (0.35-0.49 Kg/mz)',
             'Aplique el producto en forma preventiva, cuando las plantas tengan 4-5 hojas verdaderas. Repita la aplicación cada 15 días.',
           ],
@@ -1771,7 +1778,7 @@ entre 18-25 L/ha. Se recomiendan unas 25
 aplicaciones por año, sin embargoes posible 
 ajustar estas aplicaiones según las necesidades 
 del cultivo, ya que por ser un producto de 
-naturaleza orgánica, con caracteristicas 
+naturaleza orgánica, con características 
 bioestimulantes no se condiera riesto de generar 
 resistencia. Este producto puede aplicarse vía 
 aérea 
@@ -1784,7 +1791,7 @@ aérea
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'NPK FERTIL 20-20-0'},
-        {'Clase de Producto': 'Fertilizante Solido Granulado'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
         {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
         {'Categoría Toxicológica': 'N/A'},
         {'Numero de Registro Honduras:': '2002/361-66-IV'},
@@ -1798,13 +1805,13 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2.Os.)', '20%', '=5%'],
-          ['Potasio (K2O)', '0%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2.Os.)', '20%', '±5%'],
+          ['Potasio (K2O)', '0%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fertilizante granular, mezcla fisica de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno y Fósforo, que en su formulación no requiera concentración de portasio.',
+        'Fertilizante granular, mezcla física de NPK en proporciones iguales, usada en cultivos demandantes de altos contenidos de Nitrógeno y Fósforo, que en su formulación no requiera concentración de portasio.',
     },
   },
   {
@@ -1813,7 +1820,7 @@ aérea
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'FASTRAC 12-20-12'},
-        {'Clase de Producto': 'Fertilizante Solido Granulado'},
+        {'Clase de Producto': 'Fertilizante Sólido Granulado'},
         {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
         {'Categoría Toxicológica': 'N/A'},
         {'Numero de Registro Honduras:': '2002/361-66-IV'},
@@ -1827,9 +1834,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '12%', '=5%'],
-          ['Fósforo (P2.Os.)', '20%', '=5%'],
-          ['Potasio (K2O)', '12%', '=5%'],
+          ['Nitrógeno (N)', '12%', '±5%'],
+          ['Fósforo (P2.Os.)', '20%', '±5%'],
+          ['Potasio (K2O)', '12%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -1858,13 +1865,13 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '43%', '=5%'],
-          ['Azufre (S)', '6%', '=5%'],
+          ['Nitrógeno (N)', '43%', '±5%'],
+          ['Azufre (S)', '6%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
         'Fertilizante granular recomendado especialmente para hacer mezclas físicas o para recuperación de pastizales dañados por pastoreo, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses.',
-      Presentaciones: ['43 Kg', '45.36 Kg'],
+      Presentaciones: ['43Kg', '45.36Kg'],
     },
   },
   {
@@ -1890,9 +1897,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '12%', '=5%'],
-          ['Fósforo (P2.Os.)', '24%', '=5%'],
-          ['Potasio (K2O)', '12%', '=5%'],
+          ['Nitrógeno (N)', '12%', '±5%'],
+          ['Fósforo (P2.Os.)', '24%', '±5%'],
+          ['Potasio (K2O)', '12%', '±5%'],
         ],
         'Recomendaciones de Uso': [
           'Fertilizante de propósito general recomendado para una amplia gama de cultivos especialmente frutales, hortalizas y ornamentales, potencializado con liberación controlada que permite una mejor eficiencia del nitrógeno hasta por 3 meses, además dentro de su formulación contiene ricos nutrientes como Calcio, Magnesio, Azufre, Zinc y Boro.',
@@ -1922,15 +1929,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2.Os.)', '3%', '=5%'],
-          ['Potasio (K2O)', '17%', '=5%'],
-          ['Calcio (Ca)', '7.70%', '=5%'],
-          ['Magnesio (Mg)', '4.62%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2.Os.)', '3%', '±5%'],
+          ['Potasio (K2O)', '17%', '±5%'],
+          ['Calcio (Ca)', '7.70%', '±5%'],
+          ['Magnesio (Mg)', '4.62%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fórmula cafetalera NPK FERTIL 17-3-17 es una propuesta comercial, dado a la relación 1:1 Entre Nitrógeno (N)/ Potasio (K) con un contenido del 17%, con un nivel de 3% de fósforo. Con aporte enriquecedor de 7.7% de calcio y un 4.62% de Magnesio. Esta formulación está orientada a satisfacer el requerimiento de nutrientes en una plantación de café en las etapas de: inicio, crecimiento y desarrollo del grano de forma general. Basado en la relación de extracción de nutrientes para una plantación en producción promedio de café en nuestro país o región norte de C.A.',
+        'Fórmula cafetalera NPK FERTIL 17-3-17 es una propuesta comercial, dado a la relación 1:1 Entre Nitrógeno (N)/ Potasio (K) con un contenido del 17%, con un nivel de 3% de fósforo. Con aporte enriquecedor de 7,7% de calcio y un 4.62% de Magnesio. Esta formulación está orientada a satisfacer el requerimiento de nutrientes en una plantación de café en las etapas de: inicio, crecimiento y desarrollo del grano de forma general. Basado en la relación de extracción de nutrientes para una plantación en producción promedio de café en nuestro país o región norte de C.A.',
     },
   },
   {
@@ -1954,10 +1961,10 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '30.6%', '=5%'],
-          ['Fósforo (P2.Os.)', '0%', '=5%'],
-          ['Potasio (K2O)', '0%', '=5%'],
-          ['Azufre (S)', '8.9%', '=5%'],
+          ['Nitrógeno (N)', '30,6%', '±5%'],
+          ['Fósforo (P2.Os.)', '0%', '±5%'],
+          ['Potasio (K2O)', '0%', '±5%'],
+          ['Azufre (S)', '8,9%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -1966,7 +1973,7 @@ aérea
   },
   {
     id: 23,
-    nombreProducto: 'NPK FASTRAC 16-5-27',
+    nombreProducto: 'FASTRAC 16-5-27',
     fichaTecnica: {
       'Descripción del Producto': [
         {'Nombre Comercial': 'FASTRAC 16-5-27'},
@@ -1985,15 +1992,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '16%', '=5%'],
-          ['Fósforo (P2.Os.)', '5%', '=5%'],
+          ['Nitrógeno (N)', '16%', '±5%'],
+          ['Fósforo (P2.Os.)', '5%', '±5%'],
 
-          ['Potasio (K2O)', '27%', '=5%'],
-          ['Magnesio (Mg)', '3%', '=5%'],
-          ['Azufre (S)', '2%', '=5%'],
-          ['Zinc (Zn)', '0.1%', '=5%'],
-          ['Boro (B)', '0.3%', '=5%'],
-          ['Silicio (Si)', '1.8%', '=5%'],
+          ['Potasio (K2O)', '27%', '±5%'],
+          ['Magnesio (Mg)', '3%', '±5%'],
+          ['Azufre (S)', '2%', '±5%'],
+          ['Zinc (Zn)', '0,1%', '±5%'],
+          ['Boro (B)', '0,3%', '±5%'],
+          ['Silicio (Si)', '1,8%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2021,9 +2028,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '18%', '=5%'],
-          ['Fósforo (P2.Os.)', '3%', '=5%'],
-          ['Potasio (K2O)', '18%', '=5%'],
+          ['Nitrógeno (N)', '18%', '±5%'],
+          ['Fósforo (P2.Os.)', '3%', '±5%'],
+          ['Potasio (K2O)', '18%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2051,9 +2058,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2.Os.)', '4%', '=5%'],
-          ['Potasio (K2O)', '21%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2.Os.)', '4%', '±5%'],
+          ['Potasio (K2O)', '21%', '±5%'],
         ],
       },
     },
@@ -2079,9 +2086,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2Os)', '5%', '=5%'],
-          ['Potasio (K2O)', '21%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2Os)', '5%', '±5%'],
+          ['Potasio (K2O)', '21%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2109,15 +2116,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2Os)', '15%', '=5%'],
-          ['Potasio (K2O)', '13%', '=5%'],
-          ['Calcio (Ca)', '2%', '=5%'],
-          ['Magnesio (MgO)', '1%', '=5%'],
-          ['Azufre (S)', '4%', '=5%'],
-          ['Zinc (Zn)', '0.4%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '1%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2Os)', '15%', '±5%'],
+          ['Potasio (K2O)', '13%', '±5%'],
+          ['Calcio (Ca)', '2%', '±5%'],
+          ['Magnesio (MgO)', '1%', '±5%'],
+          ['Azufre (S)', '4%', '±5%'],
+          ['Zinc (Zn)', '0,4%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '1%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2145,15 +2152,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2Os)', '5%', '=5%'],
-          ['Potasio (K2O)', '5%', '=5%'],
-          ['Calcio (Ca)', '1.3%', '=5%'],
-          ['Magnesio (MgO)', '1.5%', '=5%'],
-          ['Azufre (S)', '6.4%', '=5%'],
-          ['Zinc (Zn)', '0.7%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '0.6%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2Os)', '5%', '±5%'],
+          ['Potasio (K2O)', '5%', '±5%'],
+          ['Calcio (Ca)', '1,3%', '±5%'],
+          ['Magnesio (MgO)', '1,5%', '±5%'],
+          ['Azufre (S)', '6,4%', '±5%'],
+          ['Zinc (Zn)', '0,7%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '0,6%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2182,10 +2189,10 @@ aérea
     'tabla#tabla-Composición en Elementos': {
       headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
       rows: [
-        ['Carbonato de Calcio (CaCO3)', '30%', '=5%'],
-        ['Magnesio (MgO)', '8%', '=5%'],
-        ['Azufre (S)', '16%', '=5%'],
-        ['Silicio (SiO2)', '9%', '=5%'],
+        ['Carbonato de Calcio (CaCO3)', '30%', '±5%'],
+        ['Magnesio (MgO)', '8%', '±5%'],
+        ['Azufre (S)', '16%', '±5%'],
+        ['Silicio (SiO2)', '9%', '±5%'],
       ],
     },
     'Recomendaciones de Uso': [
@@ -2223,15 +2230,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '21%', '=5%'],
-          ['Fósforo (P2Os)', '4%', '=5%'],
-          ['Potasio (K2O)', '16%', '=5%'],
-          ['Calcio (Ca)', '3%', '=5%'],
-          ['Magnesio (MgO)', '1%', '=5%'],
-          ['Azufre (S)', '5%', '=5%'],
-          ['Zinc (Zn)', '0,4%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '1%', '=5%'],
+          ['Nitrógeno (N)', '21%', '±5%'],
+          ['Fósforo (P2Os)', '4%', '±5%'],
+          ['Potasio (K2O)', '16%', '±5%'],
+          ['Calcio (Ca)', '3%', '±5%'],
+          ['Magnesio (MgO)', '1%', '±5%'],
+          ['Azufre (S)', '5%', '±5%'],
+          ['Zinc (Zn)', '0,4%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '1%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2259,17 +2266,17 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2Os)', '7%', '=5%'],
-          ['Potasio (K2O)', '17%', '=5%'],
-          ['Calcio (Ca)', '1.2%', '=5%'],
-          ['Magnesio (MgO)', '0.4%', '=5%'],
-          ['Azufre (S)', '3.2%', '=5%'],
-          ['Zinc (Zn)', '7%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2Os)', '7%', '±5%'],
+          ['Potasio (K2O)', '17%', '±5%'],
+          ['Calcio (Ca)', '1,2%', '±5%'],
+          ['Magnesio (MgO)', '0,4%', '±5%'],
+          ['Azufre (S)', '3,2%', '±5%'],
+          ['Zinc (Zn)', '7%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fórmula cafetalera de etapa de crecimiento dado a la condición del balance de su contenido de nutrientes y su relación con Nitrógeno protegido con tecnología agrocote versus potasio 1/1, con una concentración de Fósforo que apoya dicha fase vegetativa. Tamnbién aporta elementos secundarios como ser: calcio magnesio y azufre. Contiene microelementos como Zinc.',
+        'Fórmula cafetalera de etapa de crecimiento dado a la condición del balance de su contenido de nutrientes y su relación con Nitrógeno protegido con tecnología agrocote versus potasio 1/1, con una concentración de Fósforo que apoya dicha fase vegetativa. También aporta elementos secundarios como ser: calcio magnesio y azufre. Contiene microelementos como Zinc.',
     },
   },
   {
@@ -2277,7 +2284,6 @@ aérea
     nombreProducto: 'FASTRAC 20-3-17',
     fichaTecnica: {
       'Descripción del Producto': [
-        {'Nombre Comercial': 'NPK FERTIL 20-3-17'},
         {'Clase de Producto': 'Fertilizante Sólido Granulado'},
         {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
         {'Categoría Toxicológica': 'N/A'},
@@ -2293,9 +2299,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo P2Os', '3%', '=5%'],
-          ['Potasio K2O', '17%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo P2Os', '3%', '±5%'],
+          ['Potasio K2O', '17%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2323,9 +2329,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '18%', '=5%'],
-          ['Fósforo (P2O5)', '5%', '=5%'],
-          ['Potasio (K2O)', '15%', '=5%'],
+          ['Nitrógeno (N)', '18%', '±5%'],
+          ['Fósforo (P2O5)', '5%', '±5%'],
+          ['Potasio (K2O)', '15%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2334,10 +2340,10 @@ aérea
   },
   {
     id: 34,
-    nombreProducto: 'NPK FERTIL 17-3-17-3.0Cao-0.5Zn',
+    nombreProducto: 'NPK FERTIL 17-3-17-3.0CaO-0.5Zn',
     fichaTecnica: {
       'Descripción del Producto': [
-        {'Nombre Comercial': 'NPK FERTIL 17-3-17-3.0Cao-0.5Zn'},
+        {'Nombre Comercial': 'NPK FERTIL 17-3-17-3.0CaO-0.5Zn'},
         {'Clase de Producto': 'Fertilizante Sólido Granulado'},
         {'Tipo Formulación': 'Fertilizante Granulado para uso Agrícola'},
         {'Categoría Toxicológica': 'N/A'},
@@ -2353,11 +2359,11 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2Os)', '3%', '=5%'],
-          ['Potasio (K2O)', '17%', '=5%'],
-          ['Calcio (CaO)', '3%', '=5%'],
-          ['Zinc (Zn)', '0.5%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2Os)', '3%', '±5%'],
+          ['Potasio (K2O)', '17%', '±5%'],
+          ['Calcio (CaO)', '3%', '±5%'],
+          ['Zinc (Zn)', '0,5%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2386,11 +2392,11 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2Os)', '3%', '=5%'],
-          ['Potasio (K2O)', '18%', '=5%'],
-          ['Calcio (Ca)', '3%', '=5%'],
-          ['Magnesio (MgO)', '1.4%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2Os)', '3%', '±5%'],
+          ['Potasio (K2O)', '18%', '±5%'],
+          ['Calcio (Ca)', '3%', '±5%'],
+          ['Magnesio (MgO)', '1,4%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2418,15 +2424,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2O5)', '15%', '=5%'],
-          ['Potasio (K2O)', '5%', '=5%'],
-          ['Calcio (Ca)', '3%', '=5%'],
-          ['Magnesio (MgO)', '2%', '=5%'],
-          ['Azufre (S)', '7%', '=5%'],
-          ['Zinc (Zn)', '0.7%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '2%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2O5)', '15%', '±5%'],
+          ['Potasio (K2O)', '5%', '±5%'],
+          ['Calcio (Ca)', '3%', '±5%'],
+          ['Magnesio (MgO)', '2%', '±5%'],
+          ['Azufre (S)', '7%', '±5%'],
+          ['Zinc (Zn)', '0,7%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '2%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2454,10 +2460,10 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '18.7%', '=5%'],
-          ['Fósforo (P2Os)', '0%', '=5%'],
-          ['Potasio (K2O)', '20.0%', '=5%'],
-          ['Magnesio (MgO)', '7.2%', '=5%'],
+          ['Nitrógeno (N)', '18,7%', '±5%'],
+          ['Fósforo (P2Os)', '0%', '±5%'],
+          ['Potasio (K2O)', '20,0%', '±5%'],
+          ['Magnesio (MgO)', '7,2%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2485,12 +2491,12 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2Os)', '20%', '=5%'],
-          ['Potasio (K2O)', '20%', '=5%'],
-          ['Azufre (S)', '0.1%', '=5%'],
-          ['Zinc (Zn)', '0.1%', '=5%'],
-          ['Boro (B)', '0.1%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2Os)', '20%', '±5%'],
+          ['Potasio (K2O)', '20%', '±5%'],
+          ['Azufre (S)', '0,1%', '±5%'],
+          ['Zinc (Zn)', '0,1%', '±5%'],
+          ['Boro (B)', '0,1%', '±5%'],
           ['Trazas', 'Fierro (Fe)', '60'],
           ['Molibdeno (Mo)', '100'],
           ['Aminio ácidos (Complejo)', '450'],
@@ -2523,17 +2529,17 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '15%', '=5%'],
-          ['Fósforo (P2Os)', '7%', '=5%'],
-          ['Potasio (K2O)', '28%', '=5%'],
-          ['Magnesio (MgO)', '1%', '=5%'],
-          ['Azufre (S)', '4%', '=5%'],
-          ['Zinc (Zn)', '0.4%', '=5%'],
-          ['Boro (B)', '0.3%', '=5%'],
+          ['Nitrógeno (N)', '15%', '±5%'],
+          ['Fósforo (P2Os)', '7%', '±5%'],
+          ['Potasio (K2O)', '28%', '±5%'],
+          ['Magnesio (MgO)', '1%', '±5%'],
+          ['Azufre (S)', '4%', '±5%'],
+          ['Zinc (Zn)', '0,4%', '±5%'],
+          ['Boro (B)', '0,3%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción. Así como también para aquellos cultivos demandantes de potasio en sus ultimos dias de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
+        'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción. Así como también para aquellos cultivos demandantes de potasio en sus últimos días de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
     },
   },
   {
@@ -2557,14 +2563,14 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '21%', '=5%'],
-          ['Fósforo (P2Os)', '0%', '=5%'],
-          ['Potasio (K2O)', '30%', '=5%'],
-          ['Azufre (S)', '3%', '=5%'],
+          ['Nitrógeno (N)', '21%', '±5%'],
+          ['Fósforo (P2Os)', '0%', '±5%'],
+          ['Potasio (K2O)', '30%', '±5%'],
+          ['Azufre (S)', '3%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fertilizante granular, mezcla fpisica de N-K-S, en proporciones 1-0-1.5-0.15S, para ser utilizada en aplicaciones en el cultivo de banano y con ello suplir demandas requeridas de nutrientes según requerimiento de cliente.',
+        'Fertilizante granular, mezcla física de N-K-S ,  en proporciones 1-0-1.5-0.15S, para ser utilizada en aplicaciones en el cultivo de banano, y con ello suplir demandas requeridas de nutrientes según requerimiento de cliente.',
     },
   },
   {
@@ -2588,12 +2594,12 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2Os)', '20%', '=5%'],
-          ['Potasio (K2O)', '20%', '=5%'],
-          ['Azufre (S)', '0.1%', '=5%'],
-          ['Zinc (Zn)', '0.2%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2Os)', '20%', '±5%'],
+          ['Potasio (K2O)', '20%', '±5%'],
+          ['Azufre (S)', '0,1%', '±5%'],
+          ['Zinc (Zn)', '0,2%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2621,15 +2627,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '12%', '=5%'],
-          ['Fósforo (P2Os)', '5%', '=5%'],
-          ['Potasio (K2O)', '30%', '=5%'],
-          ['Calcio (Ca)', '0.5%', '=5%'],
-          ['Magnesio (MgO)', '1%', '=5%'],
-          ['Azufre (S)', '6%', '=5%'],
-          ['Zinc (Zn)', '0.4%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '0.2%', '=5%'],
+          ['Nitrógeno (N)', '12%', '±5%'],
+          ['Fósforo (P2Os)', '5%', '±5%'],
+          ['Potasio (K2O)', '30%', '±5%'],
+          ['Calcio (Ca)', '0,5%', '±5%'],
+          ['Magnesio (MgO)', '1%', '±5%'],
+          ['Azufre (S)', '6%', '±5%'],
+          ['Zinc (Zn)', '0,4%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '0,2%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2657,7 +2663,7 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
           ['Azufre (S)', '6%', '=15%'],
         ],
       },
@@ -2686,12 +2692,12 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2Os)', '5%', '=5%'],
-          ['Potasio (K2O)', '17%', '=5%'],
-          ['Calcio (CaO)', '3%', '=5%'],
-          ['Magnesio (MgO)', '2%', '=5%'],
-          ['Zinc (Zn)', '0.5%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2Os)', '5%', '±5%'],
+          ['Potasio (K2O)', '17%', '±5%'],
+          ['Calcio (CaO)', '3%', '±5%'],
+          ['Magnesio (MgO)', '2%', '±5%'],
+          ['Zinc (Zn)', '0,5%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2705,7 +2711,7 @@ aérea
       'Descripción del Producto': [
         {'Nombre Comercial': 'FASTRAC 15-15-15'},
         {'Clase de Producto': 'Fertilizante Sólido Granulado'},
-        {'Tipo Formulación': 'Fertilizante Granulado para uso Agrpicola'},
+        {'Tipo Formulación': 'Fertilizante granulado para uso agrícola'},
         {'Categoría Toxicológica': 'N/A'},
         {'Número de Registro Honduras:': '2002/361-66-IV'},
       ],
@@ -2719,15 +2725,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '15%', '=5%'],
-          ['Fósforo (P2Os)', '15%', '=5%'],
-          ['Potasio (K2O)', '15%', '=5%'],
-          ['Calcio (Ca)', '4%', '=5%'],
-          ['Magnesio (MgO)', '2%', '=5%'],
-          ['Azufre (S)', '4%', '=5%'],
-          ['Zinc (Zn)', '0.4%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '2%', '=5%'],
+          ['Nitrógeno (N)', '15%', '±5%'],
+          ['Fósforo (P2Os)', '15%', '±5%'],
+          ['Potasio (K2O)', '15%', '±5%'],
+          ['Calcio (Ca)', '4%', '±5%'],
+          ['Magnesio (MgO)', '2%', '±5%'],
+          ['Azufre (S)', '4%', '±5%'],
+          ['Zinc (Zn)', '0,4%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '2%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2755,13 +2761,13 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2Os)', '20%', '=5%'],
-          ['Potasio (K2O)', '0%', '=5%'],
-          ['Calcio (Ca)', '5%', '=5%'],
-          ['Magnesio (MgO)', '3.7%', '=5%'],
-          ['Azufre (S)', '2.1%', '=5%'],
-          ['Silicio (Si)', '0.7%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2Os)', '20%', '±5%'],
+          ['Potasio (K2O)', '0%', '±5%'],
+          ['Calcio (Ca)', '5%', '±5%'],
+          ['Magnesio (MgO)', '3,7%', '±5%'],
+          ['Azufre (S)', '2,1%', '±5%'],
+          ['Silicio (Si)', '0,7%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2789,9 +2795,9 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '15%', '=5%'],
-          ['Fósforo (P2Os)', '15%', '=5%'],
-          ['Potasio (K2O)', '15%', '=5%'],
+          ['Nitrógeno (N)', '15%', '±5%'],
+          ['Fósforo (P2Os)', '15%', '±5%'],
+          ['Potasio (K2O)', '15%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2819,15 +2825,15 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '17%', '=5%'],
-          ['Fósforo (P2Os)', '4%', '=5%'],
-          ['Potasio (K2O)', '21%', '=5%'],
-          ['Calcio (Ca)', '2%', '=5%'],
-          ['Magnesio (MgO)', '2%', '=5%'],
-          ['Azufre (S)', '6%', '=5%'],
-          ['Zinc (Zn)', '0.7%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '1%', '=5%'],
+          ['Nitrógeno (N)', '17%', '±5%'],
+          ['Fósforo (P2Os)', '4%', '±5%'],
+          ['Potasio (K2O)', '21%', '±5%'],
+          ['Calcio (Ca)', '2%', '±5%'],
+          ['Magnesio (MgO)', '2%', '±5%'],
+          ['Azufre (S)', '6%', '±5%'],
+          ['Zinc (Zn)', '0,7%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '1%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
@@ -2855,19 +2861,19 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2O5)', '5%', '=5%'],
-          ['Potasio (K2O)', '17%', '=5%'],
-          ['Calcio (Ca)', '2%', '=5%'],
-          ['Magnesio (MgO)', '2%', '=5%'],
-          ['Azufre (S)', '6%', '=5%'],
-          ['Zinc (Zn)', '5%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '1%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2O5)', '5%', '±5%'],
+          ['Potasio (K2O)', '17%', '±5%'],
+          ['Calcio (Ca)', '2%', '±5%'],
+          ['Magnesio (MgO)', '2%', '±5%'],
+          ['Azufre (S)', '6%', '±5%'],
+          ['Zinc (Zn)', '5%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '1%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción asi como también para aquellos cultivos demandantes de potasio en sus ultimos dias de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
+        'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción asi como también para aquellos cultivos demandantes de potasio en sus ultimos días de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno hasta por tres meses.',
     },
   },
   {
@@ -2891,19 +2897,19 @@ aérea
       'tabla#tabla-Composición en Elementos': {
         headers: ['Composición de Elementos', '% P/P', 'Tolerancia %'],
         rows: [
-          ['Nitrógeno (N)', '20%', '=5%'],
-          ['Fósforo (P2O5)', '5%', '=5%'],
-          ['Potasio (K2O)', '17%', '=5%'],
-          ['Calcio (Ca)', '2%', '=5%'],
-          ['Magnesio (MgO)', '2%', '=5%'],
-          ['Azufre (S)', '6%', '=5%'],
-          ['Zinc (Zn)', '0.7%', '=5%'],
-          ['Boro (B)', '0.2%', '=5%'],
-          ['Silicio (Si)', '1%', '=5%'],
+          ['Nitrógeno (N)', '20%', '±5%'],
+          ['Fósforo (P2O5)', '5%', '±5%'],
+          ['Potasio (K2O)', '17%', '±5%'],
+          ['Calcio (Ca)', '2%', '±5%'],
+          ['Magnesio (MgO)', '2%', '±5%'],
+          ['Azufre (S)', '6%', '±5%'],
+          ['Zinc (Zn)', '0,7%', '±5%'],
+          ['Boro (B)', '0,2%', '±5%'],
+          ['Silicio (Si)', '1%', '±5%'],
         ],
       },
       'Recomendaciones de Uso':
-        'Fertilizante granular recomendado para el cultivo de palma en la etapa de producción asi como también para aquellos cultivos de demandantes de potasio en sus últimos dias de llenado, potencializado con liberación controlada que permite una mejor eficiencia del Nitrógeno por tres meses.',
+        'Fórmula convencional (mezcla física) normalmente utilizada en cultivos temporales como maíz, papa y otras hortalizas; con el objetivo del aporte inmediato de Nitrógeno, un alto porcentaje de fósforo y potasio. Su composición y solubilidad lo convierten en un producto ideal para suelos pobres en general y para cultivos con exigencias importantes en sus primeras fases de desarrollo.',
     },
   },
   {
@@ -2927,4 +2933,4 @@ aérea
     intervalo: '24 Horas',
     Cultivos: 'Cucurbitaceas, Hortalizas',
   },
-];-
+];
